@@ -10,8 +10,8 @@
 <grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top/Horz" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="2" name="GND/Horz" color="1" fill="3" visible="yes" active="yes"/>
-<layer number="15" name="3.3V/Vert" color="4" fill="6" visible="yes" active="yes"/>
+<layer number="2" name="GND/Horz" color="1" fill="3" visible="no" active="yes"/>
+<layer number="15" name="3.3V/Vert" color="4" fill="6" visible="no" active="yes"/>
 <layer number="16" name="Bottom/Vert" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
@@ -7349,7 +7349,7 @@ These design rules are smaller than the &lt;a href=&quot;https://jlcpcb.com/capa
 <elements>
 <element name="JP21" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="59" y="1" smashed="yes"/>
 <element name="JP61" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="1" y="39" smashed="yes"/>
-<element name="LOGO1" library="SparkFun-Aesthetics" package="OSHW-LOGO-MINI" value="OSHW-LOGOMINI" x="24" y="5" smashed="yes" rot="MR0"/>
+<element name="LOGO1" library="SparkFun-Aesthetics" package="OSHW-LOGO-MINI" value="OSHW-LOGOMINI" x="54.9" y="4.6" smashed="yes" rot="MR0"/>
 <element name="D1" library="SparkFun-LED" package="LED-0603" value="Yellow" x="30" y="22" smashed="yes" rot="R90">
 <attribute name="NAME" x="29.365" y="22" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
 <attribute name="PROD_ID" value="DIO-09003" x="30" y="22" size="1.778" layer="27" rot="R90" display="off"/>
@@ -7813,7 +7813,7 @@ These design rules are smaller than the &lt;a href=&quot;https://jlcpcb.com/capa
 <element name="U$22" library="output" package="332" value="" x="6.2" y="14.5" smashed="yes"/>
 <element name="U$23" library="output" package="I353" value="" x="6.3" y="12" smashed="yes"/>
 <element name="U$24" library="output" package="STAT0" value="" x="31.3" y="22.1" smashed="yes" rot="R90"/>
-<element name="U$25" library="output" package="#I�C#0" value="" x="22" y="13" smashed="yes" rot="MR270"/>
+<element name="U$25" library="output" package="#I�C#0" value="" x="22" y="7.3" smashed="yes" rot="MR0"/>
 <element name="U$26" library="output" package="##ERST##0" value="" x="28" y="3.9" smashed="yes" rot="MR270"/>
 <element name="J4" library="SparkFun-Connectors" package="1X02_NO_SILK" value="" x="37.2" y="37.4" smashed="yes">
 <attribute name="NAME" x="35.93" y="38.797" size="0.6096" layer="25" font="vector" ratio="20"/>
@@ -8585,8 +8585,7 @@ These design rules are smaller than the &lt;a href=&quot;https://jlcpcb.com/capa
 <contactref element="U1" pad="14"/>
 <wire x1="19.905" y1="28.2" x2="19.905" y2="29.205" width="0.127" layer="1"/>
 <via x="21.2" y="29.5" extent="1-16" drill="0.2"/>
-<wire x1="21.2" y1="29.5" x2="21.2" y2="35.56" width="0.127" layer="15"/>
-<wire x1="21.2" y1="35.56" x2="21.2" y2="37.6" width="0.127" layer="15"/>
+<wire x1="21.2" y1="29.5" x2="21.2" y2="37.6" width="0.127" layer="15"/>
 <wire x1="21.2" y1="37.6" x2="22" y2="38.4" width="0.127" layer="15"/>
 <via x="22" y="38.4" extent="1-16" drill="0.2"/>
 <wire x1="19.905" y1="29.205" x2="20.2" y2="29.5" width="0.127" layer="1"/>
@@ -8606,7 +8605,6 @@ These design rules are smaller than the &lt;a href=&quot;https://jlcpcb.com/capa
 <wire x1="39.7" y1="39.0714" x2="36.8841" y2="39.0714" width="0.127" layer="15"/>
 <wire x1="39.74" y1="37.4" x2="39.74" y2="39.0314" width="0.127" layer="15"/>
 <wire x1="39.74" y1="39.0314" x2="39.7" y2="39.0714" width="0.127" layer="15"/>
-<wire x1="21.2" y1="35.56" x2="21.2" y2="35.56" width="0.127" layer="15"/>
 </signal>
 <signal name="N$2">
 <contactref element="D1" pad="A"/>
@@ -8763,12 +8761,11 @@ These design rules are smaller than the &lt;a href=&quot;https://jlcpcb.com/capa
 <via x="33.5" y="1.8" extent="1-16" drill="0.2"/>
 <wire x1="35.9" y1="1.8" x2="33.5" y2="1.8" width="0.127" layer="16"/>
 <wire x1="33.5" y1="1.8" x2="33.5" y2="7.21111875" width="0.127" layer="15"/>
-<wire x1="33.5" y1="7.21111875" x2="32.61111875" y2="8.1" width="0.127" layer="15"/>
 <wire x1="32.25" y1="35.65" x2="32.25" y2="33.95" width="0.127" layer="1"/>
 <wire x1="32.25" y1="33.95" x2="31.6" y2="33.3" width="0.127" layer="1"/>
 <via x="31.6" y="33.3" extent="1-16" drill="0.2"/>
 <wire x1="31.6" y1="33.3" x2="31.6" y2="9.11111875" width="0.127" layer="15"/>
-<wire x1="31.6" y1="9.11111875" x2="32.61111875" y2="8.1" width="0.127" layer="15"/>
+<wire x1="31.6" y1="9.11111875" x2="33.5" y2="7.21111875" width="0.127" layer="15"/>
 </signal>
 <signal name="V_BATT" class="1">
 <contactref element="U7" pad="2"/>

@@ -23710,7 +23710,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="SUPPLY22" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="C14" library="SparkFun-Capacitors" deviceset="10UF" device="-0603-6.3V-20%" value="10uF"/>
 <part name="GND13" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="J13" library="SparkFun-Connectors" deviceset="CONN_04" device="1X04_NO_SILK_NO_POP"/>
 <part name="R4" library="SparkFun-Resistors" deviceset="33OHM_RA" device="-1206-1/16W-5%" value="33"/>
 <part name="U7" library="SparkFun-IC-Power" deviceset="MAX17048" device="DFN8" value="MAX17048"/>
 <part name="SUPPLY17" library="SparkFun-PowerSymbols" deviceset="V_BATT" device=""/>
@@ -23828,6 +23827,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="R21" library="SparkFun-Resistors" deviceset="100KOHM" device="-0603-1/10W-1%" value="100k"/>
 <part name="GND2" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="SUPPLY11" library="SparkFun-PowerSymbols" deviceset="V_USB" device=""/>
+<part name="J4" library="SparkFun-Connectors" deviceset="CONN_02" device="1X02_NO_SILK"/>
 </parts>
 <sheets>
 <sheet>
@@ -24131,10 +24131,6 @@ Batt Stat</text>
 <instance part="GND13" gate="1" x="154.94" y="132.08" smashed="yes">
 <attribute name="VALUE" x="154.94" y="131.826" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="J13" gate="J1" x="106.68" y="55.88" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="111.76" y="48.514" size="1.778" layer="96" font="vector" rot="MR0"/>
-<attribute name="NAME" x="111.76" y="64.008" size="1.778" layer="95" font="vector" rot="MR0"/>
-</instance>
 <instance part="R2" gate="B" x="116.84" y="243.84" smashed="yes">
 <attribute name="NAME" x="121.92" y="243.84" size="1.778" layer="95" font="vector" align="bottom-center"/>
 <attribute name="VALUE" x="111.76" y="243.84" size="1.778" layer="96" font="vector" rot="R180" align="top-center"/>
@@ -24407,6 +24403,10 @@ Batt Stat</text>
 <attribute name="VALUE" x="35.56" y="53.086" size="1.778" layer="96" font="vector" rot="MR0" align="top-left"/>
 <attribute name="NAME" x="35.56" y="66.294" size="1.778" layer="95" font="vector" rot="MR0"/>
 </instance>
+<instance part="J4" gate="G$1" x="109.22" y="60.96" smashed="yes" rot="R180">
+<attribute name="VALUE" x="111.76" y="65.786" size="1.778" layer="96" font="vector" rot="R180"/>
+<attribute name="NAME" x="111.76" y="55.372" size="1.778" layer="95" font="vector" rot="R180"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -24509,10 +24509,10 @@ Batt Stat</text>
 <junction x="355.6" y="149.86"/>
 </segment>
 <segment>
-<pinref part="J13" gate="J1" pin="4"/>
 <wire x1="101.6" y1="60.96" x2="99.06" y2="60.96" width="0.1524" layer="91"/>
 <pinref part="SUPPLY9" gate="G$1" pin="3.3V"/>
 <wire x1="99.06" y1="60.96" x2="99.06" y2="63.5" width="0.1524" layer="91"/>
+<pinref part="J4" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -24870,9 +24870,9 @@ Batt Stat</text>
 <pinref part="R2" gate="A" pin="2"/>
 </segment>
 <segment>
-<pinref part="J13" gate="J1" pin="1"/>
-<wire x1="101.6" y1="53.34" x2="99.06" y2="53.34" width="0.1524" layer="91"/>
-<label x="99.06" y="53.34" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="101.6" y1="58.42" x2="99.06" y2="58.42" width="0.1524" layer="91"/>
+<label x="99.06" y="58.42" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="J4" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="U1" gate="U1" pin="X1"/>

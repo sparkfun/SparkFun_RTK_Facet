@@ -21598,9 +21598,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <classes>
 <class number="0" name="default" width="0" drill="0">
 </class>
-<class number="1" name="power" width="0.5588" drill="0">
+<class number="1" name="power" width="0.3048" drill="0">
 </class>
-<class number="2" name="3.3V" width="0.5588" drill="0">
+<class number="2" name="3.3V" width="0.3048" drill="0">
 </class>
 <class number="3" name="RF" width="0.35" drill="0">
 <clearance class="3" value="0.2032"/>
@@ -21645,7 +21645,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="SUPPLY1" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="GND2" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="J3" library="RTK Facet" deviceset="FPC_12_0.5MM" device="2" value="FPC_12_0.5MM2"/>
-<part name="J1" library="RTK Facet" deviceset="FPC_12_0.5MM" device=""/>
 <part name="SUPPLY2" library="SparkFun-PowerSymbols" deviceset="V_USB" device=""/>
 <part name="SUPPLY3" library="SparkFun-PowerSymbols" deviceset="V_USB" device=""/>
 <part name="F3" library="SparkFun-Fuses" deviceset="PPTC" device="_6V2A" value="6V/2A"/>
@@ -21791,10 +21790,6 @@ May be 3.5-5V</text>
 <instance part="J3" gate="J1" x="152.4" y="63.5" smashed="yes">
 <attribute name="NAME" x="149.86" y="78.994" size="1.778" layer="95"/>
 <attribute name="VALUE" x="139.7" y="43.18" size="1.778" layer="96"/>
-</instance>
-<instance part="J1" gate="J1" x="314.96" y="93.98" smashed="yes">
-<attribute name="NAME" x="312.42" y="109.474" size="1.778" layer="95"/>
-<attribute name="VALUE" x="302.26" y="73.66" size="1.778" layer="96"/>
 </instance>
 <instance part="SUPPLY2" gate="G$1" x="121.92" y="78.74" smashed="yes">
 <attribute name="VALUE" x="121.92" y="81.534" size="1.778" layer="96" align="bottom-center"/>

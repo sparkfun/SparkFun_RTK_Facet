@@ -23731,7 +23731,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="C3" library="SparkFun-Capacitors" deviceset="4.7UF" device="-0603-35V-(20%)" value="4.7uF"/>
 <part name="C16" library="SparkFun-Capacitors" deviceset="4.7UF" device="-0603-35V-(20%)" value="4.7uF"/>
 <part name="J7" library="SparkFun-Connectors" deviceset="JST_2MM_MALE" device=""/>
-<part name="J20" library="SparkFun-Connectors" deviceset="CONN_02" device="1X02_NO_SILK"/>
 <part name="MEAS2" library="SparkFun-Jumpers" deviceset="JUMPER-COMBO_2_NC_TRACE" device="" value=""/>
 <part name="U10" library="SparkFun-IC-Power" deviceset="MCP73833" device="" value="MCP73833"/>
 <part name="GND57" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
@@ -24222,10 +24221,6 @@ Batt Stat</text>
 <instance part="J7" gate="G$1" x="284.48" y="246.38" smashed="yes" rot="R90">
 <attribute name="NAME" x="278.638" y="243.84" size="1.778" layer="95" font="vector" rot="R90"/>
 </instance>
-<instance part="J20" gate="G$1" x="294.64" y="238.76" smashed="yes" rot="MR180">
-<attribute name="VALUE" x="292.1" y="243.586" size="1.778" layer="96" font="vector" rot="MR180"/>
-<attribute name="NAME" x="292.1" y="233.172" size="1.778" layer="95" font="vector" rot="MR180"/>
-</instance>
 <instance part="MEAS2" gate="JP1" x="297.18" y="248.92" smashed="yes">
 <attribute name="NAME" x="295.148" y="250.698" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="294.64" y="246.38" size="1.778" layer="96" font="vector" align="top-left"/>
@@ -24694,7 +24689,6 @@ Batt Stat</text>
 <junction x="307.34" y="236.22"/>
 <wire x1="307.34" y1="236.22" x2="307.34" y2="233.68" width="0.1524" layer="91"/>
 <pinref part="GND62" gate="1" pin="GND"/>
-<pinref part="J20" gate="G$1" pin="2"/>
 <pinref part="J7" gate="G$1" pin="-"/>
 <wire x1="289.56" y1="246.38" x2="307.34" y2="246.38" width="0.1524" layer="91"/>
 </segment>
@@ -25136,7 +25130,6 @@ Batt Stat</text>
 <wire x1="304.8" y1="238.76" x2="304.8" y2="248.92" width="0.1524" layer="91"/>
 <junction x="304.8" y="248.92"/>
 <pinref part="MEAS2" gate="JP1" pin="2"/>
-<pinref part="J20" gate="G$1" pin="1"/>
 <pinref part="SUPPLY25" gate="G$1" pin="V_BATT"/>
 <wire x1="304.8" y1="251.46" x2="304.8" y2="248.92" width="0.1524" layer="91"/>
 <pinref part="C3" gate="G$1" pin="1"/>

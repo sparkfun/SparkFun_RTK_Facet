@@ -21848,8 +21848,8 @@ May be 3.5-5V</text>
 <attribute name="NAME" x="161.925" y="151.765" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="167.894" y="151.13" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
 </instance>
-<instance part="SUPPLY6" gate="G$1" x="284.48" y="96.52" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="284.48" y="99.314" size="1.778" layer="96" rot="MR0" align="bottom-center"/>
+<instance part="SUPPLY6" gate="G$1" x="292.1" y="99.06" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="292.1" y="101.854" size="1.778" layer="96" rot="MR0" align="bottom-center"/>
 </instance>
 <instance part="SUPPLY10" gate="G$1" x="165.1" y="160.02" smashed="yes">
 <attribute name="VALUE" x="165.1" y="162.814" size="1.778" layer="96" align="bottom-center"/>
@@ -21869,7 +21869,7 @@ May be 3.5-5V</text>
 </instance>
 <instance part="J6" gate="J1" x="274.32" y="96.52" smashed="yes">
 <attribute name="NAME" x="271.78" y="112.014" size="1.778" layer="95"/>
-<attribute name="VALUE" x="271.78" y="76.2" size="1.778" layer="96"/>
+<attribute name="VALUE" x="261.62" y="76.2" size="1.778" layer="96"/>
 </instance>
 <instance part="SUPPLY1" gate="G$1" x="287.02" y="162.56" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="287.02" y="165.354" size="1.778" layer="96" rot="MR0" align="bottom-center"/>
@@ -22024,7 +22024,7 @@ May be 3.5-5V</text>
 <pinref part="J3" gate="J1" pin="4"/>
 </segment>
 </net>
-<net name="USB_D_P" class="0">
+<net name="USB_DP" class="0">
 <segment>
 <pinref part="D6" gate="D1" pin="4"/>
 <wire x1="76.2" y1="162.56" x2="63.5" y2="162.56" width="0.1524" layer="91"/>
@@ -22162,6 +22162,10 @@ May be 3.5-5V</text>
 <wire x1="284.48" y1="109.22" x2="284.48" y2="111.76" width="0.1524" layer="91"/>
 <junction x="284.48" y="109.22"/>
 <pinref part="SUPPLY2" gate="G$1" pin="VIN"/>
+<pinref part="J6" gate="J1" pin="4"/>
+<wire x1="281.94" y1="101.6" x2="284.48" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="284.48" y1="101.6" x2="284.48" y2="104.14" width="0.1524" layer="91"/>
+<junction x="284.48" y="104.14"/>
 </segment>
 </net>
 <net name="N$4" class="1">
@@ -22190,21 +22194,25 @@ May be 3.5-5V</text>
 <pinref part="SUPPLY10" gate="G$1" pin="V_BATT"/>
 </segment>
 <segment>
-<wire x1="281.94" y1="93.98" x2="284.48" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="284.48" y1="93.98" x2="284.48" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="281.94" y1="91.44" x2="284.48" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="284.48" y1="91.44" x2="284.48" y2="93.98" width="0.1524" layer="91"/>
-<junction x="284.48" y="93.98"/>
+<wire x1="281.94" y1="93.98" x2="292.1" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="292.1" y1="93.98" x2="292.1" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="292.1" y1="96.52" x2="292.1" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="281.94" y1="91.44" x2="292.1" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="292.1" y1="91.44" x2="292.1" y2="93.98" width="0.1524" layer="91"/>
+<junction x="292.1" y="93.98"/>
 <pinref part="SUPPLY6" gate="G$1" pin="V_BATT"/>
 <pinref part="J6" gate="J1" pin="7"/>
 <pinref part="J6" gate="J1" pin="8"/>
 <pinref part="J6" gate="J1" pin="9"/>
-<wire x1="281.94" y1="88.9" x2="284.48" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="284.48" y1="88.9" x2="284.48" y2="91.44" width="0.1524" layer="91"/>
-<junction x="284.48" y="91.44"/>
+<wire x1="281.94" y1="88.9" x2="292.1" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="292.1" y1="88.9" x2="292.1" y2="91.44" width="0.1524" layer="91"/>
+<junction x="292.1" y="91.44"/>
+<pinref part="J6" gate="J1" pin="6"/>
+<wire x1="281.94" y1="96.52" x2="292.1" y2="96.52" width="0.1524" layer="91"/>
+<junction x="292.1" y="96.52"/>
 </segment>
 </net>
-<net name="USB_D_M" class="0">
+<net name="USB_DM" class="0">
 <segment>
 <pinref part="J3" gate="J1" pin="8"/>
 <wire x1="284.48" y1="139.7" x2="289.56" y2="139.7" width="0.1524" layer="91"/>

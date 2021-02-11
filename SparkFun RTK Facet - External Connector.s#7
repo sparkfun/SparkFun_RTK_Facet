@@ -21735,6 +21735,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="GND2" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="J3" library="RTK Facet" deviceset="FPC_12_0.5MM" device=""/>
 <part name="SUPPLY2" library="SparkFun-PowerSymbols" deviceset="VIN" device=""/>
+<part name="J1" library="RTK Facet" deviceset="FPC_12_0.5MM" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -21871,18 +21872,22 @@ May be 3.5-5V</text>
 <attribute name="NAME" x="271.78" y="112.014" size="1.778" layer="95"/>
 <attribute name="VALUE" x="261.62" y="76.2" size="1.778" layer="96"/>
 </instance>
-<instance part="SUPPLY1" gate="G$1" x="287.02" y="162.56" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="287.02" y="165.354" size="1.778" layer="96" rot="MR0" align="bottom-center"/>
+<instance part="SUPPLY1" gate="G$1" x="284.48" y="162.56" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="284.48" y="165.354" size="1.778" layer="96" rot="MR0" align="bottom-center"/>
 </instance>
-<instance part="GND2" gate="1" x="287.02" y="124.46" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="287.02" y="124.206" size="1.778" layer="96" rot="MR0" align="top-center"/>
+<instance part="GND2" gate="1" x="284.48" y="124.46" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="284.48" y="124.206" size="1.778" layer="96" rot="MR0" align="top-center"/>
 </instance>
-<instance part="J3" gate="J1" x="276.86" y="144.78" smashed="yes">
-<attribute name="NAME" x="274.32" y="160.274" size="1.778" layer="95"/>
-<attribute name="VALUE" x="264.16" y="124.46" size="1.778" layer="96"/>
+<instance part="J3" gate="J1" x="274.32" y="144.78" smashed="yes">
+<attribute name="NAME" x="271.78" y="160.274" size="1.778" layer="95"/>
+<attribute name="VALUE" x="261.62" y="124.46" size="1.778" layer="96"/>
 </instance>
 <instance part="SUPPLY2" gate="G$1" x="284.48" y="111.76" smashed="yes">
 <attribute name="VALUE" x="284.48" y="114.554" size="1.778" layer="96" align="bottom-center"/>
+</instance>
+<instance part="J1" gate="J1" x="314.96" y="93.98" smashed="yes">
+<attribute name="NAME" x="312.42" y="109.474" size="1.778" layer="95"/>
+<attribute name="VALUE" x="302.26" y="73.66" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -21908,12 +21913,12 @@ May be 3.5-5V</text>
 <pinref part="SUPPLY9" gate="G$1" pin="3.3V"/>
 </segment>
 <segment>
-<wire x1="284.48" y1="147.32" x2="287.02" y2="147.32" width="0.1524" layer="91"/>
-<wire x1="287.02" y1="147.32" x2="287.02" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="281.94" y1="147.32" x2="284.48" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="284.48" y1="147.32" x2="284.48" y2="162.56" width="0.1524" layer="91"/>
 <pinref part="SUPPLY1" gate="G$1" pin="3.3V"/>
-<wire x1="287.02" y1="147.32" x2="287.02" y2="144.78" width="0.1524" layer="91"/>
-<junction x="287.02" y="147.32"/>
-<wire x1="287.02" y1="144.78" x2="284.48" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="284.48" y1="147.32" x2="284.48" y2="144.78" width="0.1524" layer="91"/>
+<junction x="284.48" y="147.32"/>
+<wire x1="284.48" y1="144.78" x2="281.94" y2="144.78" width="0.1524" layer="91"/>
 <pinref part="J3" gate="J1" pin="5"/>
 <pinref part="J3" gate="J1" pin="6"/>
 </segment>
@@ -21990,12 +21995,12 @@ May be 3.5-5V</text>
 <junction x="284.48" y="83.82"/>
 </segment>
 <segment>
-<wire x1="284.48" y1="129.54" x2="287.02" y2="129.54" width="0.1524" layer="91"/>
-<wire x1="287.02" y1="129.54" x2="287.02" y2="127" width="0.1524" layer="91"/>
+<wire x1="281.94" y1="129.54" x2="284.48" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="284.48" y1="129.54" x2="284.48" y2="127" width="0.1524" layer="91"/>
 <pinref part="GND2" gate="1" pin="GND"/>
-<wire x1="284.48" y1="132.08" x2="287.02" y2="132.08" width="0.1524" layer="91"/>
-<wire x1="287.02" y1="132.08" x2="287.02" y2="129.54" width="0.1524" layer="91"/>
-<junction x="287.02" y="129.54"/>
+<wire x1="281.94" y1="132.08" x2="284.48" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="284.48" y1="132.08" x2="284.48" y2="129.54" width="0.1524" layer="91"/>
+<junction x="284.48" y="129.54"/>
 <pinref part="J3" gate="J1" pin="11"/>
 <pinref part="J3" gate="J1" pin="12"/>
 </segment>
@@ -22007,8 +22012,8 @@ May be 3.5-5V</text>
 <label x="35.56" y="58.42" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<wire x1="284.48" y1="152.4" x2="289.56" y2="152.4" width="0.1524" layer="91"/>
-<label x="289.56" y="152.4" size="1.27" layer="95" rot="MR180" xref="yes"/>
+<wire x1="281.94" y1="152.4" x2="287.02" y2="152.4" width="0.1524" layer="91"/>
+<label x="287.02" y="152.4" size="1.27" layer="95" rot="MR180" xref="yes"/>
 <pinref part="J3" gate="J1" pin="3"/>
 </segment>
 </net>
@@ -22019,8 +22024,8 @@ May be 3.5-5V</text>
 <label x="35.56" y="55.88" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<wire x1="284.48" y1="149.86" x2="289.56" y2="149.86" width="0.1524" layer="91"/>
-<label x="289.56" y="149.86" size="1.27" layer="95" rot="MR180" xref="yes"/>
+<wire x1="281.94" y1="149.86" x2="287.02" y2="149.86" width="0.1524" layer="91"/>
+<label x="287.02" y="149.86" size="1.27" layer="95" rot="MR180" xref="yes"/>
 <pinref part="J3" gate="J1" pin="4"/>
 </segment>
 </net>
@@ -22032,8 +22037,8 @@ May be 3.5-5V</text>
 </segment>
 <segment>
 <pinref part="J3" gate="J1" pin="7"/>
-<wire x1="284.48" y1="142.24" x2="289.56" y2="142.24" width="0.1524" layer="91"/>
-<label x="289.56" y="142.24" size="1.27" layer="95" xref="yes"/>
+<wire x1="281.94" y1="142.24" x2="287.02" y2="142.24" width="0.1524" layer="91"/>
+<label x="287.02" y="142.24" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="ZED-TXO2" class="0">
@@ -22048,8 +22053,8 @@ May be 3.5-5V</text>
 <label x="167.64" y="114.3" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="284.48" y1="134.62" x2="289.56" y2="134.62" width="0.1524" layer="91"/>
-<label x="289.56" y="134.62" size="1.27" layer="95" rot="MR180" xref="yes"/>
+<wire x1="281.94" y1="134.62" x2="287.02" y2="134.62" width="0.1524" layer="91"/>
+<label x="287.02" y="134.62" size="1.27" layer="95" rot="MR180" xref="yes"/>
 <pinref part="J3" gate="J1" pin="10"/>
 </segment>
 </net>
@@ -22065,8 +22070,8 @@ May be 3.5-5V</text>
 <label x="167.64" y="111.76" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="284.48" y1="137.16" x2="289.56" y2="137.16" width="0.1524" layer="91"/>
-<label x="289.56" y="137.16" size="1.27" layer="95" rot="MR180" xref="yes"/>
+<wire x1="281.94" y1="137.16" x2="287.02" y2="137.16" width="0.1524" layer="91"/>
+<label x="287.02" y="137.16" size="1.27" layer="95" rot="MR180" xref="yes"/>
 <pinref part="J3" gate="J1" pin="9"/>
 </segment>
 </net>
@@ -22116,8 +22121,8 @@ May be 3.5-5V</text>
 <label x="119.38" y="111.76" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="284.48" y1="157.48" x2="289.56" y2="157.48" width="0.1524" layer="91"/>
-<label x="289.56" y="157.48" size="1.27" layer="95" rot="MR180" xref="yes"/>
+<wire x1="281.94" y1="157.48" x2="287.02" y2="157.48" width="0.1524" layer="91"/>
+<label x="287.02" y="157.48" size="1.27" layer="95" rot="MR180" xref="yes"/>
 <pinref part="J3" gate="J1" pin="1"/>
 </segment>
 </net>
@@ -22133,8 +22138,8 @@ May be 3.5-5V</text>
 <label x="119.38" y="114.3" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="284.48" y1="154.94" x2="289.56" y2="154.94" width="0.1524" layer="91"/>
-<label x="289.56" y="154.94" size="1.27" layer="95" rot="MR180" xref="yes"/>
+<wire x1="281.94" y1="154.94" x2="287.02" y2="154.94" width="0.1524" layer="91"/>
+<label x="287.02" y="154.94" size="1.27" layer="95" rot="MR180" xref="yes"/>
 <pinref part="J3" gate="J1" pin="2"/>
 </segment>
 </net>
@@ -22215,8 +22220,8 @@ May be 3.5-5V</text>
 <net name="USB_DM" class="0">
 <segment>
 <pinref part="J3" gate="J1" pin="8"/>
-<wire x1="284.48" y1="139.7" x2="289.56" y2="139.7" width="0.1524" layer="91"/>
-<label x="289.56" y="139.7" size="1.27" layer="95" xref="yes"/>
+<wire x1="281.94" y1="139.7" x2="287.02" y2="139.7" width="0.1524" layer="91"/>
+<label x="287.02" y="139.7" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <wire x1="63.5" y1="152.4" x2="68.58" y2="152.4" width="0.1524" layer="91"/>
