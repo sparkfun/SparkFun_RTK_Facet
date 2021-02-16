@@ -23649,8 +23649,6 @@ Batt Stat</text>
 <text x="314.96" y="162.56" size="2.54" layer="94" rot="MR180" align="center">Peripheral 3.3V</text>
 <text x="332.74" y="132.08" size="1.27" layer="97" align="center">600mA Max
 55uA Quiescent</text>
-<text x="482.6" y="157.48" size="1.27" layer="91">add usb inline 22</text>
-<text x="482.6" y="154.94" size="1.27" layer="91">add 0.1 to usb detect</text>
 </plain>
 <instances>
 <instance part="JP21" gate="G$1" x="416.56" y="33.02" smashed="yes" rot="R270"/>
