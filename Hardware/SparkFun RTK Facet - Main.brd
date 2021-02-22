@@ -7,10 +7,10 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top/Horz" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="2" name="GND/Horz" color="1" fill="3" visible="yes" active="yes"/>
+<layer number="2" name="GND/Horz" color="1" fill="3" visible="no" active="yes"/>
 <layer number="15" name="3.3V/Vert" color="4" fill="6" visible="no" active="yes"/>
 <layer number="16" name="Bottom/Vert" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
@@ -45,7 +45,7 @@
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="yes"/>
 <layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
@@ -1603,13 +1603,13 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="-1.6" y1="-0.7" x2="-1.6" y2="0.7" width="0.0508" layer="39"/>
 <wire x1="-0.356" y1="0.432" x2="0.356" y2="0.432" width="0.1016" layer="51"/>
 <wire x1="-0.356" y1="-0.419" x2="0.356" y2="-0.419" width="0.1016" layer="51"/>
-<rectangle x1="-0.8382" y1="-0.4699" x2="-0.3381" y2="0.4801" layer="51"/>
-<rectangle x1="0.3302" y1="-0.4699" x2="0.8303" y2="0.4801" layer="51"/>
-<rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
 <smd name="1" x="-0.85" y="0" dx="1.1" dy="1" layer="1"/>
 <smd name="2" x="0.85" y="0" dx="1.1" dy="1" layer="1"/>
 <text x="0" y="0.762" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-0.762" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<rectangle x1="-0.8382" y1="-0.4699" x2="-0.3381" y2="0.4801" layer="51"/>
+<rectangle x1="0.3302" y1="-0.4699" x2="0.8303" y2="0.4801" layer="51"/>
+<rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
 </package>
 </packages>
 </library>
@@ -6416,7 +6416,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </library>
 <library name="RTK Facet">
 <packages>
-<package name="FPC_12_FLIP_DOUBLESIDED_2">
+<package name="FPC_12_DOUBLESIDED_BACKFLIP">
 <wire x1="4" y1="1.2" x2="4" y2="-0.75" width="0.01" layer="51"/>
 <wire x1="3.41" y1="-1.75" x2="-3.41" y2="-1.75" width="0.01" layer="51"/>
 <wire x1="-4" y1="1.2" x2="-3.62" y2="1.2" width="0.01" layer="51"/>
@@ -7141,8 +7141,12 @@ These design rules are smaller than the &lt;a href=&quot;https://jlcpcb.com/capa
 <attribute name="PROD_ID" value="CAP-00810" x="24.01" y="31" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
 <attribute name="VALUE" x="24.772" y="31" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center"/>
 </element>
-<element name="J15" library="RTK Facet" package="FPC_12_FLIP_DOUBLESIDED_2" value="FPC_12_0.5MM2" x="12" y="37" smashed="yes" rot="R180"/>
-<element name="J18" library="RTK Facet" package="FPC_12_FLIP_DOUBLESIDED_2" value="FPC_12_0.5MM2" x="21" y="37" smashed="yes" rot="R180"/>
+<element name="J15" library="RTK Facet" package="FPC_12_DOUBLESIDED_BACKFLIP" value="FPC_12_0.5MM_BACKFLIP" x="12" y="37" smashed="yes" rot="R180">
+<attribute name="PROD_ID" value="CONN-15766" x="12" y="37" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
+<element name="J18" library="RTK Facet" package="FPC_12_DOUBLESIDED_BACKFLIP" value="FPC_12_0.5MM_BACKFLIP" x="21" y="37" smashed="yes" rot="R180">
+<attribute name="PROD_ID" value="CONN-15766" x="21" y="37" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
 <element name="U$8" library="output" package="EC10" value="" x="11.9" y="39.4" smashed="yes"/>
 <element name="U$3" library="output" package="EC21" value="" x="21" y="39.4" smashed="yes"/>
 <element name="U$4" library="output" package="SD#DIS0" value="" x="39" y="39.4" smashed="yes"/>
@@ -7352,7 +7356,9 @@ These design rules are smaller than the &lt;a href=&quot;https://jlcpcb.com/capa
 <attribute name="PROD_ID" value="CAP-08604" x="11" y="37" size="1.778" layer="28" font="vector" ratio="15" rot="MR0" display="off"/>
 <attribute name="VALUE" x="11" y="36.238" size="0.6096" layer="28" font="vector" ratio="20" rot="MR0" align="top-center"/>
 </element>
-<element name="J8" library="RTK Facet" package="FPC_12_FLIP_DOUBLESIDED_2" value="FPC_12_0.5MM2" x="39" y="37" smashed="yes" rot="R180"/>
+<element name="J8" library="RTK Facet" package="FPC_12_DOUBLESIDED_BACKFLIP" value="FPC_12_0.5MM_BACKFLIP" x="39" y="37" smashed="yes" rot="R180">
+<attribute name="PROD_ID" value="CONN-15766" x="39" y="37" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
 </elements>
 <signals>
 <signal name="3.3V" class="1">

@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -5104,7 +5104,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </library>
 <library name="RTK Facet">
 <packages>
-<package name="FPC_12_FLIP_DOUBLESIDED_2">
+<package name="FPC_12_DOUBLESIDED_BACKFLIP">
 <wire x1="4" y1="1.2" x2="4" y2="-0.75" width="0.01" layer="51"/>
 <wire x1="3.41" y1="-1.75" x2="-3.41" y2="-1.75" width="0.01" layer="51"/>
 <wire x1="-4" y1="1.2" x2="-3.62" y2="1.2" width="0.01" layer="51"/>
@@ -5460,8 +5460,12 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <attribute name="PROD_ID" value="RES-14313" x="41" y="13" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 <attribute name="VALUE" x="41" y="11.603" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
-<element name="J1" library="RTK Facet" package="FPC_12_FLIP_DOUBLESIDED_2" value="FPC_12_0.5MM2" x="45" y="17" smashed="yes" rot="R180"/>
-<element name="J6" library="RTK Facet" package="FPC_12_FLIP_DOUBLESIDED_2" value="FPC_12_0.5MM2" x="36" y="17" smashed="yes" rot="R180"/>
+<element name="J1" library="RTK Facet" package="FPC_12_DOUBLESIDED_BACKFLIP" value="FPC_12_0.5MM_BACKFLIP" x="45" y="17" smashed="yes" rot="R180">
+<attribute name="PROD_ID" value="CONN-15766" x="45" y="17" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
+<element name="J6" library="RTK Facet" package="FPC_12_DOUBLESIDED_BACKFLIP" value="FPC_12_0.5MM_BACKFLIP" x="36" y="17" smashed="yes" rot="R180">
+<attribute name="PROD_ID" value="CONN-15766" x="36" y="17" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
 </elements>
 <signals>
 <signal name="3.3V" class="1">
@@ -5517,6 +5521,25 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <contactref element="J6" pad="1"/>
 <contactref element="J6" pad="2"/>
 <via x="21" y="9.5" extent="1-16" drill="0.3"/>
+<wire x1="47.25" y1="15.65" x2="47.75" y2="15.65" width="0" layer="19" extent="1-1"/>
+<wire x1="46.75" y1="15.65" x2="47.25" y2="15.65" width="0" layer="19" extent="1-1"/>
+<wire x1="38.75" y1="15.65" x2="46.75" y2="15.65" width="0" layer="19" extent="1-1"/>
+<wire x1="38.25" y1="15.65" x2="38.75" y2="15.65" width="0" layer="19" extent="1-1"/>
+<wire x1="50" y1="7" x2="47.75" y2="15.65" width="0" layer="19" extent="1-1"/>
+<wire x1="47.875" y1="4.7" x2="50" y2="7" width="0" layer="19" extent="1-1"/>
+<wire x1="31.5" y1="4.8" x2="38.25" y2="15.65" width="0" layer="19" extent="1-1"/>
+<wire x1="25.318" y1="5.085" x2="31.5" y2="4.8" width="0" layer="19" extent="1-1"/>
+<wire x1="24.225" y1="5.66" x2="25.318" y2="5.085" width="0" layer="19" extent="1-1"/>
+<wire x1="25.318" y1="0.905" x2="25.318" y2="5.085" width="0" layer="19" extent="1-1"/>
+<wire x1="21" y1="9.5" x2="24.225" y2="5.66" width="0" layer="19" extent="1-1"/>
+<wire x1="21" y1="10.57" x2="21" y2="9.5" width="0" layer="19" extent="1-1"/>
+<wire x1="23" y1="10.85" x2="21" y2="10.57" width="0" layer="19" extent="1-1"/>
+<wire x1="19" y1="10.85" x2="21" y2="10.57" width="0" layer="19" extent="1-1"/>
+<wire x1="17.775" y1="5.66" x2="21" y2="9.5" width="0" layer="19" extent="1-1"/>
+<wire x1="16.682" y1="5.085" x2="17.775" y2="5.66" width="0" layer="19" extent="1-1"/>
+<wire x1="16.682" y1="0.905" x2="16.682" y2="5.085" width="0" layer="19" extent="1-1"/>
+<wire x1="12" y1="7" x2="16.682" y2="5.085" width="0" layer="19" extent="1-1"/>
+<wire x1="9.875" y1="4.7" x2="12" y2="7" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="ESP_22/SCL">
 <contactref element="J4" pad="4"/>
@@ -5727,6 +5750,10 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <vertex x="43.8" y="11.6"/>
 <vertex x="42" y="11.6"/>
 </polygon>
+<wire x1="43.25" y1="15.65" x2="43.75" y2="15.65" width="0" layer="19" extent="1-1"/>
+<wire x1="42.75" y1="15.65" x2="43.25" y2="15.65" width="0" layer="19" extent="1-1"/>
+<wire x1="42.25" y1="15.65" x2="42.75" y2="15.65" width="0" layer="19" extent="1-1"/>
+<wire x1="42.5" y1="13" x2="42.75" y2="15.65" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VIN1" class="1">
 <contactref element="D6" pad="5"/>

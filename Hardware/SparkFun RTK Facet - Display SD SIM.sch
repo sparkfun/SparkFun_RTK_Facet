@@ -15243,13 +15243,13 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="-1.6" y1="-0.7" x2="-1.6" y2="0.7" width="0.0508" layer="39"/>
 <wire x1="-0.356" y1="0.432" x2="0.356" y2="0.432" width="0.1016" layer="51"/>
 <wire x1="-0.356" y1="-0.419" x2="0.356" y2="-0.419" width="0.1016" layer="51"/>
-<rectangle x1="-0.8382" y1="-0.4699" x2="-0.3381" y2="0.4801" layer="51"/>
-<rectangle x1="0.3302" y1="-0.4699" x2="0.8303" y2="0.4801" layer="51"/>
-<rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
 <smd name="1" x="-0.85" y="0" dx="1.1" dy="1" layer="1"/>
 <smd name="2" x="0.85" y="0" dx="1.1" dy="1" layer="1"/>
 <text x="0" y="0.762" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-0.762" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<rectangle x1="-0.8382" y1="-0.4699" x2="-0.3381" y2="0.4801" layer="51"/>
+<rectangle x1="0.3302" y1="-0.4699" x2="0.8303" y2="0.4801" layer="51"/>
+<rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
 </package>
 <package name="CAP-PTH-SMALL-KIT">
 <description>&lt;h3&gt;CAP-PTH-SMALL-KIT&lt;/h3&gt;
@@ -17280,51 +17280,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </library>
 <library name="RTK Facet">
 <packages>
-<package name="FPC_12_FLIP_DOUBLESIDED">
-<description>Designed to work with ATOM FPC050*-14* front flip series as well as Molex 5034800800 back flip series.</description>
-<wire x1="-3.885" y1="1.24" x2="3.885" y2="1.24" width="0.1524" layer="21"/>
-<smd name="1" x="-2.75" y="1.675" dx="0.3" dy="0.8" layer="1"/>
-<smd name="2" x="-2.25" y="1.675" dx="0.3" dy="0.7" layer="1"/>
-<smd name="3" x="-1.75" y="1.675" dx="0.3" dy="0.7" layer="1"/>
-<smd name="4" x="-1.25" y="1.675" dx="0.3" dy="0.7" layer="1"/>
-<smd name="5" x="-0.75" y="1.675" dx="0.3" dy="0.7" layer="1"/>
-<smd name="6" x="-0.25" y="1.675" dx="0.3" dy="0.7" layer="1"/>
-<smd name="7" x="0.25" y="1.675" dx="0.3" dy="0.7" layer="1"/>
-<smd name="8" x="0.75" y="1.675" dx="0.3" dy="0.7" layer="1"/>
-<smd name="MNT1" x="-3.535" y="-1.135" dx="0.4" dy="1.15" layer="1"/>
-<smd name="MNT2" x="3.535" y="-1.135" dx="0.4" dy="1.15" layer="1"/>
-<text x="0" y="-3.4" size="0.254" layer="51" ratio="12" align="center">Ribbon Inserts</text>
-<wire x1="0" y1="-3.1" x2="0" y2="-2.375" width="0.05" layer="51"/>
-<wire x1="0" y1="-2.375" x2="0.2" y2="-2.575" width="0.05" layer="51"/>
-<wire x1="0" y1="-2.375" x2="-0.2" y2="-2.575" width="0.05" layer="51"/>
-<smd name="9" x="1.25" y="1.675" dx="0.3" dy="0.7" layer="1"/>
-<smd name="10" x="1.75" y="1.675" dx="0.3" dy="0.7" layer="1"/>
-<smd name="11" x="2.25" y="1.675" dx="0.3" dy="0.7" layer="1"/>
-<smd name="12" x="2.75" y="1.675" dx="0.3" dy="0.7" layer="1"/>
-<wire x1="-3.885" y1="-0.4" x2="-3.885" y2="1.24" width="0.1524" layer="21"/>
-<wire x1="3.885" y1="-0.4" x2="3.885" y2="1.24" width="0.1524" layer="21"/>
-<wire x1="-3.885" y1="-0.4" x2="-3.3" y2="-0.4" width="0.1524" layer="21"/>
-<wire x1="-3.3" y1="-0.4" x2="-3.3" y2="-1.71" width="0.1524" layer="21"/>
-<wire x1="3.3" y1="-1.71" x2="3.3" y2="-0.4" width="0.1524" layer="21"/>
-<wire x1="3.3" y1="-0.4" x2="3.885" y2="-0.4" width="0.1524" layer="21"/>
-<rectangle x1="-0.325" y1="1.4" x2="-0.175" y2="1.96" layer="51"/>
-<rectangle x1="-1.325" y1="1.4" x2="-1.175" y2="1.96" layer="51"/>
-<rectangle x1="-2.325" y1="1.4" x2="-2.175" y2="1.96" layer="51"/>
-<rectangle x1="0.675" y1="1.4" x2="0.825" y2="1.96" layer="51"/>
-<rectangle x1="1.675" y1="1.4" x2="1.825" y2="1.96" layer="51"/>
-<rectangle x1="2.675" y1="1.4" x2="2.825" y2="1.96" layer="51"/>
-<rectangle x1="-0.825" y1="1.4" x2="-0.675" y2="1.96" layer="51"/>
-<rectangle x1="-1.825" y1="1.4" x2="-1.675" y2="1.96" layer="51"/>
-<rectangle x1="-2.825" y1="1.4" x2="-2.675" y2="1.96" layer="51"/>
-<rectangle x1="0.175" y1="1.4" x2="0.325" y2="1.96" layer="51"/>
-<rectangle x1="1.175" y1="1.4" x2="1.325" y2="1.96" layer="51"/>
-<rectangle x1="2.175" y1="1.4" x2="2.325" y2="1.96" layer="51"/>
-<rectangle x1="-3.7" y1="-1.5" x2="-3.55" y2="-0.79" layer="51"/>
-<rectangle x1="3.55" y1="-1.51" x2="3.7" y2="-0.8" layer="51" rot="R180"/>
-<wire x1="-3.3" y1="2.09" x2="3.3" y2="2.09" width="0.05" layer="51"/>
-<wire x1="-3.3" y1="-1.71" x2="3.3" y2="-1.71" width="0.1524" layer="21"/>
-</package>
-<package name="FPC_12_FLIP_DOUBLESIDED_2">
+<package name="FPC_12_DOUBLESIDED_BACKFLIP">
 <wire x1="4" y1="1.2" x2="4" y2="-0.75" width="0.01" layer="51"/>
 <wire x1="3.41" y1="-1.75" x2="-3.41" y2="-1.75" width="0.01" layer="51"/>
 <wire x1="-4" y1="1.2" x2="-3.62" y2="1.2" width="0.01" layer="51"/>
@@ -17426,7 +17382,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <gate name="J1" symbol="FPC_12" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="FPC_12_FLIP_DOUBLESIDED">
+<device name="_BACKFLIP" package="FPC_12_DOUBLESIDED_BACKFLIP">
 <connects>
 <connect gate="J1" pin="1" pad="1"/>
 <connect gate="J1" pin="10" pad="10"/>
@@ -17442,26 +17398,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <connect gate="J1" pin="9" pad="9"/>
 </connects>
 <technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="2" package="FPC_12_FLIP_DOUBLESIDED_2">
-<connects>
-<connect gate="J1" pin="1" pad="1"/>
-<connect gate="J1" pin="10" pad="10"/>
-<connect gate="J1" pin="11" pad="11"/>
-<connect gate="J1" pin="12" pad="12"/>
-<connect gate="J1" pin="2" pad="2"/>
-<connect gate="J1" pin="3" pad="3"/>
-<connect gate="J1" pin="4" pad="4"/>
-<connect gate="J1" pin="5" pad="5"/>
-<connect gate="J1" pin="6" pad="6"/>
-<connect gate="J1" pin="7" pad="7"/>
-<connect gate="J1" pin="8" pad="8"/>
-<connect gate="J1" pin="9" pad="9"/>
-</connects>
-<technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="PROD_ID" value="CONN-15766" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -18395,7 +18334,7 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <part name="R5" library="SparkFun-Resistors" deviceset="1KOHM" device="-0603-1/10W-1%" value="1k"/>
 <part name="SUPPLY3" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="GND2" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="J1" library="RTK Facet" deviceset="FPC_12_0.5MM" device="2" value="FPC_12_0.5MM2"/>
+<part name="J1" library="RTK Facet" deviceset="FPC_12_0.5MM" device="_BACKFLIP" value="FPC_12_0.5MM_BACKFLIP"/>
 <part name="U13" library="SparkFun-Sensors" deviceset="LIS2DH12" device=""/>
 <part name="GND4" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND1" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
@@ -18408,7 +18347,7 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <part name="SUPPLY8" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="J17" library="ublox" deviceset="NANO_SIM" device="WURTH" value="NANO_SIM"/>
 <part name="GND5" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="J2" library="RTK Facet" deviceset="FPC_12_0.5MM" device="2" value="FPC_12_0.5MM2"/>
+<part name="J2" library="RTK Facet" deviceset="FPC_12_0.5MM" device="_BACKFLIP" value="FPC_12_0.5MM_BACKFLIP"/>
 <part name="S1" library="SparkFun-Switches" deviceset="MOMENTARY-SWITCH-SPST" device="-SMD-5.2MM-TALL" value=""/>
 <part name="GND6" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="SUPPLY10" library="SparkFun-PowerSymbols" deviceset="V_USB" device=""/>
