@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.2">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -43,7 +43,7 @@
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="yes"/>
 <layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
@@ -188,18 +188,24 @@
 <board>
 <plain>
 <text x="53" y="1" size="1.016" layer="1" font="vector" ratio="20" rot="R180" align="center">v10</text>
-<rectangle x1="0" y1="0" x2="2" y2="22" layer="39"/>
-<rectangle x1="0" y1="0" x2="2" y2="22" layer="40"/>
-<rectangle x1="48" y1="0" x2="50" y2="22" layer="40"/>
-<rectangle x1="48" y1="0" x2="50" y2="22" layer="39"/>
-<wire x1="29" y1="26" x2="29" y2="-5" width="0.05" layer="51"/>
-<wire x1="0" y1="0" x2="0" y2="20" width="0.05" layer="20"/>
-<wire x1="0" y1="20" x2="58" y2="20" width="0.05" layer="20"/>
-<wire x1="58" y1="20" x2="58" y2="0" width="0.05" layer="20"/>
-<wire x1="58" y1="0" x2="0" y2="0" width="0.05" layer="20"/>
-<hole x="54" y="10" drill="2.3"/>
-<hole x="4" y="10" drill="2.3"/>
-<text x="68.58" y="22.86" size="1.778" layer="51" font="vector" ratio="15">0.8mm PCB Thickness</text>
+<wire x1="50" y1="60" x2="50" y2="-2" width="0.05" layer="51"/>
+<wire x1="0" y1="0" x2="0" y2="58" width="0.05" layer="20"/>
+<wire x1="0" y1="58" x2="100" y2="58" width="0.05" layer="20"/>
+<wire x1="100" y1="58" x2="100" y2="0" width="0.05" layer="20"/>
+<wire x1="100" y1="0" x2="0" y2="0" width="0.05" layer="20"/>
+<hole x="93.98" y="4" drill="2.3"/>
+<hole x="10.1" y="4" drill="2.3"/>
+<text x="144.78" y="36.83" size="1.778" layer="51" font="vector" ratio="15">1.6mm PCB Thickness</text>
+<hole x="10.1" y="54" drill="2.3"/>
+<hole x="93.98" y="54" drill="2.3"/>
+<text x="50" y="3" size="1" layer="1" font="vector" ratio="20" align="center">TOP-LAYER</text>
+<text x="50" y="3" size="1" layer="16" font="vector" ratio="20" rot="MR0" align="center">BOTTOM-LAYER</text>
+<wire x1="-2" y1="29" x2="102" y2="29" width="0.05" layer="51"/>
+<dimension x1="10.1" y1="4" x2="0" y2="0" x3="5.05" y3="-2" textsize="0.5" textratio="15" layer="47" dtype="horizontal" width="0.05"/>
+<dimension x1="100" y1="0" x2="93.98" y2="4" x3="96.99" y3="-2" textsize="0.5" textratio="15" layer="47" dtype="horizontal" width="0.05"/>
+<dimension x1="100" y1="0" x2="93.98" y2="4" x3="103" y3="2" textsize="0.5" textratio="15" layer="47" dtype="vertical" width="0.05"/>
+<dimension x1="0" y1="0" x2="10.1" y2="4" x3="-3" y3="2" textsize="0.5" textratio="15" layer="47" dtype="vertical" width="0.05"/>
+<dimension x1="0" y1="58" x2="10.1" y2="54" x3="-2" y3="56" textsize="0.5" textratio="15" layer="47" dtype="vertical" width="0.05"/>
 </plain>
 <libraries>
 <library name="SparkFun-Aesthetics">
@@ -2161,11 +2167,11 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="DESIGNER" value="" x="-2.57" y="-29.5" size="1.778" layer="27" display="off"/>
 <attribute name="REV" value="" x="-2.57" y="-29.5" size="1.778" layer="27" display="off"/>
 </element>
-<element name="LOGO3" library="SparkFun-Aesthetics" package="OSHW-LOGO-MINI" value="OSHW-LOGOMINI" x="56" y="2" smashed="yes"/>
-<element name="LOGO5" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_FLAME_.1" value="SFE_LOGO_NAME_FLAME.1_INCH" x="29.1" y="4.9" smashed="yes"/>
-<element name="U$1" library="output" package="RETENTION_PLATE1" value="" x="29" y="2" smashed="yes"/>
-<element name="U$2" library="output" package="RTK_FACET0" value="" x="29" y="3" smashed="yes"/>
-<element name="U$3" library="SparkFun-Aesthetics" package="ORDERING_INSTRUCTIONS" value="" x="66.04" y="36.83" smashed="yes"/>
+<element name="LOGO3" library="SparkFun-Aesthetics" package="OSHW-LOGO-MINI" value="OSHW-LOGOMINI" x="58" y="2" smashed="yes"/>
+<element name="LOGO5" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_FLAME_.1" value="SFE_LOGO_NAME_FLAME.1_INCH" x="50" y="10" smashed="yes"/>
+<element name="U$1" library="output" package="RETENTION_PLATE1" value="" x="50" y="6" smashed="yes"/>
+<element name="U$2" library="output" package="RTK_FACET0" value="" x="50" y="8" smashed="yes"/>
+<element name="U$3" library="SparkFun-Aesthetics" package="ORDERING_INSTRUCTIONS" value="" x="142.24" y="50.8" smashed="yes"/>
 </elements>
 <signals>
 </signals>
