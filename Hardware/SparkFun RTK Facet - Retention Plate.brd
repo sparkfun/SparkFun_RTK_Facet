@@ -41,9 +41,9 @@
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="yes"/>
 <layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
@@ -206,6 +206,8 @@
 <dimension x1="100" y1="0" x2="93.98" y2="4" x3="103" y3="2" textsize="0.5" textratio="15" layer="47" dtype="vertical" width="0.05"/>
 <dimension x1="0" y1="0" x2="10.1" y2="4" x3="-3" y3="2" textsize="0.5" textratio="15" layer="47" dtype="vertical" width="0.05"/>
 <dimension x1="0" y1="58" x2="10.1" y2="54" x3="-2" y3="56" textsize="0.5" textratio="15" layer="47" dtype="vertical" width="0.05"/>
+<dimension x1="0" y1="0" x2="0" y2="58" x3="-6" y3="29" textsize="1" layer="47" width="0.1"/>
+<dimension x1="0" y1="58" x2="100" y2="58" x3="50" y3="63" textsize="1" layer="47" width="0.1"/>
 </plain>
 <libraries>
 <library name="SparkFun-Aesthetics">
