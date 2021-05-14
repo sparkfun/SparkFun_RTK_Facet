@@ -10,8 +10,8 @@
 <grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top/Horz" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="2" name="GND/Horz" color="1" fill="3" visible="no" active="yes"/>
-<layer number="15" name="3.3V/Vert" color="4" fill="6" visible="no" active="yes"/>
+<layer number="2" name="GND/Horz" color="1" fill="3" visible="yes" active="yes"/>
+<layer number="15" name="3.3V/Vert" color="4" fill="6" visible="yes" active="yes"/>
 <layer number="16" name="Bottom/Vert" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
@@ -37,7 +37,7 @@
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
@@ -208,6 +208,13 @@
 <wire x1="44" y1="43" x2="60" y2="43" width="0.05" layer="20"/>
 <dimension x1="0" y1="0" x2="0" y2="43" x3="-2" y3="21.5" textsize="1" textratio="15" layer="47" width="0.08"/>
 <dimension x1="0" y1="43" x2="60" y2="43" x3="30" y3="47" textsize="1" textratio="15" layer="47" width="0.08"/>
+<rectangle x1="9.4" y1="35.5" x2="9.6" y2="35.8" layer="41"/>
+<rectangle x1="9.9" y1="35.5" x2="10.1" y2="35.8" layer="41"/>
+<rectangle x1="18.4" y1="35.5" x2="18.6" y2="35.8" layer="41"/>
+<rectangle x1="32.4" y1="35.5" x2="32.6" y2="35.8" layer="41"/>
+<rectangle x1="10.4" y1="35.5" x2="10.5" y2="35.8" layer="41"/>
+<rectangle x1="18.9" y1="35.5" x2="19.1" y2="35.8" layer="41"/>
+<rectangle x1="32" y1="35.5" x2="32.1" y2="35.8" layer="41"/>
 </plain>
 <libraries>
 <library name="SparkFun-Resistors">
@@ -7154,9 +7161,15 @@ These design rules are smaller than the &lt;a href=&quot;https://jlcpcb.com/capa
 <wire x1="40.75" y1="36.55" x2="40.6" y2="36.7" width="0.3048" layer="1"/>
 <wire x1="40.3" y1="36.7" x2="40.6" y2="36.7" width="0.3048" layer="1"/>
 <contactref element="J10" pad="3"/>
-<wire x1="31.75" y1="35.65" x2="31.75" y2="35.0953" width="0.3048" layer="1"/>
-<wire x1="31.75" y1="35.0953" x2="32.004" y2="34.8413" width="0.3048" layer="1"/>
-<via x="32.004" y="34.8413" extent="1-16" drill="0.2"/>
+<via x="31.704" y="34.8413" extent="1-16" drill="0.2"/>
+<contactref element="J10" pad="4"/>
+<wire x1="31.25" y1="35.65" x2="31.25" y2="34.85" width="0.3048" layer="1"/>
+<wire x1="31.25" y1="34.85" x2="31.3" y2="34.8" width="0.3048" layer="1"/>
+<wire x1="31.6627" y1="34.8" x2="31.3" y2="34.8" width="0.3048" layer="1"/>
+<wire x1="31.75" y1="34.85" x2="31.75" y2="35.65" width="0.3048" layer="1"/>
+<wire x1="31.704" y1="34.8413" x2="31.6627" y2="34.8" width="0.3048" layer="1"/>
+<wire x1="31.704" y1="34.8413" x2="31.7127" y2="34.85" width="0.3048" layer="1"/>
+<wire x1="31.7127" y1="34.85" x2="31.75" y2="34.85" width="0.3048" layer="1"/>
 </signal>
 <signal name="GND">
 <contactref element="D1" pad="C"/>
@@ -8847,10 +8860,9 @@ These design rules are smaller than the &lt;a href=&quot;https://jlcpcb.com/capa
 <wire x1="26.89" y1="22.81" x2="27.3" y2="22.4" width="0.127" layer="1"/>
 <wire x1="27.3" y1="22.4" x2="27.3" y2="21.8" width="0.127" layer="1"/>
 </signal>
-<signal name="ESP_12/MTDI/RADIO_NI">
+<signal name="ESP_12/MTDI">
 <contactref element="U5" pad="14"/>
 <contactref element="J9" pad="8"/>
-<contactref element="J10" pad="4"/>
 <via x="23" y="18.7" extent="1-16" drill="0.2"/>
 <wire x1="3.635" y1="17.73" x2="9.406025" y2="17.73" width="0.127" layer="2"/>
 <wire x1="9.406025" y1="17.73" x2="9.717325" y2="18.0413" width="0.127" layer="2"/>
@@ -8861,11 +8873,6 @@ These design rules are smaller than the &lt;a href=&quot;https://jlcpcb.com/capa
 <via x="23.5028" y="23.1" extent="1-16" drill="0.2"/>
 <wire x1="23.5028" y1="23.1" x2="24.4828" y2="24.08" width="0.127" layer="1"/>
 <wire x1="24.4828" y1="24.08" x2="25.238" y2="24.08" width="0.127" layer="1"/>
-<wire x1="31.25" y1="35.65" x2="31.25" y2="31.25" width="0.127" layer="1"/>
-<wire x1="31.25" y1="31.25" x2="29.6413" y2="29.6413" width="0.127" layer="1"/>
-<wire x1="29.6413" y1="29.6413" x2="29.6413" y2="24.358625" width="0.127" layer="1"/>
-<wire x1="25.238" y1="24.08" x2="29.362675" y2="24.08" width="0.127" layer="1"/>
-<wire x1="29.362675" y1="24.08" x2="29.6413" y2="24.358625" width="0.127" layer="1"/>
 </signal>
 <signal name="ESP_3V3" class="1">
 <contactref element="U2" pad="5"/>
@@ -9287,8 +9294,6 @@ These design rules are smaller than the &lt;a href=&quot;https://jlcpcb.com/capa
 <approved hash="19,16,cf70cd0339773b04"/>
 <approved hash="19,16,0376010275767702"/>
 <approved hash="19,16,c034c0b734c33440"/>
-<approved hash="19,16,573139e793719581"/>
-<approved hash="19,16,b1f0570adb73276f"/>
 <approved hash="19,16,7ff5790b6d7f6b81"/>
 <approved hash="19,16,63ec650c51785798"/>
 </errors>

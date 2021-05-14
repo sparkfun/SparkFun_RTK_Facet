@@ -24855,10 +24855,14 @@ For ESP32</text>
 <pinref part="J4" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<wire x1="33.02" y1="27.94" x2="33.02" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="27.94" x2="33.02" y2="30.48" width="0.1524" layer="91"/>
 <pinref part="SUPPLY13" gate="G$1" pin="3.3V"/>
+<wire x1="33.02" y1="30.48" x2="33.02" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="27.94" x2="33.02" y2="27.94" width="0.1524" layer="91"/>
 <pinref part="J10" gate="J1" pin="3"/>
+<pinref part="J10" gate="J1" pin="4"/>
+<wire x1="30.48" y1="30.48" x2="33.02" y2="30.48" width="0.1524" layer="91"/>
+<junction x="33.02" y="30.48"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -26053,7 +26057,7 @@ For ESP32</text>
 <label x="393.7" y="99.06" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="ESP_12/MTDI/RADIO_NI" class="0">
+<net name="ESP_12/MTDI" class="0">
 <segment>
 <wire x1="215.9" y1="76.2" x2="218.44" y2="76.2" width="0.1524" layer="91"/>
 <label x="218.44" y="76.2" size="1.27" layer="95" xref="yes"/>
@@ -26063,11 +26067,6 @@ For ESP32</text>
 <pinref part="J9" gate="J1" pin="NC/TDI"/>
 <wire x1="391.16" y1="91.44" x2="393.7" y2="91.44" width="0.1524" layer="91"/>
 <label x="393.7" y="91.44" size="1.27" layer="95" xref="yes"/>
-</segment>
-<segment>
-<pinref part="J10" gate="J1" pin="4"/>
-<wire x1="30.48" y1="30.48" x2="35.56" y2="30.48" width="0.1524" layer="91"/>
-<label x="35.56" y="30.48" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="ESP_3V3" class="1">
