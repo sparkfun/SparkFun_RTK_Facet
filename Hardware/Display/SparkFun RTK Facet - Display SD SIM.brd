@@ -33,17 +33,17 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="yes"/>
 <layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
@@ -187,7 +187,7 @@
 </layers>
 <board>
 <plain>
-<text x="4" y="1" size="1.016" layer="1" font="vector" ratio="20" rot="R180" align="center">v12</text>
+<text x="4" y="1" size="1.016" layer="1" font="vector" ratio="20" rot="R180" align="center">v11</text>
 <wire x1="0" y1="0" x2="0" y2="23" width="0.05" layer="20"/>
 <wire x1="50" y1="23" x2="50" y2="0" width="0.05" layer="20"/>
 <wire x1="50" y1="0" x2="0" y2="0" width="0.05" layer="20"/>
@@ -213,6 +213,7 @@
 <wire x1="8.856" y1="10.598" x2="8.348" y2="11.106" width="0.2032" layer="21"/>
 <dimension x1="0" y1="23" x2="0" y2="0" x3="-4" y3="11.5" textsize="1" layer="47" width="0.1"/>
 <dimension x1="0" y1="22" x2="50" y2="22" x3="25" y3="26" textsize="1" layer="47" width="0.1"/>
+<rectangle x1="22.4" y1="9.5" x2="22.6" y2="9.8" layer="41"/>
 </plain>
 <libraries>
 <library name="SparkFun-Aesthetics">
@@ -4437,7 +4438,6 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <wire x1="24" y1="6.85" x2="24.05" y2="6.85" width="0.1778" layer="1"/>
 <wire x1="24.05" y1="6.85" x2="25" y2="7.8" width="0.1778" layer="1"/>
 <via x="25" y="7.8" extent="1-16" drill="0.381"/>
-<wire x1="26" y1="9.675" x2="25.975" y2="9.7" width="0.1778" layer="16"/>
 <wire x1="24.4064" y1="3" x2="26" y2="3" width="0.1778" layer="1"/>
 <via x="26" y="3" extent="1-16" drill="0.381"/>
 <wire x1="26" y1="3" x2="25" y2="4" width="0.1778" layer="16"/>
