@@ -19,34 +19,34 @@
 <layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
-<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
-<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
-<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
-<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
-<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
-<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
-<layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
-<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Horz/GND" color="1" fill="3" visible="no" active="no"/>
 <layer number="15" name="Vert" color="4" fill="6" visible="no" active="no"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="no" active="no"/>
@@ -187,11 +187,11 @@
 </layers>
 <board>
 <plain>
-<text x="4" y="17.73" size="1.27" layer="1" font="vector" ratio="15" rot="SR0" align="center">v10</text>
+<text x="4" y="17.73" size="1.27" layer="1" font="vector" ratio="15" rot="SR0" align="center">v11</text>
 <text x="58.42" y="15.24" size="1.27" layer="51" font="vector" ratio="15">Board thickness is 1.6mm</text>
-<wire x1="54" y1="22" x2="54" y2="0" width="0.05" layer="20"/>
+<wire x1="54" y1="23" x2="54" y2="0" width="0.05" layer="20"/>
 <wire x1="54" y1="0" x2="0" y2="0" width="0.05" layer="20"/>
-<wire x1="0" y1="0" x2="0" y2="22" width="0.05" layer="20"/>
+<wire x1="0" y1="0" x2="0" y2="23" width="0.05" layer="20"/>
 <rectangle x1="0" y1="0" x2="2" y2="20" layer="39"/>
 <rectangle x1="48" y1="0" x2="50" y2="20" layer="40"/>
 <rectangle x1="0" y1="0" x2="2" y2="20" layer="40"/>
@@ -202,12 +202,12 @@
 <dimension x1="27" y1="0" x2="21" y2="0" x3="24" y3="-2" textsize="0.5" textratio="15" layer="47" width="0.05"/>
 <dimension x1="21" y1="0" x2="8" y2="0" x3="14.5" y3="-2" textsize="0.5" textratio="15" layer="47" width="0.05"/>
 <dimension x1="46" y1="0" x2="33" y2="0" x3="39.5" y3="-2" textsize="0.5" textratio="15" layer="47" width="0.05"/>
-<wire x1="54" y1="22" x2="50" y2="22" width="0.05" layer="20"/>
-<wire x1="50" y1="22" x2="50" y2="21" width="0.05" layer="20"/>
+<wire x1="54" y1="23" x2="50" y2="23" width="0.05" layer="20"/>
+<wire x1="50" y1="23" x2="50" y2="21" width="0.05" layer="20"/>
 <wire x1="50" y1="21" x2="13" y2="21" width="0.05" layer="20"/>
-<wire x1="13" y1="21" x2="13" y2="22" width="0.05" layer="20"/>
-<wire x1="13" y1="22" x2="0" y2="22" width="0.05" layer="20"/>
-<dimension x1="0" y1="0" x2="0" y2="22" x3="-3" y3="11" textsize="1" textratio="15" layer="47" width="0.1"/>
+<wire x1="13" y1="21" x2="13" y2="23" width="0.05" layer="20"/>
+<wire x1="13" y1="23" x2="0" y2="23" width="0.05" layer="20"/>
+<dimension x1="0" y1="0" x2="0" y2="23" x3="-3" y3="11.5" textsize="1" textratio="15" layer="47" width="0.1"/>
 <dimension x1="0" y1="22" x2="54" y2="22" x3="27" y3="27" textsize="1" textratio="15" layer="47" width="0.1"/>
 </plain>
 <libraries>
@@ -5749,25 +5749,6 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <contactref element="J6" pad="1"/>
 <contactref element="J6" pad="2"/>
 <via x="21" y="9.5" extent="1-16" drill="0.3"/>
-<wire x1="47.25" y1="15.65" x2="47.75" y2="15.65" width="0" layer="19" extent="1-1"/>
-<wire x1="46.75" y1="15.65" x2="47.25" y2="15.65" width="0" layer="19" extent="1-1"/>
-<wire x1="38.75" y1="15.65" x2="46.75" y2="15.65" width="0" layer="19" extent="1-1"/>
-<wire x1="38.25" y1="15.65" x2="38.75" y2="15.65" width="0" layer="19" extent="1-1"/>
-<wire x1="50" y1="7" x2="47.75" y2="15.65" width="0" layer="19" extent="1-1"/>
-<wire x1="47.875" y1="4.7" x2="50" y2="7" width="0" layer="19" extent="1-1"/>
-<wire x1="31.5" y1="4.8" x2="38.25" y2="15.65" width="0" layer="19" extent="1-1"/>
-<wire x1="25.318" y1="5.085" x2="31.5" y2="4.8" width="0" layer="19" extent="1-1"/>
-<wire x1="24.225" y1="5.66" x2="25.318" y2="5.085" width="0" layer="19" extent="1-1"/>
-<wire x1="25.318" y1="0.905" x2="25.318" y2="5.085" width="0" layer="19" extent="1-1"/>
-<wire x1="21" y1="9.5" x2="24.225" y2="5.66" width="0" layer="19" extent="1-1"/>
-<wire x1="21" y1="10.57" x2="21" y2="9.5" width="0" layer="19" extent="1-1"/>
-<wire x1="23" y1="10.85" x2="21" y2="10.57" width="0" layer="19" extent="1-1"/>
-<wire x1="19" y1="10.85" x2="21" y2="10.57" width="0" layer="19" extent="1-1"/>
-<wire x1="17.775" y1="5.66" x2="21" y2="9.5" width="0" layer="19" extent="1-1"/>
-<wire x1="16.682" y1="5.085" x2="17.775" y2="5.66" width="0" layer="19" extent="1-1"/>
-<wire x1="16.682" y1="0.905" x2="16.682" y2="5.085" width="0" layer="19" extent="1-1"/>
-<wire x1="12" y1="7" x2="16.682" y2="5.085" width="0" layer="19" extent="1-1"/>
-<wire x1="9.875" y1="4.7" x2="12" y2="7" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="ESP_22/SCL">
 <contactref element="J4" pad="4"/>
@@ -5978,10 +5959,6 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <vertex x="43.8" y="11.6"/>
 <vertex x="42" y="11.6"/>
 </polygon>
-<wire x1="43.25" y1="15.65" x2="43.75" y2="15.65" width="0" layer="19" extent="1-1"/>
-<wire x1="42.75" y1="15.65" x2="43.25" y2="15.65" width="0" layer="19" extent="1-1"/>
-<wire x1="42.25" y1="15.65" x2="42.75" y2="15.65" width="0" layer="19" extent="1-1"/>
-<wire x1="42.5" y1="13" x2="42.75" y2="15.65" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VIN1" class="1">
 <contactref element="D6" pad="5"/>
