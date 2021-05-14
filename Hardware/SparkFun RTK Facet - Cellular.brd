@@ -3906,28 +3906,28 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <wire x1="-26.92" y1="1" x2="-3.275" y2="-22.1" width="0" layer="19" extent="1-1"/>
 <wire x1="-32.85" y1="28" x2="-26.92" y2="1" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="SARA_RTS">
+<signal name="SARA_RTSI">
 <contactref element="U1" pad="10"/>
 <contactref element="TP4" pad="P$1"/>
 <contactref element="IC1" pad="6"/>
+<wire x1="29" y1="-12" x2="28.9" y2="9.05" width="0" layer="19" extent="1-1"/>
 <wire x1="-0.025" y1="-27.9" x2="29" y2="-12" width="0" layer="19" extent="1-1"/>
-<wire x1="28.9" y1="9.05" x2="-0.025" y2="-27.9" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="SARA_CTS">
+<signal name="SARA_CTSO">
 <contactref element="U1" pad="11"/>
 <contactref element="TP3" pad="P$1"/>
 <contactref element="IC1" pad="5"/>
+<wire x1="29" y1="-15" x2="30" y2="9.05" width="0" layer="19" extent="1-1"/>
 <wire x1="-0.675" y1="-27.9" x2="29" y2="-15" width="0" layer="19" extent="1-1"/>
-<wire x1="30" y1="9.05" x2="-0.675" y2="-27.9" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="SARA_TXD">
+<signal name="SARA_TXI">
 <contactref element="TP2" pad="P$1"/>
 <contactref element="IC1" pad="4"/>
 <contactref element="U1" pad="12"/>
 <wire x1="29" y1="-18" x2="31.1" y2="9.05" width="0" layer="19" extent="1-1"/>
 <wire x1="-1.325" y1="-27.9" x2="29" y2="-18" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="SARA_RXD">
+<signal name="SARA_RXO">
 <contactref element="TP1" pad="P$1"/>
 <contactref element="IC1" pad="3"/>
 <contactref element="U1" pad="13"/>
@@ -3977,21 +3977,21 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <wire x1="-5.4318" y1="-14" x2="-11.58" y2="-15" width="0" layer="19" extent="1-1"/>
 <wire x1="-5.58" y1="-7" x2="-5.4318" y2="-14" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="LTE_TX">
+<signal name="LTE_RXI">
 <contactref element="TP6" pad="P$1"/>
 <contactref element="IC1" pad="13"/>
 <contactref element="J1" pad="10"/>
 <wire x1="29" y1="-6" x2="23.25" y2="43.65" width="0" layer="19" extent="1-1"/>
 <wire x1="-1.325" y1="-22.1" x2="29" y2="-6" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="LTE_CTS">
+<signal name="LTE_RTSO">
 <contactref element="TP7" pad="P$1"/>
 <contactref element="IC1" pad="12"/>
 <contactref element="J1" pad="9"/>
 <wire x1="-0.675" y1="-22.1" x2="23.75" y2="43.65" width="0" layer="19" extent="1-1"/>
 <wire x1="33" y1="-33" x2="-0.675" y2="-22.1" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="LTE_RTS">
+<signal name="LTE_CTSI">
 <contactref element="TP8" pad="P$1"/>
 <contactref element="R19" pad="2"/>
 <contactref element="IC1" pad="11"/>
@@ -4000,7 +4000,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <wire x1="33" y1="-30" x2="26" y2="-19.15" width="0" layer="19" extent="1-1"/>
 <wire x1="-0.025" y1="-22.1" x2="26" y2="-19.15" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="LTE_RX">
+<signal name="LTE_TXO">
 <contactref element="TP5" pad="P$1"/>
 <contactref element="IC1" pad="14"/>
 <contactref element="J1" pad="11"/>

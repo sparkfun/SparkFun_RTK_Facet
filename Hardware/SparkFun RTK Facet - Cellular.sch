@@ -21106,7 +21106,7 @@ as the prepreg thickness is &gt;= 200µm</text>
 <pinref part="J1" gate="J1" pin="7"/>
 </segment>
 </net>
-<net name="LTE_RTS" class="0">
+<net name="LTE_CTSI" class="0">
 <segment>
 <wire x1="30.48" y1="33.02" x2="35.56" y2="33.02" width="0.1524" layer="91"/>
 <label x="35.56" y="33.02" size="1.27" layer="95" xref="yes"/>
@@ -21120,21 +21120,21 @@ as the prepreg thickness is &gt;= 200µm</text>
 <pinref part="J1" gate="J1" pin="6"/>
 </segment>
 </net>
-<net name="LTE_RX" class="0">
+<net name="LTE_TXO" class="0">
 <segment>
 <wire x1="30.48" y1="40.64" x2="35.56" y2="40.64" width="0.1524" layer="91"/>
 <label x="35.56" y="40.64" size="1.27" layer="95" xref="yes"/>
 <pinref part="J1" gate="J1" pin="11"/>
 </segment>
 </net>
-<net name="LTE_CTS" class="0">
+<net name="LTE_RTSO" class="0">
 <segment>
 <wire x1="30.48" y1="35.56" x2="35.56" y2="35.56" width="0.1524" layer="91"/>
 <label x="35.56" y="35.56" size="1.27" layer="95" xref="yes"/>
 <pinref part="J1" gate="J1" pin="9"/>
 </segment>
 </net>
-<net name="LTE_TX" class="0">
+<net name="LTE_RXI" class="0">
 <segment>
 <wire x1="30.48" y1="38.1" x2="35.56" y2="38.1" width="0.1524" layer="91"/>
 <label x="35.56" y="38.1" size="1.27" layer="95" xref="yes"/>
@@ -21328,28 +21328,28 @@ as the prepreg thickness is &gt;= 200µm</text>
 <wire x1="220.98" y1="119.38" x2="220.98" y2="121.92" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="SARA_RTS" class="0">
+<net name="SARA_RTSI" class="0">
 <segment>
 <pinref part="U1" gate="G$2" pin="RTS_I"/>
 <wire x1="53.34" y1="144.78" x2="50.8" y2="144.78" width="0.1524" layer="91"/>
 <label x="50.8" y="144.78" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="SARA_CTS" class="0">
+<net name="SARA_CTSO" class="0">
 <segment>
 <pinref part="U1" gate="G$2" pin="CTS_O"/>
 <wire x1="53.34" y1="142.24" x2="50.8" y2="142.24" width="0.1524" layer="91"/>
 <label x="50.8" y="142.24" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="SARA_TXD" class="0">
+<net name="SARA_TXI" class="0">
 <segment>
 <label x="50.8" y="139.7" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="U1" gate="G$2" pin="TXD_I"/>
 <wire x1="50.8" y1="139.7" x2="53.34" y2="139.7" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="SARA_RXD" class="0">
+<net name="SARA_RXO" class="0">
 <segment>
 <label x="50.8" y="137.16" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="U1" gate="G$2" pin="RXD_O"/>
@@ -21809,7 +21809,7 @@ For a typical 2000mAH LiPo battery discharging at 300mA (0.15C), we would expect
 <wire x1="187.96" y1="152.4" x2="187.96" y2="154.94" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="LTE_TX" class="0">
+<net name="LTE_RXI" class="0">
 <segment>
 <label x="373.38" y="142.24" size="1.27" layer="95" xref="yes"/>
 <pinref part="TP6" gate="G$1" pin="1"/>
@@ -21820,7 +21820,7 @@ For a typical 2000mAH LiPo battery discharging at 300mA (0.15C), we would expect
 <pinref part="IC1" gate="G$1" pin="B2"/>
 </segment>
 </net>
-<net name="LTE_CTS" class="0">
+<net name="LTE_RTSO" class="0">
 <segment>
 <label x="373.38" y="139.7" size="1.27" layer="95" xref="yes"/>
 <pinref part="TP7" gate="G$1" pin="1"/>
@@ -21831,7 +21831,7 @@ For a typical 2000mAH LiPo battery discharging at 300mA (0.15C), we would expect
 <pinref part="IC1" gate="G$1" pin="B3"/>
 </segment>
 </net>
-<net name="LTE_RTS" class="0">
+<net name="LTE_CTSI" class="0">
 <segment>
 <label x="373.38" y="137.16" size="1.27" layer="95" xref="yes"/>
 <pinref part="TP8" gate="G$1" pin="1"/>
@@ -21846,7 +21846,7 @@ For a typical 2000mAH LiPo battery discharging at 300mA (0.15C), we would expect
 <pinref part="IC1" gate="G$1" pin="B4"/>
 </segment>
 </net>
-<net name="SARA_RXD" class="0">
+<net name="SARA_RXO" class="0">
 <segment>
 <label x="289.56" y="144.78" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="TP1" gate="G$1" pin="1"/>
@@ -21857,7 +21857,7 @@ For a typical 2000mAH LiPo battery discharging at 300mA (0.15C), we would expect
 <pinref part="IC1" gate="G$1" pin="A1"/>
 </segment>
 </net>
-<net name="SARA_TXD" class="0">
+<net name="SARA_TXI" class="0">
 <segment>
 <label x="289.56" y="142.24" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="TP2" gate="G$1" pin="1"/>
@@ -21868,7 +21868,7 @@ For a typical 2000mAH LiPo battery discharging at 300mA (0.15C), we would expect
 <pinref part="IC1" gate="G$1" pin="A2"/>
 </segment>
 </net>
-<net name="SARA_CTS" class="0">
+<net name="SARA_CTSO" class="0">
 <segment>
 <label x="289.56" y="139.7" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="TP3" gate="G$1" pin="1"/>
@@ -21879,7 +21879,7 @@ For a typical 2000mAH LiPo battery discharging at 300mA (0.15C), we would expect
 <pinref part="IC1" gate="G$1" pin="A3"/>
 </segment>
 </net>
-<net name="SARA_RTS" class="0">
+<net name="SARA_RTSI" class="0">
 <segment>
 <label x="289.56" y="137.16" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="TP4" gate="G$1" pin="1"/>
@@ -21890,7 +21890,7 @@ For a typical 2000mAH LiPo battery discharging at 300mA (0.15C), we would expect
 <pinref part="IC1" gate="G$1" pin="A4"/>
 </segment>
 </net>
-<net name="LTE_RX" class="0">
+<net name="LTE_TXO" class="0">
 <segment>
 <label x="373.38" y="144.78" size="1.27" layer="95" xref="yes"/>
 <pinref part="TP5" gate="G$1" pin="1"/>
