@@ -19,34 +19,34 @@
 <layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
-<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
-<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
-<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
-<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
-<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
-<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
-<layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
-<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="no" active="no"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="no" active="no"/>
 <layer number="93" name="Pins" color="2" fill="1" visible="no" active="no"/>
@@ -187,9 +187,9 @@
 </layers>
 <board>
 <plain>
-<text x="4" y="1" size="1.016" layer="1" font="vector" ratio="20" rot="R180" align="center">v11</text>
-<wire x1="0" y1="0" x2="0" y2="23" width="0.05" layer="20"/>
-<wire x1="50" y1="23" x2="50" y2="0" width="0.05" layer="20"/>
+<text x="4" y="1" size="1.016" layer="1" font="vector" ratio="20" rot="R180" align="center">v12</text>
+<wire x1="0" y1="0" x2="0" y2="22" width="0.05" layer="20"/>
+<wire x1="50" y1="22" x2="50" y2="0" width="0.05" layer="20"/>
 <wire x1="50" y1="0" x2="0" y2="0" width="0.05" layer="20"/>
 <rectangle x1="48" y1="0" x2="50" y2="22" layer="40" rot="R180"/>
 <rectangle x1="48" y1="0" x2="50" y2="22" layer="39" rot="R180"/>
@@ -198,10 +198,10 @@
 <wire x1="25" y1="23" x2="25" y2="-1" width="0.05" layer="52"/>
 <text x="59" y="21" size="0.5" layer="51" font="vector" ratio="15" align="center">FPC stiffener is 3mm</text>
 <dimension x1="51" y1="22" x2="51" y2="19" x3="53" y3="20.5" textsize="0.5" textratio="15" layer="51" width="0.05"/>
-<wire x1="20" y1="23" x2="0" y2="23" width="0.05" layer="20"/>
-<wire x1="30" y1="23" x2="50" y2="23" width="0.05" layer="20"/>
-<wire x1="30" y1="21" x2="30" y2="23" width="0.05" layer="20"/>
-<wire x1="20" y1="21" x2="20" y2="23" width="0.05" layer="20"/>
+<wire x1="20" y1="22" x2="0" y2="22" width="0.05" layer="20"/>
+<wire x1="30" y1="22" x2="50" y2="22" width="0.05" layer="20"/>
+<wire x1="30" y1="21" x2="30" y2="22" width="0.05" layer="20"/>
+<wire x1="20" y1="21" x2="20" y2="22" width="0.05" layer="20"/>
 <wire x1="30" y1="21" x2="20" y2="21" width="0.05" layer="20"/>
 <wire x1="7.016" y1="10.698" x2="7.016" y2="8.758" width="0.2032" layer="21"/>
 <wire x1="7.016" y1="8.758" x2="6.508" y2="9.266" width="0.2032" layer="21"/>
@@ -211,9 +211,11 @@
 <wire x1="7.016" y1="10.598" x2="8.856" y2="10.598" width="0.2032" layer="21" curve="-0.360962"/>
 <wire x1="8.856" y1="10.598" x2="8.348" y2="10.09" width="0.2032" layer="21"/>
 <wire x1="8.856" y1="10.598" x2="8.348" y2="11.106" width="0.2032" layer="21"/>
-<dimension x1="0" y1="23" x2="0" y2="0" x3="-4" y3="11.5" textsize="1" layer="47" width="0.1"/>
+<dimension x1="0" y1="22" x2="0" y2="0" x3="-4" y3="11" textsize="1" layer="47" width="0.1"/>
 <dimension x1="0" y1="22" x2="50" y2="22" x3="25" y3="26" textsize="1" layer="47" width="0.1"/>
 <rectangle x1="22.4" y1="9.5" x2="22.6" y2="9.8" layer="41"/>
+<dimension x1="45" y1="19" x2="45" y2="22" x3="52" y3="20.5" textsize="1" layer="47" width="0.1"/>
+<dimension x1="45" y1="19" x2="50" y2="19" x3="47.5" y3="23" textsize="1" layer="47" width="0.1"/>
 </plain>
 <libraries>
 <library name="SparkFun-Aesthetics">
@@ -4299,14 +4301,14 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <signal name="GND">
 <polygon width="0.1524" layer="1" isolate="0.1524">
 <vertex x="0" y="0"/>
-<vertex x="0" y="23"/>
-<vertex x="50" y="23"/>
+<vertex x="0" y="22"/>
+<vertex x="50" y="22"/>
 <vertex x="50" y="0"/>
 </polygon>
 <polygon width="0.1524" layer="16" isolate="0.1524">
 <vertex x="0" y="0"/>
-<vertex x="0" y="23"/>
-<vertex x="50" y="23"/>
+<vertex x="0" y="22"/>
+<vertex x="50" y="22"/>
 <vertex x="50" y="0"/>
 </polygon>
 <contactref element="J16" pad="GND1"/>
