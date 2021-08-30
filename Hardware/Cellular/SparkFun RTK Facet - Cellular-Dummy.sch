@@ -65,6 +65,7 @@
 <layer number="54" name="bGND_GNDA" color="7" fill="1" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
 <layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
+<layer number="58" name="bCAD" color="7" fill="1" visible="no" active="no"/>
 <layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
 <layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
 <layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
@@ -182,6 +183,7 @@
 <layer number="249" name="Edge" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="250" name="Descript" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="251" name="SMDround" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="253" name="Extra" color="7" fill="1" visible="no" active="no"/>
 <layer number="254" name="cooling" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="255" name="routoute" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
@@ -15944,6 +15946,64 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="15" y1="4.5" x2="15" y2="-7.5" width="0.2032" layer="51"/>
 <wire x1="15" y1="-7.5" x2="-10" y2="-7.5" width="0.2032" layer="51"/>
 </package>
+<package name="NANO_SIM_PP">
+<description>Part#: ATOM-A03621 or MUP-C7801</description>
+<wire x1="-6.145" y1="6.75" x2="-6.145" y2="-6.75" width="0.05" layer="51"/>
+<wire x1="-6.145" y1="-6.75" x2="6.145" y2="-6.75" width="0.05" layer="51"/>
+<wire x1="6.145" y1="-6.75" x2="6.145" y2="6.75" width="0.05" layer="51"/>
+<wire x1="6.145" y1="6.75" x2="-6.145" y2="6.75" width="0.05" layer="51"/>
+<hole x="3.505" y="-4.75" drill="0.75"/>
+<hole x="-4.995" y="-4.75" drill="0.75"/>
+<rectangle x1="0.085" y1="6.75" x2="0.435" y2="7.85" layer="51"/>
+<rectangle x1="-1.185" y1="6.75" x2="-0.835" y2="7.85" layer="51"/>
+<rectangle x1="-2.455" y1="6.75" x2="-2.105" y2="7.85" layer="51"/>
+<rectangle x1="-3.725" y1="6.75" x2="-3.375" y2="7.85" layer="51"/>
+<rectangle x1="-4.995" y1="6.75" x2="-4.645" y2="7.85" layer="51"/>
+<rectangle x1="1.355" y1="6.75" x2="1.705" y2="7.85" layer="51"/>
+<rectangle x1="2.305" y1="6.75" x2="2.655" y2="7.85" layer="51"/>
+<rectangle x1="-6.545" y1="5.25" x2="-6.145" y2="6.75" layer="51"/>
+<rectangle x1="-6.545" y1="-6.75" x2="-6.145" y2="-5.25" layer="51"/>
+<rectangle x1="6.145" y1="5.25" x2="6.545" y2="6.75" layer="51"/>
+<rectangle x1="6.145" y1="-6.75" x2="6.545" y2="-5.25" layer="51"/>
+<wire x1="3.25" y1="-7.311" x2="3.25" y2="3.6" width="0.05" layer="47"/>
+<wire x1="2.561" y1="4.3" x2="-3.65" y2="4.3" width="0.05" layer="47"/>
+<wire x1="-5.55" y1="2.65" x2="-5.55" y2="-7.3" width="0.05" layer="47"/>
+<wire x1="-4.861" y1="-8" x2="2.55" y2="-8" width="0.05" layer="47"/>
+<wire x1="2.55" y1="-8" x2="3.25" y2="-7.311" width="0.05" layer="47" curve="90.025014"/>
+<wire x1="-5.55" y1="-7.3" x2="-4.861" y2="-8" width="0.05" layer="47" curve="90.025014"/>
+<wire x1="3.25" y1="3.6" x2="2.561" y2="4.3" width="0.05" layer="47" curve="90.025014"/>
+<wire x1="-4" y1="4.2" x2="-3.65" y2="4.3" width="0.05" layer="47" curve="-39.054824"/>
+<wire x1="-5.4" y1="2.95" x2="-5.55" y2="2.65" width="0.05" layer="47" curve="52.253496"/>
+<wire x1="-5.4" y1="2.95" x2="-4" y2="4.2" width="0.05" layer="47"/>
+<wire x1="-1.15" y1="-1.35" x2="-1.15" y2="-2.35" width="0.05" layer="47"/>
+<wire x1="-0.65" y1="-1.85" x2="-1.65" y2="-1.85" width="0.05" layer="47"/>
+<wire x1="3.25" y1="-10.161" x2="3.25" y2="0.75" width="0.05" layer="47"/>
+<wire x1="-5.55" y1="-0.2" x2="-5.55" y2="-10.15" width="0.05" layer="47"/>
+<wire x1="-4.861" y1="-10.85" x2="2.55" y2="-10.85" width="0.05" layer="47"/>
+<wire x1="2.55" y1="-10.85" x2="3.25" y2="-10.161" width="0.05" layer="47" curve="90.025014"/>
+<wire x1="-5.55" y1="-10.15" x2="-4.861" y2="-10.85" width="0.05" layer="47" curve="90.025014"/>
+<wire x1="-4.861" y1="-7.05" x2="2.55" y2="-7.05" width="0.05" layer="47"/>
+<wire x1="2.55" y1="-7.05" x2="3.25" y2="-6.361" width="0.05" layer="47" curve="90.025014"/>
+<wire x1="-5.55" y1="-6.35" x2="-4.861" y2="-7.05" width="0.05" layer="47" curve="90.025014"/>
+<smd name="A1" x="6.495" y="6" dx="0.7" dy="2.1" layer="1"/>
+<smd name="A2" x="-6.495" y="6" dx="0.7" dy="2.1" layer="1"/>
+<smd name="A3" x="-6.495" y="-6" dx="0.7" dy="2.1" layer="1"/>
+<smd name="A4" x="6.495" y="-6" dx="0.7" dy="2.1" layer="1"/>
+<smd name="C3" x="-4.825" y="7.535" dx="0.65" dy="1.23" layer="1"/>
+<smd name="C7" x="-3.555" y="7.535" dx="0.65" dy="1.23" layer="1"/>
+<smd name="C2" x="-2.285" y="7.535" dx="0.65" dy="1.23" layer="1"/>
+<smd name="C6" x="-1.015" y="7.535" dx="0.65" dy="1.23" layer="1"/>
+<smd name="C1" x="0.255" y="7.535" dx="0.65" dy="1.23" layer="1"/>
+<smd name="C5" x="1.525" y="7.535" dx="0.65" dy="1.23" layer="1"/>
+<smd name="CD" x="2.475" y="7.535" dx="0.65" dy="1.23" layer="1"/>
+<text x="0" y="1" size="0.5" layer="25" align="center">&gt;Name</text>
+<text x="0" y="0" size="0.5" layer="27" align="center">&gt;Value</text>
+<wire x1="-1.15" y1="-1" x2="-1.15" y2="-8" width="0.05" layer="51"/>
+<wire x1="3.3" y1="6.8" x2="5.8" y2="6.8" width="0.1524" layer="21"/>
+<wire x1="6.2" y1="4.6" x2="6.2" y2="-4.6" width="0.1524" layer="21"/>
+<wire x1="-5.5" y1="6.8" x2="-5.8" y2="6.8" width="0.1524" layer="21"/>
+<wire x1="-6.2" y1="4.6" x2="-6.2" y2="-4.6" width="0.1524" layer="21"/>
+</package>
 <package name="NANO_SIM_WURTH_693043020611">
 <description>&lt;h3&gt;Wurth Nano-SIM Holder &amp;ndash; 693043020611&lt;/h3&gt;
 &lt;a href=http://katalog.we-online.de/em/datasheet/693043020611.pdf&gt;Datasheet&lt;/a&gt;</description>
@@ -15976,6 +16036,93 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="0" y="-13.97" size="0.508" layer="51" ratio="15" align="center">Clear area needed
 for card insertion</text>
 </package>
+<package name="NANO_SIM_MOLEX_104224-0820">
+<description>&lt;h3&gt;Molex Nano-SIM Holder &amp;ndash; 1042240820&lt;/h3&gt;
+&lt;a href=https://www.molex.com/pdm_docs/sd/1042240820_sd.pdf&gt;Datasheet&lt;/a&gt;</description>
+<rectangle x1="-0.60076875" y1="0.35045" x2="0.6" y2="3.25" layer="41"/>
+<rectangle x1="-0.60111875" y1="0.350653125" x2="0.6" y2="3.249996875" layer="43"/>
+<rectangle x1="-3.14585" y1="0.350653125" x2="-1.94" y2="3.249996875" layer="41"/>
+<rectangle x1="-3.1436" y1="0.3504" x2="-1.94" y2="3.25" layer="43"/>
+<rectangle x1="1.94326875" y1="0.350590625" x2="3.14" y2="3.249996875" layer="41"/>
+<rectangle x1="1.94125" y1="0.350225" x2="3.14" y2="3.25" layer="43"/>
+<rectangle x1="-0.60105625" y1="7.663490625" x2="0.6" y2="10.749996875" layer="41"/>
+<rectangle x1="-0.60100625" y1="7.66286875" x2="0.6" y2="10.75" layer="43"/>
+<rectangle x1="-3.14235" y1="7.65571875" x2="-1.94" y2="10.75" layer="41"/>
+<rectangle x1="-3.14250625" y1="7.656109375" x2="-1.94" y2="10.749996875" layer="43"/>
+<rectangle x1="1.940459375" y1="7.65183125" x2="3.139996875" y2="10.75" layer="41"/>
+<rectangle x1="1.94013125" y1="7.65053125" x2="3.14" y2="10.75" layer="43"/>
+<wire x1="-4.875" y1="0.1" x2="-4.875" y2="12.4" width="0.127" layer="51"/>
+<wire x1="-4.875" y1="12.4" x2="-2.12" y2="12.4" width="0.127" layer="51"/>
+<wire x1="-2.12" y1="12.4" x2="-1.52" y2="12.4" width="0.127" layer="51"/>
+<wire x1="-1.52" y1="12.4" x2="1.52" y2="12.4" width="0.127" layer="51"/>
+<wire x1="1.52" y1="12.4" x2="2.12" y2="12.4" width="0.127" layer="51"/>
+<wire x1="2.12" y1="12.4" x2="4.875" y2="12.4" width="0.127" layer="51"/>
+<wire x1="4.875" y1="12.4" x2="4.875" y2="0.1" width="0.127" layer="51"/>
+<wire x1="4.875" y1="0.1" x2="-4.875" y2="0.1" width="0.127" layer="51"/>
+<wire x1="-4.9" y1="2.4" x2="-5.275" y2="2.4" width="0.127" layer="51"/>
+<wire x1="-5.275" y1="2.4" x2="-5.275" y2="0.6" width="0.127" layer="51"/>
+<wire x1="-5.275" y1="0.6" x2="-4.9" y2="0.6" width="0.127" layer="51"/>
+<wire x1="-4.9" y1="9.6" x2="-5.275" y2="9.6" width="0.127" layer="51"/>
+<wire x1="-5.275" y1="9.6" x2="-5.275" y2="7.8" width="0.127" layer="51"/>
+<wire x1="-5.275" y1="7.8" x2="-4.9" y2="7.8" width="0.127" layer="51"/>
+<wire x1="4.9" y1="7.8" x2="5.275" y2="7.8" width="0.127" layer="51"/>
+<wire x1="5.275" y1="7.8" x2="5.275" y2="9.6" width="0.127" layer="51"/>
+<wire x1="5.275" y1="9.6" x2="4.9" y2="9.6" width="0.127" layer="51"/>
+<wire x1="4.9" y1="0.6" x2="5.275" y2="0.6" width="0.127" layer="51"/>
+<wire x1="5.275" y1="0.6" x2="5.275" y2="2.4" width="0.127" layer="51"/>
+<wire x1="5.275" y1="2.4" x2="4.9" y2="2.4" width="0.127" layer="51"/>
+<wire x1="-4.9" y1="6.95" x2="-5.1" y2="6.95" width="0.127" layer="51"/>
+<wire x1="-5.1" y1="6.95" x2="-5.1" y2="6.55" width="0.127" layer="51"/>
+<wire x1="-5.1" y1="6.55" x2="-4.9" y2="6.55" width="0.127" layer="51"/>
+<wire x1="-4.9" y1="5.75" x2="-5.1" y2="5.75" width="0.127" layer="51"/>
+<wire x1="-5.1" y1="5.75" x2="-5.1" y2="5.35" width="0.127" layer="51"/>
+<wire x1="-5.1" y1="5.35" x2="-4.9" y2="5.35" width="0.127" layer="51"/>
+<wire x1="-4.9" y1="4.55" x2="-5.1" y2="4.55" width="0.127" layer="51"/>
+<wire x1="-5.1" y1="4.55" x2="-5.1" y2="4.15" width="0.127" layer="51"/>
+<wire x1="-5.1" y1="4.15" x2="-4.9" y2="4.15" width="0.127" layer="51"/>
+<wire x1="4.9" y1="6.55" x2="5.1" y2="6.55" width="0.127" layer="51"/>
+<wire x1="5.1" y1="6.55" x2="5.1" y2="6.95" width="0.127" layer="51"/>
+<wire x1="5.1" y1="6.95" x2="4.9" y2="6.95" width="0.127" layer="51"/>
+<wire x1="4.9" y1="5.35" x2="5.1" y2="5.35" width="0.127" layer="51"/>
+<wire x1="5.1" y1="5.35" x2="5.1" y2="5.75" width="0.127" layer="51"/>
+<wire x1="5.1" y1="5.75" x2="4.9" y2="5.75" width="0.127" layer="51"/>
+<wire x1="4.9" y1="4.15" x2="5.1" y2="4.15" width="0.127" layer="51"/>
+<wire x1="5.1" y1="4.15" x2="5.1" y2="4.55" width="0.127" layer="51"/>
+<wire x1="5.1" y1="4.55" x2="4.9" y2="4.55" width="0.127" layer="51"/>
+<wire x1="-1.52" y1="12.4" x2="-1.52" y2="12.8" width="0.127" layer="51"/>
+<wire x1="-1.52" y1="12.8" x2="-2.12" y2="12.8" width="0.127" layer="51"/>
+<wire x1="-2.12" y1="12.8" x2="-2.12" y2="12.4" width="0.127" layer="51"/>
+<wire x1="2.12" y1="12.4" x2="2.12" y2="12.8" width="0.127" layer="51"/>
+<wire x1="2.12" y1="12.8" x2="1.52" y2="12.8" width="0.127" layer="51"/>
+<wire x1="1.52" y1="12.8" x2="1.52" y2="12.4" width="0.127" layer="51"/>
+<wire x1="-2.9" y1="12.4" x2="-4.875" y2="12.4" width="0.127" layer="21"/>
+<wire x1="-4.875" y1="12.4" x2="-4.875" y2="10.5" width="0.127" layer="21"/>
+<wire x1="-0.4" y1="12.4" x2="0.5" y2="12.4" width="0.127" layer="21"/>
+<wire x1="3.2" y1="12.4" x2="4.875" y2="12.4" width="0.127" layer="21"/>
+<wire x1="4.875" y1="12.4" x2="4.875" y2="10.6" width="0.127" layer="21"/>
+<wire x1="-4.875" y1="0.1" x2="4.875" y2="0.1" width="0.127" layer="21"/>
+<wire x1="4.875" y1="3.6" x2="4.875" y2="3" width="0.127" layer="21"/>
+<wire x1="-4.875" y1="3.6" x2="-4.875" y2="3" width="0.127" layer="21"/>
+<wire x1="-5.85" y1="-0.15" x2="5.85" y2="-0.15" width="0.05" layer="39"/>
+<wire x1="5.85" y1="-0.15" x2="5.85" y2="13.375" width="0.05" layer="39"/>
+<wire x1="5.85" y1="13.375" x2="-5.85" y2="13.375" width="0.05" layer="39"/>
+<wire x1="-5.85" y1="13.375" x2="-5.85" y2="-0.15" width="0.05" layer="39"/>
+<text x="-2.3152" y="5.9445" size="0.6096" layer="25" font="vector">&gt;NAME</text>
+<circle x="5.8" y="4.35" radius="0.1" width="0.2" layer="21"/>
+<smd name="G1" x="-5.1" y="1.5" dx="1" dy="2.3" layer="1"/>
+<smd name="G2" x="-5.1" y="8.7" dx="1" dy="2.3" layer="1"/>
+<smd name="G3" x="5.1" y="8.7" dx="1" dy="2.3" layer="1"/>
+<smd name="G4" x="5.1" y="1.5" dx="1" dy="2.3" layer="1"/>
+<smd name="S3" x="-4.9" y="4.35" dx="1" dy="0.8" layer="1"/>
+<smd name="S1" x="4.9" y="4.35" dx="1" dy="0.8" layer="1"/>
+<smd name="S2" x="4.9" y="5.55" dx="1" dy="0.8" layer="1"/>
+<smd name="S4" x="4.9" y="6.75" dx="1" dy="0.8" layer="1"/>
+<smd name="S5" x="-4.9" y="5.55" dx="1" dy="0.8" layer="1"/>
+<smd name="S6" x="-4.9" y="6.75" dx="1" dy="0.8" layer="1"/>
+<smd name="R1" x="-1.82" y="12.625" dx="1.1" dy="1" layer="1"/>
+<smd name="R2" x="1.82" y="12.625" dx="1.1" dy="1" layer="1"/>
+<text x="-2.54" y="3.81" size="0.6096" layer="27">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="SIMHOLDER">
@@ -16006,7 +16153,7 @@ for card insertion</text>
 <gate name="J1" symbol="SIMHOLDER" x="0" y="0"/>
 </gates>
 <devices>
-<device name="SIM" package="SIMHOLDER">
+<device name="-SIM" package="SIMHOLDER">
 <connects>
 <connect gate="J1" pin="CLK" pad="C3"/>
 <connect gate="J1" pin="GND" pad="C5"/>
@@ -16022,7 +16169,7 @@ for card insertion</text>
 </technology>
 </technologies>
 </device>
-<device name="NANOSIM" package="NANO_SIM_WURTH_693043020611">
+<device name="-NANOSIM" package="NANO_SIM_WURTH_693043020611">
 <connects>
 <connect gate="J1" pin="CLK" pad="C3"/>
 <connect gate="J1" pin="GND" pad="C5"/>
@@ -16035,6 +16182,34 @@ for card insertion</text>
 <technology name="">
 <attribute name="PROD_ID" value="CONN-14097" constant="no"/>
 </technology>
+</technologies>
+</device>
+<device name="-NANOSIM-MOLEX" package="NANO_SIM_MOLEX_104224-0820">
+<connects>
+<connect gate="J1" pin="CLK" pad="S3"/>
+<connect gate="J1" pin="GND" pad="G1 G2 G3 G4 S4"/>
+<connect gate="J1" pin="I/O" pad="S6"/>
+<connect gate="J1" pin="RST" pad="S2"/>
+<connect gate="J1" pin="VCC" pad="S1"/>
+<connect gate="J1" pin="VPP" pad="S5"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="CONN-15682"/>
+</technology>
+</technologies>
+</device>
+<device name="-PUSHPUSH" package="NANO_SIM_PP">
+<connects>
+<connect gate="J1" pin="CLK" pad="C3"/>
+<connect gate="J1" pin="GND" pad="C5"/>
+<connect gate="J1" pin="I/O" pad="C7"/>
+<connect gate="J1" pin="RST" pad="C2"/>
+<connect gate="J1" pin="VCC" pad="C1"/>
+<connect gate="J1" pin="VPP" pad="C6"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -16066,7 +16241,7 @@ for card insertion</text>
 <part name="U1" library="SARA_R5" deviceset="SARA-R510M8S" device="" value="SARA-R510M8S"/>
 <part name="GND33" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="SUPPLY1" library="SparkFun-PowerSymbols" deviceset="VOUT" device=""/>
-<part name="J2" library="SparkFun-Connectors" deviceset="SIMHOLDER" device="NANOSIM"/>
+<part name="J2" library="SparkFun-Connectors" deviceset="SIMHOLDER" device="-PUSHPUSH" value="NANO"/>
 </parts>
 <sheets>
 <sheet>
@@ -16347,6 +16522,13 @@ as the prepreg thickness is &gt;= 200µm</text>
 <wire x1="30.48" y1="43.18" x2="40.64" y2="43.18" width="0.1524" layer="91"/>
 <pinref part="SUPPLY1" gate="G$1" pin="VOUT"/>
 <wire x1="40.64" y1="43.18" x2="40.64" y2="45.72" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$1" class="0">
+<segment>
+<pinref part="J2" gate="J1" pin="VCC"/>
+<wire x1="116.84" y1="104.14" x2="114.3" y2="104.14" width="0.1524" layer="91"/>
+<label x="114.3" y="104.14" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>
