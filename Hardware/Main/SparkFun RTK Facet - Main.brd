@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top/Horz" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="GND/Horz" color="1" fill="3" visible="no" active="yes"/>
@@ -216,6 +216,7 @@
 <rectangle x1="18.9" y1="35.5" x2="19.1" y2="35.8" layer="41"/>
 <rectangle x1="32" y1="35.5" x2="32.1" y2="35.8" layer="41"/>
 <text x="30" y="42" size="1.016" layer="20" font="vector" ratio="15" align="center">Route Out</text>
+<text x="63.81" y="60.96" size="1.778" layer="51" font="vector" ratio="15">Impedance controlled: JLC7628</text>
 </plain>
 <libraries>
 <library name="SparkFun-Resistors">
