@@ -19995,6 +19995,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="C18" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0603-25V-5%" value="0.1uF"/>
 <part name="GND8" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND9" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
+<part name="LOGO2" library="SparkFun-Aesthetics" deviceset="SFE_LOGO_NAME_FLAME" device=".1_INCH"/>
+<part name="LOGO4" library="SparkFun-Aesthetics" deviceset="OSHW-LOGO" device="MINI" value="OSHW-LOGOMINI"/>
 </parts>
 <sheets>
 <sheet>
@@ -20416,6 +20418,8 @@ AP2112-3.3 drop out voltage: ~125mV at: 300mA output current; Vout = 3.3V; 25°C
 <instance part="GND9" gate="1" x="55.88" y="220.98" smashed="yes">
 <attribute name="VALUE" x="55.88" y="220.726" size="1.778" layer="96" align="top-center"/>
 </instance>
+<instance part="LOGO2" gate="G$1" x="337.82" y="45.72" smashed="yes"/>
+<instance part="LOGO4" gate="G$1" x="414.02" y="60.96" smashed="yes"/>
 </instances>
 <busses>
 </busses>
