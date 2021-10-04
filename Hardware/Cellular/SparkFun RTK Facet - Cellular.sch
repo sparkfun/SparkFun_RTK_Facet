@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.05" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -136,6 +136,12 @@
 <layer number="153" name="FabDoc1" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="154" name="FabDoc2" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="155" name="FabDoc3" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="156" name="gesam-Maß" color="1" fill="7" visible="no" active="no"/>
+<layer number="157" name="FaceMchng" color="3" fill="1" visible="no" active="no"/>
+<layer number="158" name="FaceMMeas" color="3" fill="1" visible="no" active="no"/>
+<layer number="159" name="Geh-Bear2" color="1" fill="7" visible="no" active="no"/>
+<layer number="160" name="Topologie" color="9" fill="1" visible="no" active="no"/>
+<layer number="161" name="tomplace2" color="7" fill="1" visible="no" active="no"/>
 <layer number="166" name="AntennaArea" color="7" fill="1" visible="no" active="no"/>
 <layer number="168" name="4mmHeightArea" color="7" fill="1" visible="no" active="no"/>
 <layer number="191" name="mNets" color="7" fill="1" visible="no" active="no"/>
@@ -183,6 +189,7 @@
 <layer number="249" name="Edge" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="250" name="Descript" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="251" name="SMDround" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="252" name="BR-BS" color="7" fill="1" visible="no" active="no"/>
 <layer number="253" name="Extra" color="7" fill="1" visible="no" active="no"/>
 <layer number="254" name="cooling" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="255" name="routoute" color="7" fill="1" visible="yes" active="yes"/>
@@ -15277,24 +15284,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 &lt;br&gt;
 You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
 <packages>
-<package name="0603">
-<description>&lt;p&gt;&lt;b&gt;Generic 1608 (0603) package&lt;/b&gt;&lt;/p&gt;
-&lt;p&gt;0.2mm courtyard excess rounded to nearest 0.05mm.&lt;/p&gt;</description>
-<wire x1="-1.6" y1="0.7" x2="1.6" y2="0.7" width="0.0508" layer="39"/>
-<wire x1="1.6" y1="0.7" x2="1.6" y2="-0.7" width="0.0508" layer="39"/>
-<wire x1="1.6" y1="-0.7" x2="-1.6" y2="-0.7" width="0.0508" layer="39"/>
-<wire x1="-1.6" y1="-0.7" x2="-1.6" y2="0.7" width="0.0508" layer="39"/>
-<wire x1="-0.356" y1="0.432" x2="0.356" y2="0.432" width="0.1016" layer="51"/>
-<wire x1="-0.356" y1="-0.419" x2="0.356" y2="-0.419" width="0.1016" layer="51"/>
-<smd name="1" x="-0.85" y="0" dx="1.1" dy="1" layer="1"/>
-<smd name="2" x="0.85" y="0" dx="1.1" dy="1" layer="1"/>
-<text x="0" y="0.762" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-0.762" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
-<rectangle x1="-0.8382" y1="-0.4699" x2="-0.3381" y2="0.4801" layer="51"/>
-<rectangle x1="0.3302" y1="-0.4699" x2="0.8303" y2="0.4801" layer="51"/>
-<rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
-</package>
-<package name="0603@1" urn="urn:adsk.eagle:footprint:39615/1" library_version="1">
+<package name="0603" urn="urn:adsk.eagle:footprint:39615/1" library_version="1">
 <description>&lt;p&gt;&lt;b&gt;Generic 1608 (0603) package&lt;/b&gt;&lt;/p&gt;
 &lt;p&gt;0.2mm courtyard excess rounded to nearest 0.05mm.&lt;/p&gt;</description>
 <wire x1="-1.6" y1="0.7" x2="1.6" y2="0.7" width="0.0508" layer="39"/>
@@ -15457,7 +15447,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
 </gates>
 <devices>
-<device name="-0603-1/10W" package="0603@1">
+<device name="-0603-1/10W" package="0603">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -15610,7 +15600,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </technology>
 </technologies>
 </device>
-<device name="-0603-1/10W-1%" package="0603@1">
+<device name="-0603-1/10W-1%" package="0603">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -15654,7 +15644,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
 </gates>
 <devices>
-<device name="-0603-1/10W-1%" package="0603@1">
+<device name="-0603-1/10W-1%" package="0603">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -18433,6 +18423,64 @@ Alternate pin configuration
 <text x="-3.67" y="7.635" size="1.27" layer="25">&gt;NAME</text>
 <text x="-3.67" y="-6.505" size="1.27" layer="27">&gt;VALUE</text>
 </package>
+<package name="NANO_SIM_PP_REDUCED_PADS">
+<description>Part#: ATOM-A03621 or MUP-C7801</description>
+<wire x1="-6.145" y1="6.75" x2="-6.145" y2="-6.75" width="0.05" layer="51"/>
+<wire x1="-6.145" y1="-6.75" x2="6.145" y2="-6.75" width="0.05" layer="51"/>
+<wire x1="6.145" y1="-6.75" x2="6.145" y2="6.75" width="0.05" layer="51"/>
+<wire x1="6.145" y1="6.75" x2="-6.145" y2="6.75" width="0.05" layer="51"/>
+<hole x="3.505" y="-4.75" drill="0.75"/>
+<hole x="-4.995" y="-4.75" drill="0.75"/>
+<rectangle x1="0.085" y1="6.75" x2="0.435" y2="7.85" layer="51"/>
+<rectangle x1="-1.185" y1="6.75" x2="-0.835" y2="7.85" layer="51"/>
+<rectangle x1="-2.455" y1="6.75" x2="-2.105" y2="7.85" layer="51"/>
+<rectangle x1="-3.725" y1="6.75" x2="-3.375" y2="7.85" layer="51"/>
+<rectangle x1="-4.995" y1="6.75" x2="-4.645" y2="7.85" layer="51"/>
+<rectangle x1="1.355" y1="6.75" x2="1.705" y2="7.85" layer="51"/>
+<rectangle x1="2.305" y1="6.75" x2="2.655" y2="7.85" layer="51"/>
+<rectangle x1="-6.545" y1="5.25" x2="-6.145" y2="6.75" layer="51"/>
+<rectangle x1="-6.545" y1="-6.75" x2="-6.145" y2="-5.25" layer="51"/>
+<rectangle x1="6.145" y1="5.25" x2="6.545" y2="6.75" layer="51"/>
+<rectangle x1="6.145" y1="-6.75" x2="6.545" y2="-5.25" layer="51"/>
+<wire x1="3.25" y1="-7.311" x2="3.25" y2="3.6" width="0.05" layer="47"/>
+<wire x1="2.561" y1="4.3" x2="-3.65" y2="4.3" width="0.05" layer="47"/>
+<wire x1="-5.55" y1="2.65" x2="-5.55" y2="-7.3" width="0.05" layer="47"/>
+<wire x1="-4.861" y1="-8" x2="2.55" y2="-8" width="0.05" layer="47"/>
+<wire x1="2.55" y1="-8" x2="3.25" y2="-7.311" width="0.05" layer="47" curve="90.025014"/>
+<wire x1="-5.55" y1="-7.3" x2="-4.861" y2="-8" width="0.05" layer="47" curve="90.025014"/>
+<wire x1="3.25" y1="3.6" x2="2.561" y2="4.3" width="0.05" layer="47" curve="90.025014"/>
+<wire x1="-4" y1="4.2" x2="-3.65" y2="4.3" width="0.05" layer="47" curve="-39.054824"/>
+<wire x1="-5.4" y1="2.95" x2="-5.55" y2="2.65" width="0.05" layer="47" curve="52.253496"/>
+<wire x1="-5.4" y1="2.95" x2="-4" y2="4.2" width="0.05" layer="47"/>
+<wire x1="-1.15" y1="-1.35" x2="-1.15" y2="-2.35" width="0.05" layer="47"/>
+<wire x1="-0.65" y1="-1.85" x2="-1.65" y2="-1.85" width="0.05" layer="47"/>
+<wire x1="3.25" y1="-10.161" x2="3.25" y2="0.75" width="0.05" layer="47"/>
+<wire x1="-5.55" y1="-0.2" x2="-5.55" y2="-10.15" width="0.05" layer="47"/>
+<wire x1="-4.861" y1="-10.85" x2="2.55" y2="-10.85" width="0.05" layer="47"/>
+<wire x1="2.55" y1="-10.85" x2="3.25" y2="-10.161" width="0.05" layer="47" curve="90.025014"/>
+<wire x1="-5.55" y1="-10.15" x2="-4.861" y2="-10.85" width="0.05" layer="47" curve="90.025014"/>
+<wire x1="-4.861" y1="-7.05" x2="2.55" y2="-7.05" width="0.05" layer="47"/>
+<wire x1="2.55" y1="-7.05" x2="3.25" y2="-6.361" width="0.05" layer="47" curve="90.025014"/>
+<wire x1="-5.55" y1="-6.35" x2="-4.861" y2="-7.05" width="0.05" layer="47" curve="90.025014"/>
+<smd name="A1" x="6.495" y="6" dx="0.7" dy="2.1" layer="1"/>
+<smd name="A2" x="-6.495" y="6" dx="0.7" dy="2.1" layer="1"/>
+<smd name="A3" x="-6.495" y="-5.85" dx="0.7" dy="1.8" layer="1"/>
+<smd name="A4" x="6.495" y="-5.85" dx="0.7" dy="1.8" layer="1"/>
+<smd name="C3" x="-4.825" y="7.535" dx="0.65" dy="1.23" layer="1"/>
+<smd name="C7" x="-3.555" y="7.535" dx="0.65" dy="1.23" layer="1"/>
+<smd name="C2" x="-2.285" y="7.535" dx="0.65" dy="1.23" layer="1"/>
+<smd name="C6" x="-1.015" y="7.535" dx="0.65" dy="1.23" layer="1"/>
+<smd name="C1" x="0.255" y="7.535" dx="0.65" dy="1.23" layer="1"/>
+<smd name="C5" x="1.525" y="7.535" dx="0.65" dy="1.23" layer="1"/>
+<smd name="CD" x="2.475" y="7.535" dx="0.65" dy="1.23" layer="1"/>
+<text x="0" y="1" size="0.5" layer="25" align="center">&gt;Name</text>
+<text x="0" y="0" size="0.5" layer="27" align="center">&gt;Value</text>
+<wire x1="-1.15" y1="-1" x2="-1.15" y2="-8" width="0.05" layer="51"/>
+<wire x1="3.3" y1="6.8" x2="5.8" y2="6.8" width="0.1524" layer="21"/>
+<wire x1="6.2" y1="4.6" x2="6.2" y2="-4.6" width="0.1524" layer="21"/>
+<wire x1="-5.5" y1="6.8" x2="-5.8" y2="6.8" width="0.1524" layer="21"/>
+<wire x1="-6.2" y1="4.6" x2="-6.2" y2="-4.6" width="0.1524" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="CONN_06">
@@ -19002,6 +19050,21 @@ Alternate pin configuration
 </technologies>
 </device>
 <device name="-PUSHPUSH" package="NANO_SIM_PP">
+<connects>
+<connect gate="J1" pin="CLK" pad="C3"/>
+<connect gate="J1" pin="GND" pad="C5"/>
+<connect gate="J1" pin="I/O" pad="C7"/>
+<connect gate="J1" pin="RST" pad="C2"/>
+<connect gate="J1" pin="VCC" pad="C1"/>
+<connect gate="J1" pin="VPP" pad="C6"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="CONN-16272" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-PUSHPUSH-REDUCED-PADS" package="NANO_SIM_PP_REDUCED_PADS">
 <connects>
 <connect gate="J1" pin="CLK" pad="C3"/>
 <connect gate="J1" pin="GND" pad="C5"/>
@@ -19964,7 +20027,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="SUPPLY56" library="SparkFun-PowerSymbols" deviceset="VCCIO" device=""/>
 <part name="J2" library="SparkFun-Connectors" deviceset="U.FL2PIN" device="" value="U.FL"/>
 <part name="SUPPLY1" library="SparkFun-PowerSymbols" deviceset="VOUT" device=""/>
-<part name="J4" library="SparkFun-Connectors" deviceset="SIMHOLDER" device="-PUSHPUSH"/>
+<part name="J4" library="SparkFun-Connectors" deviceset="SIMHOLDER" device="-PUSHPUSH-REDUCED-PADS"/>
 <part name="FRAME3" library="SparkFun-Aesthetics" deviceset="FRAME-LEDGER" device=""/>
 <part name="LOGO1" library="SparkFun-Aesthetics" deviceset="SPECIAL_INSTRUCTIONS" device="-ORDERING"/>
 <part name="C3" library="SparkFun-Capacitors" deviceset="1.0UF" device="-0603-16V-10%-X7R" value="1.0uF"/>
@@ -19997,6 +20060,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="GND9" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="LOGO2" library="SparkFun-Aesthetics" deviceset="SFE_LOGO_NAME_FLAME" device=".1_INCH"/>
 <part name="LOGO4" library="SparkFun-Aesthetics" deviceset="OSHW-LOGO" device="MINI" value="OSHW-LOGOMINI"/>
+<part name="TP13" library="SparkFun-Connectors" deviceset="TEST-POINT" device="3" value="TEST-POINT3"/>
+<part name="TP14" library="SparkFun-Connectors" deviceset="TEST-POINT" device="3" value="TEST-POINT3"/>
+<part name="TP15" library="SparkFun-Connectors" deviceset="TEST-POINT" device="3" value="TEST-POINT3"/>
 </parts>
 <sheets>
 <sheet>
@@ -20143,18 +20209,18 @@ AP2112-3.3 drop out voltage: ~125mV at: 300mA output current; Vout = 3.3V; 25°C
 <instance part="GND38" gate="1" x="332.74" y="134.62" smashed="yes">
 <attribute name="VALUE" x="332.74" y="134.366" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="J3" gate="G$1" x="287.02" y="43.18" smashed="yes" rot="R180">
-<attribute name="VALUE" x="289.56" y="53.086" size="1.778" layer="96" font="vector" rot="R180"/>
-<attribute name="NAME" x="289.56" y="35.052" size="1.778" layer="95" font="vector" rot="R180"/>
+<instance part="J3" gate="G$1" x="287.02" y="50.8" smashed="yes" rot="R180">
+<attribute name="VALUE" x="289.56" y="60.706" size="1.778" layer="96" font="vector" rot="R180"/>
+<attribute name="NAME" x="289.56" y="42.672" size="1.778" layer="95" font="vector" rot="R180"/>
 </instance>
-<instance part="GND17" gate="1" x="279.4" y="30.48" smashed="yes">
-<attribute name="VALUE" x="279.4" y="30.226" size="1.778" layer="96" align="top-center"/>
+<instance part="GND17" gate="1" x="279.4" y="38.1" smashed="yes">
+<attribute name="VALUE" x="279.4" y="37.846" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="SUPPLY45" gate="G$1" x="274.32" y="48.26" smashed="yes">
-<attribute name="VALUE" x="274.32" y="51.054" size="1.778" layer="96" align="bottom-center"/>
+<instance part="SUPPLY45" gate="G$1" x="274.32" y="55.88" smashed="yes">
+<attribute name="VALUE" x="274.32" y="58.674" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="SUPPLY47" gate="G$1" x="269.24" y="45.72" smashed="yes">
-<attribute name="VALUE" x="269.24" y="48.514" size="1.778" layer="96" align="bottom-center"/>
+<instance part="SUPPLY47" gate="G$1" x="269.24" y="53.34" smashed="yes">
+<attribute name="VALUE" x="269.24" y="56.134" size="1.778" layer="96" align="bottom-center"/>
 </instance>
 <instance part="GND32" gate="1" x="99.06" y="104.14" smashed="yes">
 <attribute name="VALUE" x="99.06" y="103.886" size="1.778" layer="96" align="top-center"/>
@@ -20375,8 +20441,8 @@ AP2112-3.3 drop out voltage: ~125mV at: 300mA output current; Vout = 3.3V; 25°C
 <instance part="SUPPLY2" gate="G$1" x="185.42" y="121.92" smashed="yes">
 <attribute name="VALUE" x="185.42" y="124.714" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="SUPPLY3" gate="G$1" x="279.4" y="50.8" smashed="yes">
-<attribute name="VALUE" x="279.4" y="53.594" size="1.778" layer="96" align="bottom-center"/>
+<instance part="SUPPLY3" gate="G$1" x="279.4" y="58.42" smashed="yes">
+<attribute name="VALUE" x="279.4" y="61.214" size="1.778" layer="96" align="bottom-center"/>
 </instance>
 <instance part="GND6" gate="1" x="63.5" y="218.44" smashed="yes">
 <attribute name="VALUE" x="63.5" y="218.186" size="1.778" layer="96" align="top-center"/>
@@ -20420,6 +20486,15 @@ AP2112-3.3 drop out voltage: ~125mV at: 300mA output current; Vout = 3.3V; 25°C
 </instance>
 <instance part="LOGO2" gate="G$1" x="337.82" y="45.72" smashed="yes"/>
 <instance part="LOGO4" gate="G$1" x="414.02" y="60.96" smashed="yes"/>
+<instance part="TP13" gate="G$1" x="281.94" y="25.4" smashed="yes">
+<attribute name="NAME" x="287.02" y="24.13" size="1.778" layer="95" font="vector"/>
+</instance>
+<instance part="TP14" gate="G$1" x="281.94" y="22.86" smashed="yes">
+<attribute name="NAME" x="287.02" y="21.59" size="1.778" layer="95" font="vector"/>
+</instance>
+<instance part="TP15" gate="G$1" x="281.94" y="20.32" smashed="yes">
+<attribute name="NAME" x="287.02" y="19.05" size="1.778" layer="95" font="vector"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -20600,9 +20675,9 @@ AP2112-3.3 drop out voltage: ~125mV at: 300mA output current; Vout = 3.3V; 25°C
 </segment>
 <segment>
 <pinref part="J3" gate="G$1" pin="6"/>
-<wire x1="281.94" y1="35.56" x2="279.4" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="281.94" y1="43.18" x2="279.4" y2="43.18" width="0.1524" layer="91"/>
 <pinref part="GND17" gate="1" pin="GND"/>
-<wire x1="279.4" y1="35.56" x2="279.4" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="279.4" y1="43.18" x2="279.4" y2="40.64" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$2" pin="DTR_I"/>
@@ -20652,9 +20727,9 @@ AP2112-3.3 drop out voltage: ~125mV at: 300mA output current; Vout = 3.3V; 25°C
 </segment>
 <segment>
 <pinref part="J3" gate="G$1" pin="2"/>
-<wire x1="281.94" y1="45.72" x2="274.32" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="281.94" y1="53.34" x2="274.32" y2="53.34" width="0.1524" layer="91"/>
 <pinref part="SUPPLY45" gate="G$1" pin="3.3V"/>
-<wire x1="274.32" y1="45.72" x2="274.32" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="274.32" y1="53.34" x2="274.32" y2="55.88" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="SUPPLY31" gate="G$1" pin="3.3V"/>
@@ -20701,6 +20776,11 @@ AP2112-3.3 drop out voltage: ~125mV at: 300mA output current; Vout = 3.3V; 25°C
 <pinref part="U2" gate="G1" pin="A"/>
 <wire x1="325.12" y1="220.98" x2="322.58" y2="220.98" width="0.1524" layer="91"/>
 <label x="322.58" y="220.98" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="TP14" gate="G$1" pin="1"/>
+<wire x1="281.94" y1="22.86" x2="279.4" y2="22.86" width="0.1524" layer="91"/>
+<label x="279.4" y="22.86" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="LTE_INT" class="0">
@@ -20758,6 +20838,11 @@ AP2112-3.3 drop out voltage: ~125mV at: 300mA output current; Vout = 3.3V; 25°C
 <wire x1="340.36" y1="246.38" x2="340.36" y2="248.92" width="0.1524" layer="91"/>
 <junction x="340.36" y="248.92"/>
 </segment>
+<segment>
+<pinref part="TP13" gate="G$1" pin="1"/>
+<wire x1="281.94" y1="25.4" x2="279.4" y2="25.4" width="0.1524" layer="91"/>
+<label x="279.4" y="25.4" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="LTE_TXO" class="0">
 <segment>
@@ -20775,8 +20860,8 @@ AP2112-3.3 drop out voltage: ~125mV at: 300mA output current; Vout = 3.3V; 25°C
 <pinref part="IC1" gate="G$1" pin="B1"/>
 </segment>
 <segment>
-<label x="279.4" y="38.1" size="1.27" layer="95" rot="R180" xref="yes"/>
-<wire x1="281.94" y1="38.1" x2="279.4" y2="38.1" width="0.1524" layer="91"/>
+<label x="279.4" y="45.72" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="281.94" y1="45.72" x2="279.4" y2="45.72" width="0.1524" layer="91"/>
 <pinref part="J3" gate="G$1" pin="5"/>
 </segment>
 </net>
@@ -20812,8 +20897,8 @@ AP2112-3.3 drop out voltage: ~125mV at: 300mA output current; Vout = 3.3V; 25°C
 <pinref part="IC1" gate="G$1" pin="B2"/>
 </segment>
 <segment>
-<label x="279.4" y="40.64" size="1.27" layer="95" rot="R180" xref="yes"/>
-<wire x1="281.94" y1="40.64" x2="279.4" y2="40.64" width="0.1524" layer="91"/>
+<label x="279.4" y="48.26" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="281.94" y1="48.26" x2="279.4" y2="48.26" width="0.1524" layer="91"/>
 <pinref part="J3" gate="G$1" pin="4"/>
 </segment>
 </net>
@@ -20958,9 +21043,9 @@ AP2112-3.3 drop out voltage: ~125mV at: 300mA output current; Vout = 3.3V; 25°C
 </segment>
 <segment>
 <pinref part="J3" gate="G$1" pin="3"/>
-<wire x1="281.94" y1="43.18" x2="269.24" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="281.94" y1="50.8" x2="269.24" y2="50.8" width="0.1524" layer="91"/>
 <pinref part="SUPPLY47" gate="G$1" pin="VCCIO"/>
-<wire x1="269.24" y1="43.18" x2="269.24" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="269.24" y1="50.8" x2="269.24" y2="53.34" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="SUPPLY30" gate="G$1" pin="VCCIO"/>
@@ -21123,9 +21208,9 @@ AP2112-3.3 drop out voltage: ~125mV at: 300mA output current; Vout = 3.3V; 25°C
 </segment>
 <segment>
 <pinref part="J3" gate="G$1" pin="1"/>
-<wire x1="281.94" y1="48.26" x2="279.4" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="281.94" y1="55.88" x2="279.4" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="SUPPLY3" gate="G$1" pin="VOUT"/>
-<wire x1="279.4" y1="48.26" x2="279.4" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="279.4" y1="55.88" x2="279.4" y2="58.42" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$26" class="0">
@@ -21168,6 +21253,11 @@ AP2112-3.3 drop out voltage: ~125mV at: 300mA output current; Vout = 3.3V; 25°C
 <wire x1="218.44" y1="116.84" x2="215.9" y2="116.84" width="0.1524" layer="91"/>
 <junction x="218.44" y="116.84"/>
 <label x="215.9" y="116.84" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="TP15" gate="G$1" pin="1"/>
+<wire x1="281.94" y1="20.32" x2="279.4" y2="20.32" width="0.1524" layer="91"/>
+<label x="279.4" y="20.32" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$1" class="0">
