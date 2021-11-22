@@ -26245,6 +26245,7 @@ For ESP32</text>
 <text x="251.46" y="187.96" size="1.778" layer="97" align="center">7-bit unshifted I2C address: 0x2C</text>
 <text x="256.54" y="269.24" size="2.54" layer="94" rot="MR180" align="center">USB Hub</text>
 <text x="30.48" y="215.9" size="1.778" layer="97" align="center">Power Button on Membrane Overlay</text>
+<text x="195.58" y="185.42" size="1.27" layer="91">Any USB2512, USB2513, or USB2514 can be used</text>
 </plain>
 <instances>
 <instance part="Q3" gate="G1" x="63.5" y="236.22" smashed="yes" rot="MR0">
