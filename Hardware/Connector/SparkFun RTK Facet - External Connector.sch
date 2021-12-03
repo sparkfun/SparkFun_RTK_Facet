@@ -21591,7 +21591,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <sheets>
 <sheet>
 <plain>
-<text x="240.284" y="7.366" size="2.54" layer="94">v10</text>
+<text x="240.284" y="7.366" size="2.54" layer="94">v12</text>
 <text x="43.18" y="177.8" size="2.54" layer="94" rot="MR180" align="center">USB / Power</text>
 <text x="163.322" y="173.482" size="2.54" layer="94" rot="MR180" align="center">External Radio
 RTCM In/Out</text>
@@ -21610,6 +21610,7 @@ May be 3.5-5V</text>
 <wire x1="195.58" y1="185.42" x2="195.58" y2="91.44" width="0.2032" layer="97" style="longdash"/>
 <wire x1="195.58" y1="91.44" x2="195.58" y2="35.56" width="0.2032" layer="97" style="longdash"/>
 <wire x1="93.98" y1="91.44" x2="195.58" y2="91.44" width="0.2032" layer="97" style="longdash"/>
+<text x="171.196" y="11.176" size="2.54" layer="94">N. Seidle</text>
 </plain>
 <instances>
 <instance part="JP21" gate="G$1" x="243.84" y="27.94" smashed="yes" rot="R270"/>
@@ -21707,7 +21708,7 @@ May be 3.5-5V</text>
 <instance part="FRAME1" gate="V" x="147.32" y="0" smashed="yes">
 <attribute name="LAST_DATE_TIME" x="160.02" y="1.27" size="2.54" layer="94" font="vector"/>
 <attribute name="SHEET" x="233.68" y="1.27" size="2.54" layer="94" font="vector"/>
-<attribute name="DRAWING_NAME" x="162.814" y="17.78" size="2.7432" layer="94" font="vector"/>
+<attribute name="DRAWING_NAME" x="162.814" y="17.78" size="2.286" layer="94" font="vector"/>
 <attribute name="DESIGNER" x="170.434" y="11.176" size="2.7432" layer="94" font="vector"/>
 <attribute name="REV" x="236.22" y="6.604" size="2.7432" layer="94" font="vector"/>
 </instance>
@@ -21734,11 +21735,11 @@ May be 3.5-5V</text>
 </instance>
 <instance part="J1" gate="J1" x="111.76" y="60.96" smashed="yes" rot="MR180">
 <attribute name="NAME" x="109.22" y="45.466" size="1.778" layer="95" rot="MR180"/>
-<attribute name="VALUE" x="99.06" y="81.28" size="1.778" layer="96" rot="MR180"/>
+<attribute name="VALUE" x="106.68" y="45.72" size="1.778" layer="96" rot="MR90"/>
 </instance>
 <instance part="J6" gate="J1" x="152.4" y="60.96" smashed="yes" rot="MR180">
 <attribute name="NAME" x="149.86" y="45.466" size="1.778" layer="95" rot="MR180"/>
-<attribute name="VALUE" x="139.7" y="81.28" size="1.778" layer="96" rot="MR180"/>
+<attribute name="VALUE" x="147.574" y="45.466" size="1.778" layer="96" rot="MR90"/>
 </instance>
 </instances>
 <busses>

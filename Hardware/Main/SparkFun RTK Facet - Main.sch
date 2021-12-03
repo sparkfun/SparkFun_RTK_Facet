@@ -24168,7 +24168,7 @@ Includes both "standard" footprints and "narrow" version (for use with tighter l
 <sheets>
 <sheet>
 <plain>
-<text x="420.624" y="7.366" size="2.54" layer="94">v10</text>
+<text x="420.624" y="7.366" size="2.54" layer="94">v12</text>
 <text x="93.98" y="187.96" size="1.778" layer="97" align="center">7-bit unshifted I2C address: 0x42</text>
 <text x="89.662" y="262.382" size="2.54" layer="94" rot="MR180" align="center">u-blox ZED-F9P</text>
 <text x="389.382" y="160.782" size="2.54" layer="94" rot="MR180" align="center">RTC Backup</text>
@@ -24232,6 +24232,7 @@ For ESP32</text>
 <text x="279.4" y="73.66" size="1.27" layer="97" align="center">IO15: Has builtin pullup at POR.</text>
 <text x="279.4" y="78.74" size="1.27" layer="97" align="center">IO5: Has builtin pullup at POR.</text>
 <text x="33.02" y="66.04" size="2.54" layer="94" rot="MR180" align="center">From Radio Board</text>
+<text x="354.33" y="11.43" size="2.54" layer="94">N. Seidle</text>
 </plain>
 <instances>
 <instance part="JP21" gate="G$1" x="416.56" y="33.02" smashed="yes" rot="R270"/>
