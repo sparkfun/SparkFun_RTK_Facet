@@ -4494,7 +4494,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <class number="1" name="power" width="0.1778" drill="0">
 </class>
 </classes>
-<designrules name="SparkFun RTK Facet - Display SD SIM">
+<designrules name="SparkFun RTK Facet - Display SD">
 <description language="en">&lt;b&gt;SparkFun 2 Layer Design Rule Checks - STANDARD/TIGHT/FAB-LIMIT&lt;/b&gt;
 &lt;p&gt;
 These rules have been curated by SparkFuns DFM commitee. After doing much research, communicating with our multiple fab houses, and getting quotes of various designs, we have compiled three DRU files. 
