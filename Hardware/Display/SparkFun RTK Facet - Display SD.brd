@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.25" altunitdist="mm" altunit="mm"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top/Vert" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom/Horz" color="1" fill="1" visible="yes" active="yes"/>
@@ -43,7 +43,7 @@
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="yes"/>
 <layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
@@ -228,6 +228,7 @@
 <text x="65" y="37.88" size="1.778" layer="51" font="vector" ratio="15">Board thickness is 1.6mm</text>
 <text x="65" y="32.8" size="1.778" layer="51" font="vector" ratio="15">ENIG Finish</text>
 <text x="65" y="35.34" size="1.778" layer="51" font="vector" ratio="15">2 Layer Board</text>
+<text x="65" y="30.26" size="1.778" layer="51" font="vector" ratio="15">Red Soldermask</text>
 </plain>
 <libraries>
 <library name="SparkFun-Aesthetics">
@@ -1212,6 +1213,35 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="-7.2" y1="2" x2="-7.2" y2="8.5" width="0.2032" layer="21"/>
 <text x="0" y="1" size="0.5" layer="25" align="center">&gt;Name</text>
 <text x="0" y="0" size="0.5" layer="27" align="center">&gt;Value</text>
+</package>
+<package name="FPC_6_1MM-LIF">
+<wire x1="0" y1="-1.95" x2="0" y2="-1.25" width="0.05" layer="51"/>
+<wire x1="0" y1="-1.25" x2="0.2" y2="-1.45" width="0.05" layer="51"/>
+<wire x1="0" y1="-1.25" x2="-0.2" y2="-1.45" width="0.05" layer="51"/>
+<wire x1="-4" y1="2" x2="4" y2="2" width="0.0508" layer="51"/>
+<wire x1="4" y1="2" x2="4" y2="-3" width="0.0508" layer="51"/>
+<wire x1="4" y1="-3" x2="4" y2="-3.75" width="0.0508" layer="51"/>
+<wire x1="4" y1="-3.75" x2="-4" y2="-3.75" width="0.0508" layer="51"/>
+<wire x1="-4" y1="-3.75" x2="-4" y2="-3" width="0.0508" layer="51"/>
+<wire x1="-4" y1="-3" x2="-4" y2="2" width="0.0508" layer="51"/>
+<wire x1="-3.429" y1="1.984" x2="-4.064" y2="1.984" width="0.2032" layer="21"/>
+<wire x1="-4.064" y1="1.984" x2="-4.064" y2="-2.88" width="0.2032" layer="21"/>
+<wire x1="4.064" y1="1.984" x2="3.429" y2="1.984" width="0.2032" layer="21"/>
+<wire x1="4.064" y1="1.984" x2="4.064" y2="-2.88" width="0.2032" layer="21"/>
+<wire x1="-4" y1="-3" x2="4" y2="-3" width="0.0508" layer="51"/>
+<rectangle x1="-2.65" y1="2.05" x2="-2.35" y2="3.75" layer="51"/>
+<rectangle x1="-1.65" y1="2.05" x2="-1.35" y2="3.75" layer="51"/>
+<rectangle x1="-0.65" y1="2.05" x2="-0.35" y2="3.75" layer="51"/>
+<rectangle x1="0.35" y1="2.05" x2="0.65" y2="3.75" layer="51"/>
+<rectangle x1="1.35" y1="2.05" x2="1.65" y2="3.75" layer="51"/>
+<rectangle x1="2.35" y1="2.05" x2="2.65" y2="3.75" layer="51"/>
+<smd name="1" x="-2.5" y="3" dx="2" dy="0.6" layer="1" rot="R90"/>
+<smd name="2" x="-1.5" y="3" dx="2" dy="0.6" layer="1" rot="R90"/>
+<smd name="3" x="-0.5" y="3" dx="2" dy="0.6" layer="1" rot="R90"/>
+<smd name="4" x="0.5" y="3" dx="2" dy="0.6" layer="1" rot="R90"/>
+<smd name="5" x="1.5" y="3" dx="2" dy="0.6" layer="1" rot="R90"/>
+<smd name="6" x="2.5" y="3" dx="2" dy="0.6" layer="1" rot="R90"/>
+<text x="0" y="-2.25" size="0.2" layer="51" align="center">Ribbon Insert</text>
 </package>
 </packages>
 </library>
@@ -3955,39 +3985,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </package>
 </packages>
 </library>
-<library name="1mm Pitch Connector">
-<packages>
-<package name="FPC_6_1MM-LIF">
-<smd name="1" x="-2.5" y="3" dx="2" dy="0.6" layer="1" rot="R90" cream="no"/>
-<rectangle x1="-2.65" y1="2.05" x2="-2.35" y2="3.75" layer="51"/>
-<text x="0" y="-2.25" size="0.2" layer="51" align="center">Ribbon Insert</text>
-<wire x1="0" y1="-1.95" x2="0" y2="-1.25" width="0.05" layer="51"/>
-<wire x1="0" y1="-1.25" x2="0.2" y2="-1.45" width="0.05" layer="51"/>
-<wire x1="0" y1="-1.25" x2="-0.2" y2="-1.45" width="0.05" layer="51"/>
-<smd name="2" x="-1.5" y="3" dx="2" dy="0.6" layer="1" rot="R90" cream="no"/>
-<rectangle x1="-1.65" y1="2.05" x2="-1.35" y2="3.75" layer="51"/>
-<smd name="3" x="-0.5" y="3" dx="2" dy="0.6" layer="1" rot="R90" cream="no"/>
-<rectangle x1="-0.65" y1="2.05" x2="-0.35" y2="3.75" layer="51"/>
-<smd name="4" x="0.5" y="3" dx="2" dy="0.6" layer="1" rot="R90" cream="no"/>
-<rectangle x1="0.35" y1="2.05" x2="0.65" y2="3.75" layer="51"/>
-<smd name="5" x="1.5" y="3" dx="2" dy="0.6" layer="1" rot="R90" cream="no"/>
-<rectangle x1="1.35" y1="2.05" x2="1.65" y2="3.75" layer="51"/>
-<smd name="6" x="2.5" y="3" dx="2" dy="0.6" layer="1" rot="R90" cream="no"/>
-<rectangle x1="2.35" y1="2.05" x2="2.65" y2="3.75" layer="51"/>
-<wire x1="-4" y1="2" x2="4" y2="2" width="0.0508" layer="51"/>
-<wire x1="4" y1="2" x2="4" y2="-3" width="0.0508" layer="51"/>
-<wire x1="4" y1="-3" x2="4" y2="-3.75" width="0.0508" layer="51"/>
-<wire x1="4" y1="-3.75" x2="-4" y2="-3.75" width="0.0508" layer="51"/>
-<wire x1="-4" y1="-3.75" x2="-4" y2="-3" width="0.0508" layer="51"/>
-<wire x1="-4" y1="-3" x2="-4" y2="2" width="0.0508" layer="51"/>
-<wire x1="-3.429" y1="1.984" x2="-4.064" y2="1.984" width="0.2032" layer="21"/>
-<wire x1="-4.064" y1="1.984" x2="-4.064" y2="-2.88" width="0.2032" layer="21"/>
-<wire x1="4.064" y1="1.984" x2="3.429" y2="1.984" width="0.2032" layer="21"/>
-<wire x1="4.064" y1="1.984" x2="4.064" y2="-2.88" width="0.2032" layer="21"/>
-<wire x1="-4" y1="-3" x2="4" y2="-3" width="0.0508" layer="51"/>
-</package>
-</packages>
-</library>
 </libraries>
 <attributes>
 </attributes>
@@ -4312,8 +4309,8 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="PROD_ID" value="CONN-16110" x="39.75" y="4" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 <attribute name="VALUE" x="39.75" y="4" size="0.5" layer="27" align="center"/>
 </element>
-<element name="JP1" library="1mm Pitch Connector" package="FPC_6_1MM-LIF" value="CONN_06" x="24.75" y="4.38" smashed="yes" rot="R180">
-<attribute name="DIGIKEY" value="PCB-C5-06-SA-SMT" x="24.75" y="4.38" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
+<element name="JP1" library="SparkFun-Connectors" package="FPC_6_1MM-LIF" value="" x="24.75" y="4.38" smashed="yes" rot="R180">
+<attribute name="PROD_ID" value="CONN-16692" x="24.75" y="4.38" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="U$6" library="SparkFun-Aesthetics" package="ORDERING_INSTRUCTIONS" value="SPECIAL_INSTRUCTIONS-ORDERING" x="63.73" y="50.58" smashed="yes"/>
 </elements>
