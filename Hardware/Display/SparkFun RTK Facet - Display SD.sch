@@ -22702,7 +22702,7 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 BS2 is Pulled LOW for 
 permanent I2C mode.</text>
 <text x="198.12" y="177.8" size="2.54" layer="94" align="center">microSD</text>
-<text x="200.66" y="86.36" size="1.778" layer="97" align="center">7-Bit unshifted I2C address: 0x19</text>
+<text x="200.66" y="86.36" size="1.778" layer="97" align="center">7-Bit unshifted I²C address: 0x19</text>
 <text x="198.12" y="129.54" size="2.54" layer="94" font="vector" align="center">LIS2DH12 / Accelerometer</text>
 <text x="121.92" y="86.36" size="2.54" layer="94" rot="MR180" align="center">To Membrane Overlay</text>
 <wire x1="0" y1="101.6" x2="58.42" y2="101.6" width="0.2032" layer="97" style="shortdash"/>
@@ -22715,6 +22715,7 @@ permanent I2C mode.</text>
 <text x="76.708" y="88.138" size="2.54" layer="94" align="center">Charging
 Indicator</text>
 <text x="171.196" y="11.43" size="2.54" layer="94" font="vector">N. Seidle</text>
+<text x="114.3" y="106.68" size="1.778" layer="97" align="center">7-Bit unshifted I²C address: 0x3D</text>
 </plain>
 <instances>
 <instance part="OLED1" gate="G1" x="106.68" y="144.78" smashed="yes">
