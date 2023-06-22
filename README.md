@@ -30,7 +30,7 @@ Repository Contents
 Documentation
 --------------
 
-* **[RTK Product Manual](https://sparkfun.github.io/SparkFun_RTK_Firmware/intro/)** - A detail guide describing all the various software features of the RTK product line.   Essentially it is a manual for the firmware in this repository.
+* **[RTK Product Manual](https://docs.sparkfun.com/SparkFun_RTK_Firmware/)** - A detailed guide describing all the various software features of the RTK product line. Essentially it is a manual for the firmware used by the RTK Facet.
 * **[RTK Facet L-Band Hookup Guide](https://learn.sparkfun.com/tutorials/sparkfun-rtk-facet-l-band-hookup-guide)** - Hookup guide for the SparkFun RTK Facet L-Band.
 * **[RTK Facet Hookup Guide](https://learn.sparkfun.com/tutorials/sparkfun-rtk-facet-hookup-guide)** - Hookup guide for the SparkFun RTK Facet.
 
