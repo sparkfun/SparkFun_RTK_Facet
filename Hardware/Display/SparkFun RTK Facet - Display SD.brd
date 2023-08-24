@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top/Vert" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom/Horz" color="1" fill="1" visible="yes" active="yes"/>
@@ -196,7 +196,7 @@
 </layers>
 <board>
 <plain>
-<text x="3.75" y="1" size="1.016" layer="1" font="vector" ratio="20" rot="R180" align="center">v16</text>
+<text x="3.75" y="1" size="1.016" layer="1" font="vector" ratio="20" rot="R180" align="center">v17</text>
 <wire x1="0" y1="0" x2="0" y2="22" width="0.05" layer="20"/>
 <wire x1="49.5" y1="22" x2="49.5" y2="0" width="0.05" layer="20"/>
 <wire x1="49.5" y1="0" x2="0" y2="0" width="0.05" layer="20"/>
@@ -212,14 +212,14 @@
 <wire x1="29.75" y1="21" x2="29.75" y2="22" width="0.05" layer="20"/>
 <wire x1="19.75" y1="21" x2="19.75" y2="22" width="0.05" layer="20"/>
 <wire x1="29.75" y1="21" x2="19.75" y2="21" width="0.05" layer="20"/>
-<wire x1="6.766" y1="10.698" x2="6.766" y2="8.758" width="0.2032" layer="21"/>
-<wire x1="6.766" y1="8.758" x2="6.258" y2="9.266" width="0.2032" layer="21"/>
-<wire x1="6.766" y1="8.758" x2="7.274" y2="9.266" width="0.2032" layer="21"/>
-<circle x="6.766" y="10.571" radius="0.803215625" width="0.2032" layer="21"/>
-<circle x="6.766" y="10.571" radius="0.127" width="0.508" layer="21"/>
-<wire x1="6.766" y1="10.598" x2="8.606" y2="10.598" width="0.2032" layer="21" curve="-0.360962"/>
-<wire x1="8.606" y1="10.598" x2="8.098" y2="10.09" width="0.2032" layer="21"/>
-<wire x1="8.606" y1="10.598" x2="8.098" y2="11.106" width="0.2032" layer="21"/>
+<wire x1="18.196" y1="14.508" x2="18.196" y2="12.568" width="0.2032" layer="21"/>
+<wire x1="18.196" y1="12.568" x2="17.688" y2="13.076" width="0.2032" layer="21"/>
+<wire x1="18.196" y1="12.568" x2="18.704" y2="13.076" width="0.2032" layer="21"/>
+<circle x="18.196" y="14.381" radius="0.803215625" width="0.2032" layer="21"/>
+<circle x="18.196" y="14.381" radius="0.127" width="0.508" layer="21"/>
+<wire x1="18.196" y1="14.408" x2="20.036" y2="14.408" width="0.2032" layer="21" curve="-0.360962"/>
+<wire x1="20.036" y1="14.408" x2="19.528" y2="13.9" width="0.2032" layer="21"/>
+<wire x1="20.036" y1="14.408" x2="19.528" y2="14.916" width="0.2032" layer="21"/>
 <dimension x1="0" y1="22" x2="0" y2="0" x3="-4" y3="11" textsize="1" layer="47" width="0.1"/>
 <dimension x1="0" y1="22" x2="49.5" y2="22" x3="24.75" y3="26" textsize="1" layer="47" width="0.1"/>
 <dimension x1="44.75" y1="19" x2="44.75" y2="22" x3="51.5" y3="20.5" textsize="1" layer="47" width="0.1"/>
@@ -1076,7 +1076,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 &lt;br&gt;
 You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
 <packages>
-<package name="0603">
+<package name="0603" urn="urn:adsk.eagle:footprint:39615/1" library_version="1">
 <description>&lt;p&gt;&lt;b&gt;Generic 1608 (0603) package&lt;/b&gt;&lt;/p&gt;
 &lt;p&gt;0.2mm courtyard excess rounded to nearest 0.05mm.&lt;/p&gt;</description>
 <wire x1="-1.6" y1="0.7" x2="1.6" y2="0.7" width="0.0508" layer="39"/>
@@ -1164,8 +1164,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <smd name="11" x="-7.75" y="0.4" dx="1.2" dy="2.2" layer="1"/>
 <smd name="13" x="6.85" y="10" dx="1.6" dy="1.4" layer="1"/>
 <smd name="10" x="-7.75" y="9.9" dx="1.2" dy="1.6" layer="1"/>
-<rectangle x1="-6.1" y1="4.1" x2="2.9" y2="6.1" layer="39"/>
-<rectangle x1="-7.7" y1="4.7" x2="-7" y2="8.7" layer="39"/>
+<rectangle x1="-6.1" y1="4.1" x2="2.9" y2="6.1" layer="41"/>
+<rectangle x1="-7.7" y1="4.7" x2="-7" y2="8.7" layer="41"/>
 <wire x1="7.2" y1="10.5" x2="7.2" y2="-4" width="0.05" layer="51"/>
 <wire x1="7.2" y1="-4" x2="4" y2="-4" width="0.05" layer="51"/>
 <wire x1="4" y1="-4" x2="1" y2="-3.3" width="0.05" layer="51"/>
@@ -1213,6 +1213,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="-7.2" y1="2" x2="-7.2" y2="8.5" width="0.2032" layer="21"/>
 <text x="0" y="1" size="0.5" layer="25" align="center">&gt;Name</text>
 <text x="0" y="0" size="0.5" layer="27" align="center">&gt;Value</text>
+<rectangle x1="-7.239" y1="-4.064" x2="7.239" y2="10.541" layer="39"/>
+<rectangle x1="-6.477" y1="-16.51" x2="4.572" y2="-4.064" layer="39"/>
 </package>
 <package name="FPC_6_1MM-LIF">
 <wire x1="0" y1="-1.95" x2="0" y2="-1.25" width="0.05" layer="51"/>
@@ -4517,7 +4519,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 &lt;br&gt;
 You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
 <packages>
-<package name="LGA-12-LISDH12">
+<package name="LGA-12-LISDH12-NOSILK">
 <wire x1="-1" y1="-1" x2="-1" y2="1" width="0.002540625" layer="51"/>
 <wire x1="-1" y1="1" x2="1" y2="1" width="0.002540625" layer="51"/>
 <wire x1="1" y1="1" x2="1" y2="-1" width="0.002540625" layer="51"/>
@@ -4546,11 +4548,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <smd name="8" x="0.75" y="-0.25" dx="0.25" dy="0.275" layer="1" rot="R90"/>
 <smd name="9" x="0.75" y="0.25" dx="0.25" dy="0.275" layer="1" rot="R90"/>
 <smd name="10" x="0.75" y="0.75" dx="0.25" dy="0.275" layer="1" rot="R90"/>
-<wire x1="-1.1016" y1="-1.1016" x2="-1.1016" y2="1.1016" width="0.2032" layer="21"/>
-<wire x1="-1.1016" y1="1.1016" x2="1.1016" y2="1.1016" width="0.2032" layer="21"/>
-<wire x1="1.1016" y1="1.1016" x2="1.1016" y2="-1.1016" width="0.2032" layer="21"/>
-<wire x1="1.1016" y1="-1.1016" x2="-1.1016" y2="-1.1016" width="0.2032" layer="21"/>
-<circle x="-1.3016" y="1.3016" radius="0.254" width="0" layer="21"/>
+<circle x="-1.6826" y="1.6826" radius="0.254" width="0" layer="21"/>
 <text x="0" y="1.2192" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;Name</text>
 <text x="0" y="-1.2192" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;Value</text>
 <wire x1="0" y1="-0.1016" x2="0" y2="-0.4826" width="0.0254" layer="51"/>
@@ -4863,7 +4861,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="PROD_ID" value="RES-00824" x="17.25" y="18" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
 <attribute name="VALUE" x="16.488" y="18" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
 </element>
-<element name="JP3" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NO_SILK" package3d_urn="urn:adsk.eagle:package:39279/1" value="" x="25.25" y="5" smashed="yes" rot="MR90">
+<element name="JP3" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NO_SILK" package3d_urn="urn:adsk.eagle:package:39279/1" value="JUMPER-SMT_2_NO_SILK" x="25.25" y="5" smashed="yes" rot="MR90">
 <attribute name="NAME" x="26.393" y="5" size="0.6096" layer="26" font="vector" ratio="20" rot="MR90" align="bottom-center"/>
 <attribute name="VALUE" x="24.107" y="5" size="0.6096" layer="28" font="vector" ratio="20" rot="MR90" align="top-center"/>
 </element>
@@ -4897,8 +4895,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="PROD_ID" value="CONN-15766" x="33.75" y="19" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="U$1" library="output" package="SD#DIS0" value="" x="33.75" y="16.3" smashed="yes"/>
-<element name="U13" library="SparkFun-Sensors" package="LGA-12-LISDH12" value="LIS2DH12" x="6.75" y="13" smashed="yes">
-<attribute name="DIGIKEY" value="497-14851-2-ND" x="1.75" y="18" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<element name="U13" library="SparkFun-Sensors" package="LGA-12-LISDH12-NOSILK" value="LIS2DH12NS" x="6.75" y="13" smashed="yes">
 <attribute name="NAME" x="6.75" y="14.2192" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
 <attribute name="PROD_ID" value="IC-14229" x="1.75" y="18" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 <attribute name="VALUE" x="6.75" y="11.7808" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
@@ -4920,10 +4917,10 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="VALUE" x="6.75" y="21.667" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
 </element>
 <element name="U$2" library="output" package="OVERLAY0" value="" x="24.75" y="9.88" smashed="yes"/>
-<element name="U$9" library="output" package="POWER0" value="" x="6.75" y="15.6" smashed="yes"/>
-<element name="U$10" library="output" package="X0" value="" x="6.65" y="8" smashed="yes" rot="R180"/>
-<element name="U$11" library="output" package="Y1" value="" x="9.25" y="10.7" smashed="yes"/>
-<element name="U$12" library="output" package="Z2" value="" x="5.15" y="10.6" smashed="yes" rot="R180"/>
+<element name="U$9" library="output" package="POWER0" value="" x="11.049" y="19.177" smashed="yes" rot="R90"/>
+<element name="U$10" library="output" package="X0" value="" x="18.08" y="11.81" smashed="yes" rot="R180"/>
+<element name="U$11" library="output" package="Y1" value="" x="20.68" y="14.51" smashed="yes"/>
+<element name="U$12" library="output" package="Z2" value="" x="16.58" y="14.41" smashed="yes" rot="R180"/>
 <element name="U$13" library="output" package="RTK_FACET0" value="" x="8.255" y="2.413" smashed="yes"/>
 <element name="U$5" library="output" package="RTK5#SVG0" value="" x="13.25" y="15" smashed="yes"/>
 <element name="J2" library="SparkFun-Connectors" package="MICROSD-EXTERNALPIN" value="MICRO-SD-PUSH-PUSH-EXT-PIN" x="39.75" y="4" smashed="yes">
@@ -5037,6 +5034,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <via x="24.15" y="20.1" extent="1-16" drill="0.381"/>
 <contactref element="J3" pad="1"/>
 <via x="8.346" y="8.92" extent="1-16" drill="0.381"/>
+<via x="29.694" y="13.789" extent="1-16" drill="0.381"/>
 </signal>
 <signal name="VCOMH">
 <contactref element="OLED1" pad="25"/>
@@ -5419,6 +5417,14 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <wire x1="27.25" y1="1.38" x2="27.25" y2="11.25" width="0.1778" layer="1"/>
 <wire x1="27.25" y1="11.25" x2="27.5" y2="11.5" width="0.1778" layer="1"/>
 </signal>
+<signal name="N$4">
+<wire x1="7.62" y1="14.5288" x2="8.2804" y2="14.5288" width="0.1778" layer="1"/>
+<wire x1="8.2804" y1="14.5288" x2="8.2804" y2="13.97" width="0.1778" layer="1"/>
+</signal>
+<signal name="N$5">
+<wire x1="5.5372" y1="11.4808" x2="5.2324" y2="11.4808" width="0.1778" layer="1"/>
+<wire x1="5.2324" y1="11.4808" x2="5.2324" y2="12.065" width="0.1778" layer="1"/>
+</signal>
 </signals>
 <mfgpreviewcolors>
 <mfgpreviewcolor name="soldermaskcolor" color="0xC8FF0000"/>
@@ -5428,8 +5434,10 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <mfgpreviewcolor name="substratecolor" color="0xFFFFAA00"/>
 </mfgpreviewcolors>
 <errors>
-<approved hash="4,1,2b381cc6d724d4ca"/>
-<approved hash="4,1,1b70ec8183694088"/>
+<approved hash="23,1,b874e404ea04b674"/>
+<approved hash="23,1,f7d453a45267f617"/>
+<approved hash="23,1,9a2c395c38889bf8"/>
+<approved hash="23,1,ada3edd3e207a277"/>
 </errors>
 </board>
 </drawing>
