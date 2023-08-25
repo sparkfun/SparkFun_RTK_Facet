@@ -1,6 +1,8 @@
 panel size, 134x188mm
 PCB thickness, 1.6mm
 number of layers, 4
+controlled impedance, JLC7628
+material, TG155
 soldermask color, Red
 silkscreen color, White
 oz copper, 1oz
