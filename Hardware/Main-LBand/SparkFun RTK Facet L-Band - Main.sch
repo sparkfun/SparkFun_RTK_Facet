@@ -29106,7 +29106,7 @@ For ESP32</text>
 <text x="276.86" y="104.14" size="1.778" layer="97" align="center-left">Facet: 10/10</text>
 <text x="276.86" y="101.6" size="1.778" layer="97" align="center-left">Facet LBand: 10/20</text>
 <text x="220.98" y="185.42" size="1.778" layer="97" align="center">7-bit unshifted I²C address: 0x36</text>
-<text x="276.86" y="99.06" size="1.778" layer="97" align="center-left">Facet LBand Direct: 10/100</text>
+<text x="276.86" y="99.06" size="1.778" layer="97" align="center-left">Facet LBand Direct: 4.7/1</text>
 <text x="276.86" y="96.52" size="1.778" layer="97" align="center-left">Reference Station: 20/10</text>
 </plain>
 <instances>
