@@ -1903,7 +1903,7 @@
 					(hide yes)
 				)
 			)
-			(property "PROD_ID" "CONN-08971"
+			(property "PROD_ID" "CONN-16692"
 				(at -1.27 -15.24 0)
 				(effects
 					(font
@@ -2807,7 +2807,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2110151630_XKB-Connectivity-XKTF-015-N_C381082.pdf"
+			(property "Datasheet" "https://cdn.sparkfun.com/assets/a/d/6/0/8/microSD_Datasheet_msd-1-a.pdf"
 				(at 0 -17.78 0)
 				(effects
 					(font
@@ -3059,7 +3059,7 @@
 					(justify bottom)
 				)
 			)
-			(property "Value" "SSD1306"
+			(property "Value" "OLED_0.66\""
 				(at 12.7 -30.48 0)
 				(effects
 					(font
@@ -3068,7 +3068,7 @@
 					(justify top)
 				)
 			)
-			(property "Footprint" "SparkFun RTK Facet - Display SD:OLED-0.66-64X48-TRIM"
+			(property "Footprint" "SparkFun-Display:OLED_0.66-SMD"
 				(at 0 -34.29 0)
 				(effects
 					(font
@@ -3086,7 +3086,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "OLED display 0.66\" view area"
+			(property "Description" "OLED display 0.66\" view area 64x48 pixels"
 				(at 1.27 -36.83 0)
 				(effects
 					(font
@@ -3123,14 +3123,6 @@
 					)
 					(fill
 						(type background)
-					)
-				)
-				(text "OLED\n0.66\""
-					(at 0 0 0)
-					(effects
-						(font
-							(size 2.54 2.54)
-						)
 					)
 				)
 				(pin bidirectional line
@@ -3843,7 +3835,7 @@
 					)
 				)
 			)
-			(property "Footprint" "SparkFun-LED:LED_1206-Bottom"
+			(property "Footprint" "SparkFun-LED:LED_1206_Bottom_Green"
 				(at 0 -5.08 0)
 				(effects
 					(font
@@ -8420,7 +8412,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SparkFun-LED:LED_1206-Bottom"
+		(property "Footprint" "SparkFun-LED:LED_1206_Bottom_Green"
 			(at 100.33 153.67 0)
 			(effects
 				(font
@@ -9021,7 +9013,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2110151630_XKB-Connectivity-XKTF-015-N_C381082.pdf"
+		(property "Datasheet" "https://cdn.sparkfun.com/assets/a/d/6/0/8/microSD_Datasheet_msd-1-a.pdf"
 			(at 220.98 85.09 0)
 			(effects
 				(font
@@ -9105,7 +9097,7 @@
 				)
 			)
 		)
-		(property "Value" "SSD1306"
+		(property "Value" "OLED_0.66\""
 			(at 125.73 34.29 0)
 			(effects
 				(font
@@ -9113,7 +9105,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SparkFun RTK Facet - Display SD:OLED-0.66-64X48-TRIM"
+		(property "Footprint" "SparkFun-Display:OLED_0.66-SMD"
 			(at 125.73 95.25 0)
 			(effects
 				(font
@@ -9131,7 +9123,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "OLED display 0.66\" view area"
+		(property "Description" "OLED display 0.66\" view area 64x48 pixels"
 			(at 127 97.79 0)
 			(effects
 				(font
@@ -9672,15 +9664,6 @@
 		)
 		(property "PROD_ID" "SWCH-14139"
 			(at 163.83 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfg Part#" "8-004 SMD Button 8x3.6mm Height=2.5mm"
-			(at 168.91 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10318,7 +10301,7 @@
 				(hide yes)
 			)
 		)
-		(property "PROD_ID" "CONN-08971"
+		(property "PROD_ID" "CONN-16692"
 			(at 144.78 157.48 0)
 			(effects
 				(font

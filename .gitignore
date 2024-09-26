@@ -5,6 +5,7 @@ ehthumbs.db
 #KiCad Backup files
 *.kicad_prl
 fp-info-cache
+sym-lib-table
 ~*.lck
 *-bak
 *-backups
