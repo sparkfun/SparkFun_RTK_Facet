@@ -1,0 +1,11 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+D1,SOT23-6,1,DT1042-04SO,
+F1,0805,1,6V/0.5A/1A,
+F3,1210,1,6V/2.0A/4.0A,
+"J1, J3",FPC_0.5mm-12,2,Conn_01x12_FPC_0.5mm,
+"J11, J12",1x04,2,Conn_01x04,
+"J2, J9",JST_SMD_1.25mm-4_Locking,2,JST_Locking_4,
+J4,JST_SMD_1.0mm-4_RA,1,Qwiic,
+J5,USB-C_16,1,USB_C_Receptacle,
+JP0,Jumper_2_PTH_SMD_Combo-NC,1,Measure,
+"R16, R17",0603,2,5.1k,

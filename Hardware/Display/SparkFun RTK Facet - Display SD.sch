@@ -18311,13 +18311,13 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="-1.6" y1="-0.7" x2="-1.6" y2="0.7" width="0.0508" layer="39"/>
 <wire x1="-0.356" y1="0.432" x2="0.356" y2="0.432" width="0.1016" layer="51"/>
 <wire x1="-0.356" y1="-0.419" x2="0.356" y2="-0.419" width="0.1016" layer="51"/>
+<rectangle x1="-0.8382" y1="-0.4699" x2="-0.3381" y2="0.4801" layer="51"/>
+<rectangle x1="0.3302" y1="-0.4699" x2="0.8303" y2="0.4801" layer="51"/>
+<rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
 <smd name="1" x="-0.85" y="0" dx="1.1" dy="1" layer="1"/>
 <smd name="2" x="0.85" y="0" dx="1.1" dy="1" layer="1"/>
 <text x="0" y="0.762" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-0.762" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
-<rectangle x1="-0.8382" y1="-0.4699" x2="-0.3381" y2="0.4801" layer="51"/>
-<rectangle x1="0.3302" y1="-0.4699" x2="0.8303" y2="0.4801" layer="51"/>
-<rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
 </package>
 <package name="CAP-PTH-SMALL-KIT">
 <description>&lt;h3&gt;CAP-PTH-SMALL-KIT&lt;/h3&gt;
@@ -20936,6 +20936,14 @@ Puhs-Push type.
 <wire x1="6.35" y1="2.032" x2="5.969" y2="2.413" width="0.0762" layer="51"/>
 <wire x1="-7.8" y1="-2.311" x2="7.8" y2="-2.311" width="0.1524" layer="21"/>
 </package>
+<package name="1X06_SOLDER_PADS">
+<smd name="2" x="0" y="2.667" dx="3" dy="0.9" layer="1" cream="no"/>
+<smd name="1" x="0" y="4.445" dx="3" dy="0.9" layer="1" cream="no"/>
+<smd name="3" x="0" y="0.889" dx="3" dy="0.9" layer="1" cream="no"/>
+<smd name="4" x="0" y="-0.889" dx="3" dy="0.9" layer="1" cream="no"/>
+<smd name="5" x="0" y="-2.667" dx="3" dy="0.9" layer="1" cream="no"/>
+<smd name="6" x="0" y="-4.445" dx="3" dy="0.9" layer="1" cream="no"/>
+</package>
 </packages>
 <symbols>
 <symbol name="MICROSD-SDIO">
@@ -21100,17 +21108,17 @@ Puhs-Push type.
 &lt;p&gt;&lt;/p&gt;
 &lt;/ul&gt;</description>
 <gates>
-<gate name="JP1" symbol="CONN_06" x="-2.54" y="0"/>
+<gate name="J1" symbol="CONN_06" x="-2.54" y="0"/>
 </gates>
 <devices>
 <device name="SILK_FEMALE_PTH" package="1X06">
 <connects>
-<connect gate="JP1" pin="1" pad="1"/>
-<connect gate="JP1" pin="2" pad="2"/>
-<connect gate="JP1" pin="3" pad="3"/>
-<connect gate="JP1" pin="4" pad="4"/>
-<connect gate="JP1" pin="5" pad="5"/>
-<connect gate="JP1" pin="6" pad="6"/>
+<connect gate="J1" pin="1" pad="1"/>
+<connect gate="J1" pin="2" pad="2"/>
+<connect gate="J1" pin="3" pad="3"/>
+<connect gate="J1" pin="4" pad="4"/>
+<connect gate="J1" pin="5" pad="5"/>
+<connect gate="J1" pin="6" pad="6"/>
 </connects>
 <technologies>
 <technology name="">
@@ -21120,12 +21128,12 @@ Puhs-Push type.
 </device>
 <device name="POLAR" package="MOLEX-1X6">
 <connects>
-<connect gate="JP1" pin="1" pad="1"/>
-<connect gate="JP1" pin="2" pad="2"/>
-<connect gate="JP1" pin="3" pad="3"/>
-<connect gate="JP1" pin="4" pad="4"/>
-<connect gate="JP1" pin="5" pad="5"/>
-<connect gate="JP1" pin="6" pad="6"/>
+<connect gate="J1" pin="1" pad="1"/>
+<connect gate="J1" pin="2" pad="2"/>
+<connect gate="J1" pin="3" pad="3"/>
+<connect gate="J1" pin="4" pad="4"/>
+<connect gate="J1" pin="5" pad="5"/>
+<connect gate="J1" pin="6" pad="6"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -21133,12 +21141,12 @@ Puhs-Push type.
 </device>
 <device name="RA" package="MOLEX-1X6-RA">
 <connects>
-<connect gate="JP1" pin="1" pad="1"/>
-<connect gate="JP1" pin="2" pad="2"/>
-<connect gate="JP1" pin="3" pad="3"/>
-<connect gate="JP1" pin="4" pad="4"/>
-<connect gate="JP1" pin="5" pad="5"/>
-<connect gate="JP1" pin="6" pad="6"/>
+<connect gate="J1" pin="1" pad="1"/>
+<connect gate="J1" pin="2" pad="2"/>
+<connect gate="J1" pin="3" pad="3"/>
+<connect gate="J1" pin="4" pad="4"/>
+<connect gate="J1" pin="5" pad="5"/>
+<connect gate="J1" pin="6" pad="6"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -21146,12 +21154,12 @@ Puhs-Push type.
 </device>
 <device name="SMD" package="1X06-SMD_RA_MALE">
 <connects>
-<connect gate="JP1" pin="1" pad="1"/>
-<connect gate="JP1" pin="2" pad="2"/>
-<connect gate="JP1" pin="3" pad="3"/>
-<connect gate="JP1" pin="4" pad="4"/>
-<connect gate="JP1" pin="5" pad="5"/>
-<connect gate="JP1" pin="6" pad="6"/>
+<connect gate="J1" pin="1" pad="1"/>
+<connect gate="J1" pin="2" pad="2"/>
+<connect gate="J1" pin="3" pad="3"/>
+<connect gate="J1" pin="4" pad="4"/>
+<connect gate="J1" pin="5" pad="5"/>
+<connect gate="J1" pin="6" pad="6"/>
 </connects>
 <technologies>
 <technology name="">
@@ -21162,12 +21170,12 @@ Puhs-Push type.
 </device>
 <device name="LOCK" package="1X06_LOCK">
 <connects>
-<connect gate="JP1" pin="1" pad="1"/>
-<connect gate="JP1" pin="2" pad="2"/>
-<connect gate="JP1" pin="3" pad="3"/>
-<connect gate="JP1" pin="4" pad="4"/>
-<connect gate="JP1" pin="5" pad="5"/>
-<connect gate="JP1" pin="6" pad="6"/>
+<connect gate="J1" pin="1" pad="1"/>
+<connect gate="J1" pin="2" pad="2"/>
+<connect gate="J1" pin="3" pad="3"/>
+<connect gate="J1" pin="4" pad="4"/>
+<connect gate="J1" pin="5" pad="5"/>
+<connect gate="J1" pin="6" pad="6"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -21175,12 +21183,12 @@ Puhs-Push type.
 </device>
 <device name="LOCK_LONGPADS" package="1X06_LOCK_LONGPADS">
 <connects>
-<connect gate="JP1" pin="1" pad="1"/>
-<connect gate="JP1" pin="2" pad="2"/>
-<connect gate="JP1" pin="3" pad="3"/>
-<connect gate="JP1" pin="4" pad="4"/>
-<connect gate="JP1" pin="5" pad="5"/>
-<connect gate="JP1" pin="6" pad="6"/>
+<connect gate="J1" pin="1" pad="1"/>
+<connect gate="J1" pin="2" pad="2"/>
+<connect gate="J1" pin="3" pad="3"/>
+<connect gate="J1" pin="4" pad="4"/>
+<connect gate="J1" pin="5" pad="5"/>
+<connect gate="J1" pin="6" pad="6"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -21188,12 +21196,12 @@ Puhs-Push type.
 </device>
 <device name="POLAR_LOCK" package="MOLEX-1X6_LOCK">
 <connects>
-<connect gate="JP1" pin="1" pad="1"/>
-<connect gate="JP1" pin="2" pad="2"/>
-<connect gate="JP1" pin="3" pad="3"/>
-<connect gate="JP1" pin="4" pad="4"/>
-<connect gate="JP1" pin="5" pad="5"/>
-<connect gate="JP1" pin="6" pad="6"/>
+<connect gate="J1" pin="1" pad="1"/>
+<connect gate="J1" pin="2" pad="2"/>
+<connect gate="J1" pin="3" pad="3"/>
+<connect gate="J1" pin="4" pad="4"/>
+<connect gate="J1" pin="5" pad="5"/>
+<connect gate="J1" pin="6" pad="6"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -21201,12 +21209,12 @@ Puhs-Push type.
 </device>
 <device name="RA_LOCK" package="MOLEX_1X6_RA_LOCK">
 <connects>
-<connect gate="JP1" pin="1" pad="1"/>
-<connect gate="JP1" pin="2" pad="2"/>
-<connect gate="JP1" pin="3" pad="3"/>
-<connect gate="JP1" pin="4" pad="4"/>
-<connect gate="JP1" pin="5" pad="5"/>
-<connect gate="JP1" pin="6" pad="6"/>
+<connect gate="J1" pin="1" pad="1"/>
+<connect gate="J1" pin="2" pad="2"/>
+<connect gate="J1" pin="3" pad="3"/>
+<connect gate="J1" pin="4" pad="4"/>
+<connect gate="J1" pin="5" pad="5"/>
+<connect gate="J1" pin="6" pad="6"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -21214,12 +21222,12 @@ Puhs-Push type.
 </device>
 <device name="FEMALE_LOCK" package="1X06_FEMALE_LOCK.010">
 <connects>
-<connect gate="JP1" pin="1" pad="1"/>
-<connect gate="JP1" pin="2" pad="2"/>
-<connect gate="JP1" pin="3" pad="3"/>
-<connect gate="JP1" pin="4" pad="4"/>
-<connect gate="JP1" pin="5" pad="5"/>
-<connect gate="JP1" pin="6" pad="6"/>
+<connect gate="J1" pin="1" pad="1"/>
+<connect gate="J1" pin="2" pad="2"/>
+<connect gate="J1" pin="3" pad="3"/>
+<connect gate="J1" pin="4" pad="4"/>
+<connect gate="J1" pin="5" pad="5"/>
+<connect gate="J1" pin="6" pad="6"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -21227,12 +21235,12 @@ Puhs-Push type.
 </device>
 <device name="LONGPADS" package="1X06_LONGPADS">
 <connects>
-<connect gate="JP1" pin="1" pad="1"/>
-<connect gate="JP1" pin="2" pad="2"/>
-<connect gate="JP1" pin="3" pad="3"/>
-<connect gate="JP1" pin="4" pad="4"/>
-<connect gate="JP1" pin="5" pad="5"/>
-<connect gate="JP1" pin="6" pad="6"/>
+<connect gate="J1" pin="1" pad="1"/>
+<connect gate="J1" pin="2" pad="2"/>
+<connect gate="J1" pin="3" pad="3"/>
+<connect gate="J1" pin="4" pad="4"/>
+<connect gate="J1" pin="5" pad="5"/>
+<connect gate="J1" pin="6" pad="6"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -21240,12 +21248,12 @@ Puhs-Push type.
 </device>
 <device name="3.5MM-6" package="SCREWTERMINAL-3.5MM-6">
 <connects>
-<connect gate="JP1" pin="1" pad="1"/>
-<connect gate="JP1" pin="2" pad="2"/>
-<connect gate="JP1" pin="3" pad="3"/>
-<connect gate="JP1" pin="4" pad="4"/>
-<connect gate="JP1" pin="5" pad="5"/>
-<connect gate="JP1" pin="6" pad="6"/>
+<connect gate="J1" pin="1" pad="1"/>
+<connect gate="J1" pin="2" pad="2"/>
+<connect gate="J1" pin="3" pad="3"/>
+<connect gate="J1" pin="4" pad="4"/>
+<connect gate="J1" pin="5" pad="5"/>
+<connect gate="J1" pin="6" pad="6"/>
 </connects>
 <technologies>
 <technology name="">
@@ -21255,12 +21263,12 @@ Puhs-Push type.
 </device>
 <device name="SMD-FEMALE-V2" package="1X06-SMD-FEMALE">
 <connects>
-<connect gate="JP1" pin="1" pad="1"/>
-<connect gate="JP1" pin="2" pad="2"/>
-<connect gate="JP1" pin="3" pad="3"/>
-<connect gate="JP1" pin="4" pad="4"/>
-<connect gate="JP1" pin="5" pad="5"/>
-<connect gate="JP1" pin="6" pad="6"/>
+<connect gate="J1" pin="1" pad="1"/>
+<connect gate="J1" pin="2" pad="2"/>
+<connect gate="J1" pin="3" pad="3"/>
+<connect gate="J1" pin="4" pad="4"/>
+<connect gate="J1" pin="5" pad="5"/>
+<connect gate="J1" pin="6" pad="6"/>
 </connects>
 <technologies>
 <technology name="">
@@ -21270,12 +21278,12 @@ Puhs-Push type.
 </device>
 <device name="POGOPIN_HOLES_ONLY" package="1X06_HOLES_ONLY">
 <connects>
-<connect gate="JP1" pin="1" pad="1"/>
-<connect gate="JP1" pin="2" pad="2"/>
-<connect gate="JP1" pin="3" pad="3"/>
-<connect gate="JP1" pin="4" pad="4"/>
-<connect gate="JP1" pin="5" pad="5"/>
-<connect gate="JP1" pin="6" pad="6"/>
+<connect gate="J1" pin="1" pad="1"/>
+<connect gate="J1" pin="2" pad="2"/>
+<connect gate="J1" pin="3" pad="3"/>
+<connect gate="J1" pin="4" pad="4"/>
+<connect gate="J1" pin="5" pad="5"/>
+<connect gate="J1" pin="6" pad="6"/>
 </connects>
 <technologies>
 <technology name="">
@@ -21285,12 +21293,12 @@ Puhs-Push type.
 </device>
 <device name="SMD-STRAIGHT-FEMALE" package="1X06_SMD_STRAIGHT">
 <connects>
-<connect gate="JP1" pin="1" pad="1"/>
-<connect gate="JP1" pin="2" pad="2"/>
-<connect gate="JP1" pin="3" pad="3"/>
-<connect gate="JP1" pin="4" pad="4"/>
-<connect gate="JP1" pin="5" pad="5"/>
-<connect gate="JP1" pin="6" pad="6"/>
+<connect gate="J1" pin="1" pad="1"/>
+<connect gate="J1" pin="2" pad="2"/>
+<connect gate="J1" pin="3" pad="3"/>
+<connect gate="J1" pin="4" pad="4"/>
+<connect gate="J1" pin="5" pad="5"/>
+<connect gate="J1" pin="6" pad="6"/>
 </connects>
 <technologies>
 <technology name="">
@@ -21300,12 +21308,12 @@ Puhs-Push type.
 </device>
 <device name="SMD-STRAIGHT-ALT-FEMALE" package="1X06_SMD_STRAIGHT_ALT">
 <connects>
-<connect gate="JP1" pin="1" pad="1"/>
-<connect gate="JP1" pin="2" pad="2"/>
-<connect gate="JP1" pin="3" pad="3"/>
-<connect gate="JP1" pin="4" pad="4"/>
-<connect gate="JP1" pin="5" pad="5"/>
-<connect gate="JP1" pin="6" pad="6"/>
+<connect gate="J1" pin="1" pad="1"/>
+<connect gate="J1" pin="2" pad="2"/>
+<connect gate="J1" pin="3" pad="3"/>
+<connect gate="J1" pin="4" pad="4"/>
+<connect gate="J1" pin="5" pad="5"/>
+<connect gate="J1" pin="6" pad="6"/>
 </connects>
 <technologies>
 <technology name="">
@@ -21315,12 +21323,12 @@ Puhs-Push type.
 </device>
 <device name="SMD-STRAIGHT-COMBO-FEMALE" package="1X06_SMD_STRAIGHT_COMBO">
 <connects>
-<connect gate="JP1" pin="1" pad="1"/>
-<connect gate="JP1" pin="2" pad="2"/>
-<connect gate="JP1" pin="3" pad="3"/>
-<connect gate="JP1" pin="4" pad="4"/>
-<connect gate="JP1" pin="5" pad="5"/>
-<connect gate="JP1" pin="6" pad="6"/>
+<connect gate="J1" pin="1" pad="1"/>
+<connect gate="J1" pin="2" pad="2"/>
+<connect gate="J1" pin="3" pad="3"/>
+<connect gate="J1" pin="4" pad="4"/>
+<connect gate="J1" pin="5" pad="5"/>
+<connect gate="J1" pin="6" pad="6"/>
 </connects>
 <technologies>
 <technology name="">
@@ -21330,12 +21338,12 @@ Puhs-Push type.
 </device>
 <device name="SMD_MALE" package="1X06_SMD_MALE">
 <connects>
-<connect gate="JP1" pin="1" pad="1"/>
-<connect gate="JP1" pin="2" pad="2"/>
-<connect gate="JP1" pin="3" pad="3"/>
-<connect gate="JP1" pin="4" pad="4"/>
-<connect gate="JP1" pin="5" pad="5"/>
-<connect gate="JP1" pin="6" pad="6"/>
+<connect gate="J1" pin="1" pad="1"/>
+<connect gate="J1" pin="2" pad="2"/>
+<connect gate="J1" pin="3" pad="3"/>
+<connect gate="J1" pin="4" pad="4"/>
+<connect gate="J1" pin="5" pad="5"/>
+<connect gate="J1" pin="6" pad="6"/>
 </connects>
 <technologies>
 <technology name="">
@@ -21345,12 +21353,12 @@ Puhs-Push type.
 </device>
 <device name="SMD-1MM" package="1X06-1MM">
 <connects>
-<connect gate="JP1" pin="1" pad="1"/>
-<connect gate="JP1" pin="2" pad="2"/>
-<connect gate="JP1" pin="3" pad="3"/>
-<connect gate="JP1" pin="4" pad="4"/>
-<connect gate="JP1" pin="5" pad="5"/>
-<connect gate="JP1" pin="6" pad="6"/>
+<connect gate="J1" pin="1" pad="1"/>
+<connect gate="J1" pin="2" pad="2"/>
+<connect gate="J1" pin="3" pad="3"/>
+<connect gate="J1" pin="4" pad="4"/>
+<connect gate="J1" pin="5" pad="5"/>
+<connect gate="J1" pin="6" pad="6"/>
 </connects>
 <technologies>
 <technology name="">
@@ -21361,12 +21369,12 @@ Puhs-Push type.
 </device>
 <device name="NO_SILK_FEMALE_PTH" package="1X06_NO_SILK">
 <connects>
-<connect gate="JP1" pin="1" pad="1"/>
-<connect gate="JP1" pin="2" pad="2"/>
-<connect gate="JP1" pin="3" pad="3"/>
-<connect gate="JP1" pin="4" pad="4"/>
-<connect gate="JP1" pin="5" pad="5"/>
-<connect gate="JP1" pin="6" pad="6"/>
+<connect gate="J1" pin="1" pad="1"/>
+<connect gate="J1" pin="2" pad="2"/>
+<connect gate="J1" pin="3" pad="3"/>
+<connect gate="J1" pin="4" pad="4"/>
+<connect gate="J1" pin="5" pad="5"/>
+<connect gate="J1" pin="6" pad="6"/>
 </connects>
 <technologies>
 <technology name="">
@@ -21376,12 +21384,12 @@ Puhs-Push type.
 </device>
 <device name="1.27MM" package="1X06_1.27MM">
 <connects>
-<connect gate="JP1" pin="1" pad="1"/>
-<connect gate="JP1" pin="2" pad="2"/>
-<connect gate="JP1" pin="3" pad="3"/>
-<connect gate="JP1" pin="4" pad="4"/>
-<connect gate="JP1" pin="5" pad="5"/>
-<connect gate="JP1" pin="6" pad="6"/>
+<connect gate="J1" pin="1" pad="1"/>
+<connect gate="J1" pin="2" pad="2"/>
+<connect gate="J1" pin="3" pad="3"/>
+<connect gate="J1" pin="4" pad="4"/>
+<connect gate="J1" pin="5" pad="5"/>
+<connect gate="J1" pin="6" pad="6"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -21389,12 +21397,12 @@ Puhs-Push type.
 </device>
 <device name="NO_SILK_NO_POP" package="1X06_NO_SILK">
 <connects>
-<connect gate="JP1" pin="1" pad="1"/>
-<connect gate="JP1" pin="2" pad="2"/>
-<connect gate="JP1" pin="3" pad="3"/>
-<connect gate="JP1" pin="4" pad="4"/>
-<connect gate="JP1" pin="5" pad="5"/>
-<connect gate="JP1" pin="6" pad="6"/>
+<connect gate="J1" pin="1" pad="1"/>
+<connect gate="J1" pin="2" pad="2"/>
+<connect gate="J1" pin="3" pad="3"/>
+<connect gate="J1" pin="4" pad="4"/>
+<connect gate="J1" pin="5" pad="5"/>
+<connect gate="J1" pin="6" pad="6"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -21402,12 +21410,12 @@ Puhs-Push type.
 </device>
 <device name="2.5MM-6-90" package="1X06_SCREW_TERMINAL_BLOCK">
 <connects>
-<connect gate="JP1" pin="1" pad="1"/>
-<connect gate="JP1" pin="2" pad="2"/>
-<connect gate="JP1" pin="3" pad="3"/>
-<connect gate="JP1" pin="4" pad="4"/>
-<connect gate="JP1" pin="5" pad="5"/>
-<connect gate="JP1" pin="6" pad="6"/>
+<connect gate="J1" pin="1" pad="1"/>
+<connect gate="J1" pin="2" pad="2"/>
+<connect gate="J1" pin="3" pad="3"/>
+<connect gate="J1" pin="4" pad="4"/>
+<connect gate="J1" pin="5" pad="5"/>
+<connect gate="J1" pin="6" pad="6"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -21415,12 +21423,12 @@ Puhs-Push type.
 </device>
 <device name="JST-SMD-LOCKING" package="JST-6-SMD-1.25MM-LOCKING">
 <connects>
-<connect gate="JP1" pin="1" pad="1"/>
-<connect gate="JP1" pin="2" pad="2"/>
-<connect gate="JP1" pin="3" pad="3"/>
-<connect gate="JP1" pin="4" pad="4"/>
-<connect gate="JP1" pin="5" pad="5"/>
-<connect gate="JP1" pin="6" pad="6"/>
+<connect gate="J1" pin="1" pad="1"/>
+<connect gate="J1" pin="2" pad="2"/>
+<connect gate="J1" pin="3" pad="3"/>
+<connect gate="J1" pin="4" pad="4"/>
+<connect gate="J1" pin="5" pad="5"/>
+<connect gate="J1" pin="6" pad="6"/>
 </connects>
 <technologies>
 <technology name="">
@@ -21430,12 +21438,12 @@ Puhs-Push type.
 </device>
 <device name="1MM-LIF" package="FPC_6_1MM-LIF">
 <connects>
-<connect gate="JP1" pin="1" pad="1"/>
-<connect gate="JP1" pin="2" pad="2"/>
-<connect gate="JP1" pin="3" pad="3"/>
-<connect gate="JP1" pin="4" pad="4"/>
-<connect gate="JP1" pin="5" pad="5"/>
-<connect gate="JP1" pin="6" pad="6"/>
+<connect gate="J1" pin="1" pad="1"/>
+<connect gate="J1" pin="2" pad="2"/>
+<connect gate="J1" pin="3" pad="3"/>
+<connect gate="J1" pin="4" pad="4"/>
+<connect gate="J1" pin="5" pad="5"/>
+<connect gate="J1" pin="6" pad="6"/>
 </connects>
 <technologies>
 <technology name="">
@@ -21445,17 +21453,30 @@ Puhs-Push type.
 </device>
 <device name="2.54MM_SCREW_TERMINALS" package="1X06_2.54MM_SCREWPIN">
 <connects>
-<connect gate="JP1" pin="1" pad="1"/>
-<connect gate="JP1" pin="2" pad="2"/>
-<connect gate="JP1" pin="3" pad="3"/>
-<connect gate="JP1" pin="4" pad="4"/>
-<connect gate="JP1" pin="5" pad="5"/>
-<connect gate="JP1" pin="6" pad="6"/>
+<connect gate="J1" pin="1" pad="1"/>
+<connect gate="J1" pin="2" pad="2"/>
+<connect gate="J1" pin="3" pad="3"/>
+<connect gate="J1" pin="4" pad="4"/>
+<connect gate="J1" pin="5" pad="5"/>
+<connect gate="J1" pin="6" pad="6"/>
 </connects>
 <technologies>
 <technology name="">
 <attribute name="PROD_ID" value="CONN-14885" constant="no"/>
 </technology>
+</technologies>
+</device>
+<device name="PAD" package="1X06_SOLDER_PADS">
+<connects>
+<connect gate="J1" pin="1" pad="1"/>
+<connect gate="J1" pin="2" pad="2"/>
+<connect gate="J1" pin="3" pad="3"/>
+<connect gate="J1" pin="4" pad="4"/>
+<connect gate="J1" pin="5" pad="5"/>
+<connect gate="J1" pin="6" pad="6"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -21541,6 +21562,115 @@ We've spent an enormous amount of time creating and checking these footprints an
 &lt;br&gt;
 You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
 <packages>
+<package name="OLED-0.66-64X48-TRIM">
+<description>&lt;h3&gt;OLDE display, 0.66 inch&lt;/h3&gt;
+&lt;p&gt;For MicroView.&lt;/p&gt;
+
+&lt;p&gt;Specifications:
+&lt;ul&gt;&lt;li&gt;Pin count: 28&lt;/li&gt;
+&lt;li&gt;Pin pitch: &lt;/li&gt;
+&lt;li&gt;Area: &lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Datasheet referenced for footprint:&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;Example device(s): 
+&lt;ul&gt;&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/13003"&gt;Microview breakout&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<wire x1="9.225" y1="0.7" x2="-9.275" y2="0.7" width="0.127" layer="49"/>
+<wire x1="-9.275" y1="0.7" x2="-9.275" y2="-4.8" width="0.127" layer="49"/>
+<wire x1="-9.275" y1="-4.8" x2="-5.65" y2="-4.8" width="0.127" layer="49"/>
+<wire x1="-5.65" y1="-4.8" x2="-5.65" y2="-9.1" width="0.127" layer="49"/>
+<wire x1="-5.65" y1="-9.1" x2="-9.23" y2="-9.1" width="0.127" layer="49"/>
+<wire x1="-9.23" y1="-9.1" x2="-9.23" y2="-27.2" width="0.127" layer="49"/>
+<wire x1="-9.23" y1="-27.2" x2="9.23" y2="-27.2" width="0.127" layer="49"/>
+<wire x1="9.23" y1="-27.2" x2="9.23" y2="-9.1" width="0.127" layer="49"/>
+<wire x1="9.23" y1="-9.1" x2="5.65" y2="-9.1" width="0.127" layer="49"/>
+<wire x1="5.65" y1="-9.1" x2="5.65" y2="-4.8" width="0.127" layer="49"/>
+<wire x1="5.65" y1="-4.8" x2="9.225" y2="-4.8" width="0.127" layer="49"/>
+<wire x1="9.225" y1="-4.8" x2="9.225" y2="0.7" width="0.127" layer="49"/>
+<smd name="1" x="-8.775" y="0.6" dx="0.35" dy="0.5" layer="1"/>
+<rectangle x1="8.615" y1="-0.8" x2="8.935" y2="0.7" layer="51" rot="R180"/>
+<rectangle x1="7.965" y1="-0.8" x2="8.285" y2="0.7" layer="51" rot="R180"/>
+<rectangle x1="7.315" y1="-0.8" x2="7.635" y2="0.7" layer="51" rot="R180"/>
+<rectangle x1="6.665" y1="-0.8" x2="6.985" y2="0.7" layer="51" rot="R180"/>
+<rectangle x1="6.015" y1="-0.8" x2="6.335" y2="0.7" layer="51" rot="R180"/>
+<rectangle x1="5.365" y1="-0.8" x2="5.685" y2="0.7" layer="51" rot="R180"/>
+<rectangle x1="4.715" y1="-0.8" x2="5.035" y2="0.7" layer="51" rot="R180"/>
+<rectangle x1="4.065" y1="-0.8" x2="4.385" y2="0.7" layer="51" rot="R180"/>
+<rectangle x1="3.415" y1="-0.8" x2="3.735" y2="0.7" layer="51" rot="R180"/>
+<rectangle x1="2.765" y1="-0.8" x2="3.085" y2="0.7" layer="51" rot="R180"/>
+<rectangle x1="2.115" y1="-0.8" x2="2.435" y2="0.7" layer="51" rot="R180"/>
+<rectangle x1="1.465" y1="-0.8" x2="1.785" y2="0.7" layer="51" rot="R180"/>
+<rectangle x1="0.815" y1="-0.8" x2="1.135" y2="0.7" layer="51" rot="R180"/>
+<rectangle x1="0.165" y1="-0.8" x2="0.485" y2="0.7" layer="51" rot="R180"/>
+<rectangle x1="-0.485" y1="-0.8" x2="-0.165" y2="0.7" layer="51" rot="R180"/>
+<rectangle x1="-1.135" y1="-0.8" x2="-0.815" y2="0.7" layer="51" rot="R180"/>
+<rectangle x1="-1.785" y1="-0.8" x2="-1.465" y2="0.7" layer="51" rot="R180"/>
+<rectangle x1="-2.435" y1="-0.8" x2="-2.115" y2="0.7" layer="51" rot="R180"/>
+<rectangle x1="-3.085" y1="-0.8" x2="-2.765" y2="0.7" layer="51" rot="R180"/>
+<rectangle x1="-3.735" y1="-0.8" x2="-3.415" y2="0.7" layer="51" rot="R180"/>
+<rectangle x1="-4.385" y1="-0.8" x2="-4.065" y2="0.7" layer="51" rot="R180"/>
+<rectangle x1="-5.035" y1="-0.8" x2="-4.715" y2="0.7" layer="51" rot="R180"/>
+<rectangle x1="-5.685" y1="-0.8" x2="-5.365" y2="0.7" layer="51" rot="R180"/>
+<rectangle x1="-6.335" y1="-0.8" x2="-6.015" y2="0.7" layer="51" rot="R180"/>
+<rectangle x1="-6.985" y1="-0.8" x2="-6.665" y2="0.7" layer="51" rot="R180"/>
+<rectangle x1="-7.635" y1="-0.8" x2="-7.315" y2="0.7" layer="51" rot="R180"/>
+<rectangle x1="-8.285" y1="-0.8" x2="-7.965" y2="0.7" layer="51" rot="R180"/>
+<rectangle x1="-8.935" y1="-0.8" x2="-8.615" y2="0.7" layer="51" rot="R180"/>
+<smd name="2" x="-8.125" y="0.6" dx="0.35" dy="0.5" layer="1"/>
+<smd name="3" x="-7.475" y="0.6" dx="0.35" dy="0.5" layer="1"/>
+<smd name="4" x="-6.825" y="0.6" dx="0.35" dy="0.5" layer="1"/>
+<smd name="5" x="-6.175" y="0.6" dx="0.35" dy="0.5" layer="1"/>
+<smd name="6" x="-5.525" y="0.6" dx="0.35" dy="0.5" layer="1"/>
+<smd name="7" x="-4.875" y="0.6" dx="0.35" dy="0.5" layer="1"/>
+<smd name="8" x="-4.225" y="0.6" dx="0.35" dy="0.5" layer="1"/>
+<smd name="9" x="-3.575" y="0.6" dx="0.35" dy="0.5" layer="1"/>
+<smd name="10" x="-2.925" y="0.6" dx="0.35" dy="0.5" layer="1"/>
+<smd name="11" x="-2.275" y="0.6" dx="0.35" dy="0.5" layer="1"/>
+<smd name="12" x="-1.625" y="0.6" dx="0.35" dy="0.5" layer="1"/>
+<smd name="13" x="-0.975" y="0.6" dx="0.35" dy="0.5" layer="1"/>
+<smd name="14" x="-0.325" y="0.6" dx="0.35" dy="0.5" layer="1"/>
+<smd name="15" x="0.325" y="0.6" dx="0.35" dy="0.5" layer="1"/>
+<smd name="16" x="0.975" y="0.6" dx="0.35" dy="0.5" layer="1"/>
+<smd name="17" x="1.625" y="0.6" dx="0.35" dy="0.5" layer="1"/>
+<smd name="18" x="2.275" y="0.6" dx="0.35" dy="0.5" layer="1"/>
+<smd name="19" x="2.925" y="0.6" dx="0.35" dy="0.5" layer="1"/>
+<smd name="20" x="3.575" y="0.6" dx="0.35" dy="0.5" layer="1"/>
+<smd name="21" x="4.225" y="0.6" dx="0.35" dy="0.5" layer="1"/>
+<smd name="22" x="4.875" y="0.6" dx="0.35" dy="0.5" layer="1"/>
+<smd name="23" x="5.525" y="0.6" dx="0.35" dy="0.5" layer="1"/>
+<smd name="24" x="6.175" y="0.6" dx="0.35" dy="0.5" layer="1"/>
+<smd name="25" x="6.825" y="0.6" dx="0.35" dy="0.5" layer="1"/>
+<smd name="26" x="7.475" y="0.6" dx="0.35" dy="0.5" layer="1"/>
+<smd name="27" x="8.125" y="0.6" dx="0.35" dy="0.5" layer="1"/>
+<smd name="28" x="8.775" y="0.6" dx="0.35" dy="0.5" layer="1"/>
+<wire x1="6.755" y1="-25.1" x2="6.755" y2="-15.04" width="0.127" layer="52"/>
+<wire x1="6.755" y1="-15.04" x2="-6.665" y2="-15.04" width="0.127" layer="52"/>
+<wire x1="-6.665" y1="-15.04" x2="-6.665" y2="-25.1" width="0.127" layer="52"/>
+<wire x1="-6.665" y1="-25.1" x2="6.755" y2="-25.1" width="0.127" layer="52"/>
+<text x="0.045" y="-20.07" size="0.8128" layer="52" font="vector" rot="R180" align="center">Active Area 0.66"
+64 x 48 Pixels
+(Facing Bottom)</text>
+<hole x="8.375" y="-3.4" drill="0.8"/>
+<hole x="-8.375" y="-3.4" drill="0.8"/>
+<text x="-8.775" y="1.27" size="0.6096" layer="25" font="vector" ratio="20">&gt;Name</text>
+<text x="-8.775" y="-1.27" size="0.6096" layer="27" font="vector" ratio="20" align="top-left">&gt;Value</text>
+<wire x1="-9.275" y1="13.2" x2="9.225" y2="13.2" width="0.127" layer="51"/>
+<wire x1="9.225" y1="13.2" x2="9.23" y2="13.2" width="0.127" layer="51"/>
+<wire x1="5.65" y1="-4.8" x2="9.225" y2="-4.8" width="0.127" layer="51"/>
+<wire x1="9.225" y1="-4.8" x2="9.225" y2="13.2" width="0.127" layer="51"/>
+<wire x1="-9.275" y1="13.2" x2="-9.275" y2="-4.8" width="0.127" layer="51"/>
+<wire x1="-9.275" y1="-4.8" x2="-5.65" y2="-4.8" width="0.127" layer="51"/>
+<wire x1="-6.805" y1="11.1" x2="-6.805" y2="1.04" width="0.127" layer="51"/>
+<wire x1="-6.805" y1="1.04" x2="6.615" y2="1.04" width="0.127" layer="51"/>
+<wire x1="6.615" y1="1.04" x2="6.615" y2="11.1" width="0.127" layer="51"/>
+<wire x1="6.615" y1="11.1" x2="-6.805" y2="11.1" width="0.127" layer="51"/>
+<text x="-0.095" y="6.07" size="0.8128" layer="51" font="vector" align="center">Active Area 0.66"
+64 x 48 Pixels
+(Facing Up)</text>
+<wire x1="-5.65" y1="-7.1" x2="5.65" y2="-7.1" width="0.127" layer="51"/>
+<wire x1="-5.65" y1="-4.8" x2="-5.65" y2="-7.1" width="0.127" layer="51"/>
+<wire x1="5.65" y1="-7.1" x2="5.65" y2="-4.8" width="0.127" layer="51"/>
+</package>
 <package name="OLED-0.66-64X48">
 <description>&lt;h3&gt;OLDE display, 0.66 inch&lt;/h3&gt;
 &lt;p&gt;For MicroView.&lt;/p&gt;
@@ -21693,7 +21823,7 @@ Monochrome</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="OLED0.66" prefix="OLED">
+<deviceset name="OLED0.66-TRIM" prefix="OLED">
 <description>&lt;h3&gt;Micro OLED&lt;/h3&gt;
 &lt;p&gt;
 
@@ -21742,6 +21872,41 @@ Monochrome</description>
 <technology name="">
 <attribute name="PROD_ID" value="LCD-12019" constant="no"/>
 </technology>
+</technologies>
+</device>
+<device name="TRIM" package="OLED-0.66-64X48-TRIM">
+<connects>
+<connect gate="G1" pin="!CS!" pad="11"/>
+<connect gate="G1" pin="!RESET!" pad="12"/>
+<connect gate="G1" pin="BS1" pad="9"/>
+<connect gate="G1" pin="BS2" pad="10"/>
+<connect gate="G1" pin="C1N" pad="5"/>
+<connect gate="G1" pin="C1P" pad="4"/>
+<connect gate="G1" pin="C2N" pad="3"/>
+<connect gate="G1" pin="C2P" pad="2"/>
+<connect gate="G1" pin="D/!C!" pad="13"/>
+<connect gate="G1" pin="D0/SCK" pad="16"/>
+<connect gate="G1" pin="D1/MOSI" pad="17"/>
+<connect gate="G1" pin="D2" pad="18"/>
+<connect gate="G1" pin="D3" pad="19"/>
+<connect gate="G1" pin="D4" pad="20"/>
+<connect gate="G1" pin="D5" pad="21"/>
+<connect gate="G1" pin="D6" pad="22"/>
+<connect gate="G1" pin="D7" pad="23"/>
+<connect gate="G1" pin="E/!RD!" pad="15"/>
+<connect gate="G1" pin="GND@1" pad="1"/>
+<connect gate="G1" pin="GND@2" pad="28"/>
+<connect gate="G1" pin="IREF" pad="24"/>
+<connect gate="G1" pin="R/!W!" pad="14"/>
+<connect gate="G1" pin="VBAT" pad="6"/>
+<connect gate="G1" pin="VCC" pad="26"/>
+<connect gate="G1" pin="VCOMH" pad="25"/>
+<connect gate="G1" pin="VDD" pad="8"/>
+<connect gate="G1" pin="VLSS" pad="27"/>
+<connect gate="G1" pin="VSS" pad="7"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -21946,6 +22111,30 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="0.635" y1="0" x2="0.15875" y2="0.47625" width="0.2032" layer="51"/>
 <wire x1="0.635" y1="0" x2="0.15875" y2="-0.47625" width="0.2032" layer="51"/>
 </package>
+<package name="LED-0805">
+<description>&lt;B&gt;LED 0805 SMT&lt;/B&gt;&lt;p&gt;
+0805, surface mount.
+&lt;p&gt;Specifications:
+&lt;ul&gt;&lt;li&gt;Pin count: 2&lt;/li&gt;
+&lt;li&gt;Pin pitch:1.05mm &lt;/li&gt;
+&lt;li&gt;Area: 1.2mm x 1.2mm&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;Example device(s):
+&lt;ul&gt;&lt;li&gt;LED - RED&lt;/li&gt;</description>
+<smd name="A" x="-1.05" y="0" dx="1.2" dy="1.2" layer="1" roundness="30"/>
+<smd name="C" x="1.05" y="0" dx="1.2" dy="1.2" layer="1" roundness="30"/>
+<wire x1="2" y1="0.75" x2="2" y2="-0.75" width="0.1524" layer="21"/>
+<wire x1="-1.8" y1="0.75" x2="-1.8" y2="-0.75" width="0.05" layer="39"/>
+<wire x1="-1.8" y1="-0.75" x2="1.8" y2="-0.75" width="0.05" layer="39"/>
+<wire x1="1.8" y1="-0.75" x2="1.8" y2="0.75" width="0.05" layer="39"/>
+<wire x1="1.8" y1="0.75" x2="-1.8" y2="0.75" width="0.05" layer="39"/>
+<text x="0" y="1" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<wire x1="0.3" y1="0.4" x2="0.3" y2="0" width="0.1" layer="51"/>
+<wire x1="0.3" y1="0" x2="0.3" y2="-0.4" width="0.1" layer="51"/>
+<wire x1="0" y1="0.3" x2="0.3" y2="0" width="0.1" layer="51"/>
+<wire x1="0" y1="-0.3" x2="0.3" y2="0" width="0.1" layer="51"/>
+</package>
 </packages>
 <symbols>
 <symbol name="LED">
@@ -22004,7 +22193,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <technologies>
 <technology name="">
 <attribute name="PROD_ID" value="DIO-00821" constant="no"/>
-<attribute name="VALUE" value="GREEN" constant="no"/>
+<attribute name="VALUE" value="Green"/>
 </technology>
 </technologies>
 </device>
@@ -22016,7 +22205,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <technologies>
 <technology name="">
 <attribute name="PROD_ID" value="DIO-09910"/>
-<attribute name="VALUE" value="GREEN" constant="no"/>
+<attribute name="VALUE" value="Green"/>
 </technology>
 </technologies>
 </device>
@@ -22028,7 +22217,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <technologies>
 <technology name="">
 <attribute name="PROD_ID" value="DIO-00862" constant="no"/>
-<attribute name="VALUE" value="GREEN" constant="no"/>
+<attribute name="VALUE" value="Green"/>
 </technology>
 </technologies>
 </device>
@@ -22040,7 +22229,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <technologies>
 <technology name="">
 <attribute name="PROD_ID" value="DIO-11076" constant="no"/>
-<attribute name="VALUE" value="Green" constant="no"/>
+<attribute name="VALUE" value="Green"/>
 </technology>
 </technologies>
 </device>
@@ -22052,7 +22241,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <technologies>
 <technology name="">
 <attribute name="PROD_ID" value="DIO-00862" constant="no"/>
-<attribute name="VALUE" value="GREEN" constant="no"/>
+<attribute name="VALUE" value="Green"/>
 </technology>
 </technologies>
 </device>
@@ -22064,8 +22253,17 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <technologies>
 <technology name="">
 <attribute name="PROD_ID" value="DIO-16512" constant="no"/>
-<attribute name="VALUE" value="Green" constant="no"/>
+<attribute name="VALUE" value="Green"/>
 </technology>
+</technologies>
+</device>
+<device name="0805-PG" package="LED-0805">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -22841,9 +23039,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="3.75" y1="1.15" x2="3.75" y2="4.4" width="0.2032" layer="51"/>
 <wire x1="-2.6" y1="-2.35" x2="-1.9" y2="-2.35" width="0.2032" layer="51" curve="180"/>
 <wire x1="1.9" y1="-2.35" x2="2.6" y2="-2.35" width="0.2032" layer="51" curve="180"/>
-<wire x1="-1.7" y1="-2.35" x2="-1.7" y2="-9.35" width="0.2032" layer="51"/>
-<wire x1="-1.7" y1="-9.35" x2="1.7" y2="-9.35" width="0.2032" layer="51"/>
-<wire x1="1.7" y1="-9.35" x2="1.7" y2="-2.35" width="0.2032" layer="51"/>
+<wire x1="-1.7" y1="-2.35" x2="-1.5" y2="-6.25" width="0.2032" layer="51"/>
+<wire x1="-1.5" y1="-6.25" x2="1.5" y2="-6.25" width="0.2032" layer="51"/>
+<wire x1="1.5" y1="-6.25" x2="1.7" y2="-2.35" width="0.2032" layer="51"/>
 <text x="2" y="-4" size="0.254" layer="51" font="vector" rot="SR0">Button centre is
 4.05mm above PCB</text>
 <text x="0" y="6.985" size="1.27" layer="25" font="vector" rot="SR0" align="bottom-center">&gt;NAME</text>
@@ -22855,6 +23053,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 is 3.40mm</text>
 <wire x1="-3.75" y1="3.8" x2="-3.75" y2="4.4" width="0.2032" layer="21"/>
 <wire x1="3.75" y1="3.8" x2="3.75" y2="4.4" width="0.2032" layer="21"/>
+<wire x1="-1.5" y1="-5.95" x2="1.5" y2="-5.95" width="0.2032" layer="51" style="shortdash"/>
 </package>
 </packages>
 <symbols>
@@ -23084,7 +23283,7 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 </class>
 </classes>
 <parts>
-<part name="OLED1" library="SparkFun-Displays" deviceset="OLED0.66" device=""/>
+<part name="OLED1" library="SparkFun-Displays" deviceset="OLED0.66-TRIM" device="TRIM"/>
 <part name="FRAME1" library="SparkFun-Aesthetics" deviceset="FRAME-LETTER" device=""/>
 <part name="C1" library="SparkFun-Capacitors" deviceset="2.2UF" device="-0805-25V-(+80/-20%)" value="2.2uF"/>
 <part name="C2" library="SparkFun-Capacitors" deviceset="1.0UF" device="-0805-25V-10%" value="1.0uF"/>
@@ -23374,7 +23573,7 @@ Indicator</text>
 <attribute name="NAME" x="193.04" y="168.148" size="1.778" layer="95"/>
 <attribute name="VALUE" x="193.04" y="139.7" size="1.778" layer="96"/>
 </instance>
-<instance part="JP1" gate="JP1" x="109.22" y="63.5" smashed="yes" rot="MR180">
+<instance part="JP1" gate="J1" x="109.22" y="63.5" smashed="yes" rot="MR180">
 <attribute name="VALUE" x="104.14" y="73.406" size="1.778" layer="96" font="vector" rot="MR180"/>
 <attribute name="NAME" x="104.14" y="52.832" size="1.778" layer="95" font="vector" rot="MR180"/>
 </instance>
@@ -23503,7 +23702,7 @@ Indicator</text>
 <wire x1="124.46" y1="43.18" x2="124.46" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="JP1" gate="JP1" pin="6"/>
+<pinref part="JP1" gate="J1" pin="6"/>
 <wire x1="114.3" y1="55.88" x2="116.84" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="55.88" x2="116.84" y2="53.34" width="0.1524" layer="91"/>
 <pinref part="GND7" gate="1" pin="GND"/>
@@ -23828,7 +24027,7 @@ Indicator</text>
 <label x="76.2" y="48.26" size="1.27" layer="95" rot="R270" xref="yes"/>
 </segment>
 <segment>
-<pinref part="JP1" gate="JP1" pin="2"/>
+<pinref part="JP1" gate="J1" pin="2"/>
 <wire x1="114.3" y1="66.04" x2="116.84" y2="66.04" width="0.1524" layer="91"/>
 <label x="116.84" y="66.04" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -23889,7 +24088,7 @@ Indicator</text>
 <label x="33.02" y="48.26" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="JP1" gate="JP1" pin="5"/>
+<pinref part="JP1" gate="J1" pin="5"/>
 <wire x1="114.3" y1="58.42" x2="124.46" y2="58.42" width="0.1524" layer="91"/>
 <label x="127" y="58.42" size="1.27" layer="95" xref="yes"/>
 <pinref part="S1" gate="G$1" pin="2"/>
@@ -23911,7 +24110,7 @@ Indicator</text>
 <pinref part="SUPPLY10" gate="G$1" pin="V_USB"/>
 </segment>
 <segment>
-<pinref part="JP1" gate="JP1" pin="1"/>
+<pinref part="JP1" gate="J1" pin="1"/>
 <wire x1="114.3" y1="68.58" x2="116.84" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="68.58" x2="116.84" y2="71.12" width="0.1524" layer="91"/>
 <pinref part="SUPPLY9" gate="G$1" pin="V_USB"/>
