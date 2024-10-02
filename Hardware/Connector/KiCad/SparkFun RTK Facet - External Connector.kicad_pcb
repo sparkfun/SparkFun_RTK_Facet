@@ -497,6 +497,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -508,6 +509,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -631,6 +633,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -642,6 +645,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1929,7 +1933,7 @@
 		(descr "12 pin backflip connector")
 		(tags "SparkFun FPC Back flip SMD")
 		(property "Reference" "J3"
-			(at 0 2.6 360)
+			(at 0 2.6 0)
 			(layer "F.Fab")
 			(uuid "66ed3d78-fad6-414d-a790-8eda8ab6b068")
 			(effects
@@ -1941,7 +1945,7 @@
 			)
 		)
 		(property "Value" "Conn_01x12_FPC_0.5mm"
-			(at 0 3.4 360)
+			(at 0 3.4 0)
 			(layer "F.Fab")
 			(uuid "bc8d9d50-76e0-4ba1-b1f4-6cebc0ed34ee")
 			(effects
@@ -2302,7 +2306,7 @@
 		)
 		(fp_arc
 			(start 3.62 1.55)
-			(mid 3.555421 1.692445)
+			(mid 3.555421 1.692441)
 			(end 3.409999 1.749999)
 			(stroke
 				(width 0.01)
@@ -2491,7 +2495,7 @@
 			(uuid "4ff42998-01c3-4a69-a82a-63cd58093e45")
 		)
 		(fp_text user "Ribbon Insert"
-			(at 0 3.25 360)
+			(at 0 3.25 0)
 			(layer "F.Fab")
 			(uuid "bdfa4e1d-2125-432e-9e30-1bac21ca6cdf")
 			(effects
@@ -2675,6 +2679,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2686,6 +2691,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2965,6 +2971,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2976,6 +2983,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -3083,6 +3091,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -3094,6 +3103,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -4075,10 +4085,11 @@
 			(at 0 -3.727399 90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "a94a09c2-45b4-4715-8d6e-497b8f34e25d")
+			(uuid "d1c12bdc-ad56-4d0b-9556-5eddcf243f4f")
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -4086,10 +4097,11 @@
 			(at 0 3.727399 90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "f0a4b957-f306-49f0-9fb0-f351762b369d")
+			(uuid "5f0d9aa3-d331-4434-a52d-409c17d18302")
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -4142,7 +4154,7 @@
 			)
 			(fill solid)
 			(layer "F.SilkS")
-			(uuid "fecaf815-fda2-463c-8aac-320c340b276d")
+			(uuid "6f3fac52-6198-43f6-be7f-7bb5f64a769b")
 		)
 		(fp_poly
 			(pts
@@ -4186,7 +4198,7 @@
 			)
 			(fill solid)
 			(layer "F.SilkS")
-			(uuid "ea8dd90e-0dd5-4dd1-a737-ffc39414258e")
+			(uuid "d3b66725-91b0-440f-8b7a-591fe5eae876")
 		)
 	)
 	(footprint "SparkFun-Aesthetic:qwiic_5.5mm"
@@ -4380,6 +4392,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -4391,6 +4404,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -4783,6 +4797,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -4794,6 +4809,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -5147,6 +5163,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -5158,6 +5175,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -5287,6 +5305,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -5298,6 +5317,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -5763,7 +5783,7 @@
 		)
 		(fp_arc
 			(start 3.62 1.55)
-			(mid 3.555421 1.692445)
+			(mid 3.555421 1.692441)
 			(end 3.409999 1.749999)
 			(stroke
 				(width 0.01)
@@ -6136,6 +6156,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -6147,6 +6168,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -6234,7 +6256,7 @@
 		(descr "<p><b>Generic 3225 (1210) package</b></p>\n<p>0.2mm courtyard excess rounded to nearest 0.05mm.</p> Footprint dimensions are combination from <a href=\"http://www.vishay.com/docs/45017/vjw1bcsoldfootdesign.pdf\">Vishay</a> and <a href=\"https://belfuse.com/resources/CircuitProtection/datasheets/0ZCH%20Nov2016.pdf\">Bel</a>")
 		(tags "SparkFun")
 		(property "Reference" "F3"
-			(at 0 -1.397 360)
+			(at 0 -1.397 0)
 			(layer "F.Fab")
 			(uuid "32fb2245-0f4a-44f1-8756-b6661ee90cb6")
 			(effects
@@ -6247,7 +6269,7 @@
 			)
 		)
 		(property "Value" "6V/2.0A/4.0A"
-			(at 0 1.397 360)
+			(at 0 1.397 0)
 			(layer "F.Fab")
 			(uuid "0a90cac2-3640-4b18-a9d1-9bbbcd612a80")
 			(effects
@@ -6442,6 +6464,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -6453,6 +6476,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -6576,6 +6600,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -6587,6 +6612,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -6702,6 +6728,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -6713,6 +6740,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -7231,6 +7259,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -7243,6 +7272,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -7746,6 +7776,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -7758,6 +7789,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -7974,6 +8006,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -7986,6 +8019,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -8762,7 +8796,7 @@
 			(at 0 5.6 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "13964952-5c02-482a-98cd-dd059282d5e5")
+			(uuid "210546e3-08c0-4e83-94ef-3c68352bccc7")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -8775,7 +8809,7 @@
 			(at 0 -3.8 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "a156eac2-bb8a-44ae-a2bd-19a0060ffaab")
+			(uuid "552e3a6a-38e3-4d89-a471-fa465e34359f")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -8837,7 +8871,7 @@
 			)
 			(fill solid)
 			(layer "B.SilkS")
-			(uuid "4c61aae4-191b-445f-ad44-e1673ead8ec7")
+			(uuid "7293426a-df23-423a-ba49-44b2aa227a76")
 		)
 		(fp_poly
 			(pts
@@ -8849,7 +8883,7 @@
 			)
 			(fill solid)
 			(layer "B.SilkS")
-			(uuid "a71a1909-78b9-425b-9d0f-e625cfee3485")
+			(uuid "3e07d0d8-5f33-43c4-b090-f80ee7457ebd")
 		)
 		(fp_poly
 			(pts
@@ -8868,7 +8902,7 @@
 			)
 			(fill solid)
 			(layer "B.SilkS")
-			(uuid "63cfe6a6-6c19-4291-8554-338ce3b6699d")
+			(uuid "328cc7bb-34e9-4325-9862-06617b45b1f1")
 		)
 		(fp_poly
 			(pts
@@ -8887,7 +8921,7 @@
 			)
 			(fill solid)
 			(layer "B.SilkS")
-			(uuid "e3f7cf2d-54a9-4cd9-8373-3f5b4cf7dc74")
+			(uuid "20e524a4-bf2c-4063-8094-0620907f4f53")
 		)
 		(fp_poly
 			(pts
@@ -8907,7 +8941,7 @@
 			)
 			(fill solid)
 			(layer "B.SilkS")
-			(uuid "5d0bdac3-2d23-4a7d-8e3d-ffaee66b518f")
+			(uuid "aa3cc4f8-daa6-45bc-8228-63ada3c5cb90")
 		)
 		(fp_poly
 			(pts
@@ -8930,7 +8964,7 @@
 			)
 			(fill solid)
 			(layer "B.SilkS")
-			(uuid "56663aed-dda1-412d-bb6a-b9e946c7f40d")
+			(uuid "f3f6b335-a779-4e1d-8d09-3f66515ea0d3")
 		)
 		(fp_poly
 			(pts
@@ -8956,7 +8990,7 @@
 			)
 			(fill solid)
 			(layer "B.SilkS")
-			(uuid "0adab0a5-48a4-499b-8b2d-36f7cf6b15ad")
+			(uuid "96e174d7-25f2-4056-82b0-1ea53293410b")
 		)
 		(fp_poly
 			(pts
@@ -8988,15 +9022,7 @@
 			)
 			(fill solid)
 			(layer "B.SilkS")
-			(uuid "af2d4dc2-88e7-48eb-9aba-13d60ff75ebd")
-		)
-		(group ""
-			(uuid "b673c500-13b3-4f35-aa41-0c6b4f3f3161")
-			(members "0adab0a5-48a4-499b-8b2d-36f7cf6b15ad" "4c61aae4-191b-445f-ad44-e1673ead8ec7"
-				"56663aed-dda1-412d-bb6a-b9e946c7f40d" "5d0bdac3-2d23-4a7d-8e3d-ffaee66b518f"
-				"63cfe6a6-6c19-4291-8554-338ce3b6699d" "a71a1909-78b9-425b-9d0f-e625cfee3485"
-				"af2d4dc2-88e7-48eb-9aba-13d60ff75ebd" "e3f7cf2d-54a9-4cd9-8373-3f5b4cf7dc74"
-			)
+			(uuid "7120efbc-7d91-4702-bf0e-1a868c3a5e23")
 		)
 	)
 	(gr_line
@@ -9098,6 +9124,17 @@
 				(size 1 1)
 				(thickness 0.25)
 				(bold yes)
+			)
+		)
+	)
+	(gr_text "ROUTE OUT"
+		(at 153.08941 94.782397 0)
+		(layer "Edge.Cuts")
+		(uuid "19dc41df-c0bc-4f44-91a2-945792c85f2b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
 			)
 		)
 	)
